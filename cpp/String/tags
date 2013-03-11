@@ -1,0 +1,38 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BUF_LEN	mystring.h	2;"	d
+STRING_H	mystring.h	6;"	d
+String	mystring.cpp	/^String::String(const String &other)$/;"	f	class:String
+String	mystring.cpp	/^String::String(const char *str)$/;"	f	class:String
+String	mystring.h	/^class String{$/;"	c
+TEST_H	test.h	2;"	d
+Test	test.cpp	/^Test::Test(String name, String passwd, String emaile):name(name),passwd(passwd),emaile(emaile)$/;"	f	class:Test
+Test	test.h	/^class Test{$/;"	c
+createFromFile	test.cpp	/^Test createFromFile(int fd)$/;"	f
+emaile	test.h	/^	String emaile;$/;"	m	class:Test
+getlen	mystring.cpp	/^int String::getlen(void)\/\/ÇóstringµÄ³¤¶È$/;"	f	class:String
+intocharp	mystring.cpp	/^char* intocharp(int idat,char *str)$/;"	f
+m_data	mystring.h	/^	char *m_data;$/;"	m	class:String
+main	main.cpp	/^int main(void)$/;"	f
+myitostr	itoa.c	/^char* myitostr(int idat,char *str)$/;"	f
+mystrcat	mystring.cpp	/^char * mystrcat(char *dest,const char *src)\/\/Á¬½Ó×Ö·û´®$/;"	f
+mystrcmp	mystring.cpp	/^int mystrcmp(const char *str1,const char *str2)$/;"	f
+mystrcpy	mystring.cpp	/^char * mystrcpy(char *dest,const char *src)\/\/¸´ÖÆ×Ö·û´®$/;"	f
+mystrlen	mystring.cpp	/^int mystrlen(const char *str)\/\/Çó×Ö·û´®³¤¶È$/;"	f
+name	test.h	/^	String name;$/;"	m	class:Test
+operator +	mystring.cpp	/^String String::operator+ (const String &rhs)$/;"	f	class:String
+operator <<	mystring.cpp	/^ostream& operator<< (ostream &out, const String &rhs)$/;"	f
+operator =	mystring.cpp	/^String & String::operator= (const String &rhs)$/;"	f	class:String
+operator ==	mystring.cpp	/^bool String::operator== (const String &rhs)$/;"	f	class:String
+passwd	test.h	/^	String passwd;$/;"	m	class:Test
+readFromFile	mystring.cpp	/^String & String::readFromFile(int fd)$/;"	f	class:String
+save	test.cpp	/^void Test::save(int fd)$/;"	f	class:Test
+show	test.cpp	/^void Test::show()$/;"	f	class:Test
+tocharp	mystring.cpp	/^char* String::tocharp(void)$/;"	f	class:String
+writeToFile	mystring.cpp	/^int String::writeToFile(int fd)$/;"	f	class:String
+~String	mystring.cpp	/^String::~String()$/;"	f	class:String
+~Test	test.cpp	/^Test::~Test()$/;"	f	class:Test

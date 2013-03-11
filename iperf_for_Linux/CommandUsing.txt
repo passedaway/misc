@@ -1,0 +1,25 @@
+for UDP Sending:
+
+iperf -c [IP-Addr] -i 1 -p [port] -u -t 10000 -b 2M
+
+====================================================
+
+for UDP Receiving:
+
+iperf -s -i 1 -u -p [port]
+
+
+========================================
+
+
+iperf -c 10.0.5.5 -i 1 -p 6015 -u -t 10000 -b 128k
+iperf -s -i 1 -u -p 6005
+
+iperf -c  10.18.61.66 -i 1 -p 6006 -u -t 99999 -b 128k
+iperf -s -i 1 -u -p 6006 -t 999999
+
+
+
+另一种
+iperf -s
+iperf -c <ip-addr> -t <time> -i <间隔时间>

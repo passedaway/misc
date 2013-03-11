@@ -1,0 +1,101 @@
+1. demo代码
+#include <execinfo.h> /* backtrace, backtrace_symbols, backtrace_symbols_fd  */
+
+#include <unistd.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <signal.h>
+#include <string.h>
+
+void print_stack_info(void)
+{
+	void *array[32];
+	size_t size;
+	char **strings;
+	size_t i;
+
+	int flag = 0;
+	char cmd[512] = {0};
+	const char *path[] = {
+		"/bin/addr2line",
+		"/usr/bin/addr2line",
+		"/sbin/addr2line",
+		"/usr/sbin/addr2line"
+	};
+
+	size = backtrace(array, sizeof(array)/sizeof(array[0]));
+	fprintf(stderr, "stack trace:\n");
+
+	for( i=0; i < sizeof(path)/sizeof(path[0]); i++)
+	{
+		flag = access(path[i], F_OK);
+		if( flag == 0 )
+		{
+			strcpy(cmd, path[i]);
+			break;
+		}
+	}
+
+	fprintf(stderr, "stack trace %d :\n", size);
+	if( flag == 0 )
+	{
+		/* has addr2line, use this methord  */
+		char *pos = cmd + strlen(cmd);
+		FILE *fp = NULL;
+
+		for( i = 0; i < size; i++)
+			fprintf(stderr, "%p\n", array[i]);
+		sprintf(pos, " -f -e /proc/%d/exe | awk 'BEGIN{i=0; tmp=0} {i++; if(i%%2){tmp=$0;} else {printf(\"%%d: %%s ---> %%s\\n\",i/2, tmp, $0);}}'", getpid());
+		fprintf(stderr, "cmd = %s\n", cmd);
+		fp = popen(cmd, "w");
+		
+		for( i = 0; i < size; i++)
+			fprintf(fp, "%p\n", array[i]);
+		fclose(fp);
+
+	}else{
+#if 1
+		strings = backtrace_symbols(array, size);
+
+
+		for( i = 0; i < size; i++)
+			fprintf(stderr, "%3d: %s\n", i+1, strings[i]);
+
+		free(strings);
+#else
+		backtrace_symbols_fd(array, size, STDERR_FILENO);
+#endif
+	}
+	fprintf(stderr, "end of stack trace\n");
+}
+
+static void signal_handler(int signo)
+{
+	if( signo == SIGSEGV )
+	{
+		printf("signal SIGSEGV\n");
+		print_stack_info();
+		exit(0);
+	}
+}
+
+int main(int argc , char **argv )
+{
+	signal(SIGSEGV, signal_handler);
+
+	printf("\nfunc4\n");
+
+	printf("\ntest_func5\n");
+
+	return 0;
+}
+
+2. 使用说明
+如果要想获得调用的堆栈，这个编译选项必须要有 -rdynamic， 只有这样这些信息才会放到程序中。
+如果要想获得比较好的效果，需要有程序 addr2line 这个程序的实现没有找到源代码，因此代码中是通过
+popen的形式实现的，在使用该命令的时候，编译选项还需要增加 -g 选项，因为这样可以定位到是函数的第几行。
+
+总的来说编译选项为： -g -rdynamic
+
+另外，有的编译器可能会把static的函数自动变成内联函数，而内联函数是不会进行入栈操作的，也就是说内联函数无法
+进行backtrace的。

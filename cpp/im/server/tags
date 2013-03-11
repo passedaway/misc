@@ -1,0 +1,284 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BUFLEN	define.h	3;"	d
+BUFLEN	socket.h	6;"	d
+BUF_LEN	mystring.h	2;"	d
+CClientSocket	socket.h	/^class CClientSocket : public ClientSocket, public MultiThread{$/;"	c
+CHECK_EMAILE	userinfo.h	63;"	d
+CHECK_PASSWD	userinfo.h	64;"	d
+CHECK_SEX	userinfo.h	65;"	d
+CHECK_USERNO	userinfo.h	62;"	d
+ClientList	clientlist.cpp	/^ClientList::ClientList(int maxuser):curuser(0),maxuser(maxuser),head(NULL),end(NULL)$/;"	f	class:ClientList
+ClientList	clientlist.h	/^class ClientList{$/;"	c
+ClientList	socket.h	/^class ClientList{$/;"	c
+ClientList_H	clientlist.h	8;"	d
+ClientSocket	clientsocket.cpp	/^ClientSocket::ClientSocket(const ClientSocket &dest)$/;"	f	class:ClientSocket
+ClientSocket	clientsocket.cpp	/^ClientSocket::ClientSocket(int fd, char *addr, int port):fd(fd),port(port)$/;"	f	class:ClientSocket
+ClientSocket	clientsocket.h	/^class ClientSocket {$/;"	c
+ClientSocket	socket.h	/^class ClientSocket { $/;"	c
+ClientSocket_H	clientsocket.h	8;"	d
+DEBUG	clientsocket.cpp	22;"	d	file:
+DEBUG	clientsocket.cpp	23;"	d	file:
+DEBUG	sclientsocket.cpp	31;"	d	file:
+DEBUG	sclientsocket.cpp	32;"	d	file:
+DEBUG	serversocket.cpp	34;"	d	file:
+DEBUG	serversocket.cpp	35;"	d	file:
+EMAILE_LEN	userinfo.h	27;"	d
+FILE_H	file.h	2;"	d
+File	file.cpp	/^File::File(const char *path)$/;"	f	class:File
+File	file.h	/^class File{$/;"	c
+Friend	friendlist.h	/^typedef struct Friend{$/;"	s
+Friend	friendlist.h	/^}Friend;$/;"	t	typeref:struct:Friend
+FriendList	friendlist.h	/^}FriendList;$/;"	t	typeref:struct:__anon1
+GET_EMAILE	userinfo.h	54;"	d
+GET_NAME	userinfo.h	52;"	d
+GET_PASSWD	userinfo.h	55;"	d
+GET_SEX	userinfo.h	53;"	d
+GET_USERNAME	userinfo.h	51;"	d
+GET_USERNO	userinfo.h	50;"	d
+HOST_NAME_MAX	define.h	23;"	d
+HOST_NAME_MAX	socket.h	26;"	d
+MAXSLEEP	clientsocket.cpp	20;"	d	file:
+MS_MESSAGE_LEN	message.h	11;"	d
+Message	message.h	/^}Message;$/;"	t	typeref:struct:__anon2
+Message	socket.h	/^class Message{$/;"	c
+Message_H	message.h	8;"	d
+MultiThread	multithread.cpp	/^MultiThread::MultiThread():npid(0),hpid(0)$/;"	f	class:MultiThread
+MultiThread	multithread.h	/^class MultiThread{$/;"	c
+MultiThread	socket.h	/^class MultiThread{$/;"	c
+MultiThread_H	multithread.h	2;"	d
+PASSWD_MAX_LEN	userinfo.h	19;"	d
+PASSWD_MIN_LEN	userinfo.h	23;"	d
+Runable	socket.h	/^class Runable{$/;"	c
+SClientSocket	sclientsocket.cpp	/^SClientSocket::SClientSocket(int fd, char *addr, int port):ClientSocket(fd, addr, port),Thread(),next(NULL),isRun(false),userinfo(NULL),userStatus(0),fls(NULL)$/;"	f	class:SClientSocket
+SClientSocket	sclientsocket.h	/^class SClientSocket : public ClientSocket, public Thread{$/;"	c
+SClientSocket	socket.h	/^class SClientSocket : public ClientSocket , public Thread{$/;"	c
+SClientSocket_H	sclientsocket.h	8;"	d
+SERVERDATA_PATH	define.h	27;"	d
+SERVER_MAXUSER	define.h	13;"	d
+SERVER_MAXUSER	socket.h	16;"	d
+SERVER_PORT	define.h	18;"	d
+SERVER_PORT	socket.h	21;"	d
+SERVER_START_USERNO	define.h	31;"	d
+SET_EMAILE	userinfo.h	60;"	d
+SET_NAME	userinfo.h	58;"	d
+SET_PASSWD	userinfo.h	61;"	d
+SET_SEX	userinfo.h	59;"	d
+SET_USERNAME	userinfo.h	57;"	d
+SET_USERNO	userinfo.h	56;"	d
+SOCKET_H	socket.h	2;"	d
+STRING_H	mystring.h	6;"	d
+ServerSocket	serversocket.cpp	/^ServerSocket::ServerSocket(int port, int maxuser):port(port),maxuser(maxuser)$/;"	f	class:ServerSocket
+ServerSocket	serversocket.h	/^class ServerSocket : public MultiThread{$/;"	c
+ServerSocket	socket.h	/^class ServerSocket : public MultiThread{$/;"	c
+ServerSocket_h	serversocket.h	8;"	d
+String	mystring.cpp	/^String::String(const String &other)$/;"	f	class:String
+String	mystring.cpp	/^String::String(const char *str)$/;"	f	class:String
+String	mystring.h	/^class String{$/;"	c
+THREAD_H	thread.h	2;"	d
+Thread	socket.h	/^class Thread : public Runable{$/;"	c
+Thread	thread.cpp	/^Thread::Thread():pid(0)$/;"	f	class:Thread
+Thread	thread.h	/^class Thread{$/;"	c
+USERNAME_LEN	userinfo.h	15;"	d
+USERNO_LEN	define.h	8;"	d
+USERNO_LEN	socket.h	11;"	d
+USERNO_LEN	userinfo.h	11;"	d
+UnsendMessage	unsendmessage.h	/^typedef struct UnsendMessage{$/;"	s
+UnsendMessage	unsendmessage.h	/^}UnsendMessage;$/;"	t	typeref:struct:UnsendMessage
+UnsendMessageList	unsendmessage.h	/^}UnsendMessageList;$/;"	t	typeref:struct:__anon3
+Userinfo	userinfo.h	/^}Userinfo;$/;"	t	typeref:struct:__anon4
+Userinfo_H	userinfo.h	8;"	d
+_FRIEND_LIST_H_	friendlist.h	8;"	d
+_UNSEND_MESSAGE_H_	unsendmessage.h	8;"	d
+addClient	clientlist.cpp	/^bool ClientList::addClient(int fd, char *addr, int port)$/;"	f	class:ClientList
+addr	clientsocket.h	/^	char *addr;$/;"	m	class:ClientSocket
+addr	socket.h	/^	char *addr;$/;"	m	class:ClientSocket
+all	server.mk	/^all= s.o\\$/;"	m
+analyseMessage	sclientsocket.cpp	/^int SClientSocket::analyseMessage(Message *ms)$/;"	f	class:SClientSocket
+applyId	sclientsocket.cpp	/^int SClientSocket::applyId()$/;"	f	class:SClientSocket
+applyId	socket.h	/^	int applyId(){$/;"	f	class:CClientSocket
+checkEmaile	userinfo.c	/^int checkEmaile(char *emaile)$/;"	f
+checkPasswd	userinfo.c	/^int checkPasswd(char *passwd)$/;"	f
+checkUserno	userinfo.c	/^int checkUserno(char *userno)$/;"	f
+clientList	serversocket.h	/^	ClientList *clientList;$/;"	m	class:ServerSocket
+clientList	socket.h	/^	ClientList *clientList;$/;"	m	class:ServerSocket
+commandListen	serversocket.cpp	/^void ServerSocket::commandListen()$/;"	f	class:ServerSocket
+curuser	clientlist.h	/^	int curuser;$/;"	m	class:ClientList
+curuser	socket.h	/^	int curuser;$/;"	m	class:ClientList
+data	message.h	/^	char *data;$/;"	m	struct:__anon2
+deleteClient	clientlist.cpp	/^bool ClientList::deleteClient()$/;"	f	class:ClientList
+deleteClient	clientlist.cpp	/^bool ClientList::deleteClient(SClientSocket *dest)$/;"	f	class:ClientList
+dest	socket.h	/^	char dest[USERNO_LEN + 1];$/;"	m	class:Message
+disCon	sclientsocket.cpp	/^int SClientSocket::disCon()$/;"	f	class:SClientSocket
+disCon	socket.h	/^	int disCon(){$/;"	f	class:CClientSocket
+emaile	userinfo.h	/^	char emaile[EMAILE_LEN + 1];$/;"	m	struct:__anon4
+end	clientlist.h	/^	SClientSocket *end;$/;"	m	class:ClientList
+end	friendlist.h	/^	Friend *end;$/;"	m	struct:__anon1
+end	socket.h	/^	SClientSocket *end;$/;"	m	class:ClientList
+end	unsendmessage.h	/^	UnsendMessage *end;$/;"	m	struct:__anon3
+exists	file.cpp	/^bool File::exists(const char *path)$/;"	f	class:File
+exit	multithread.cpp	/^void MultiThread::exit()$/;"	f	class:MultiThread
+exit	thread.cpp	/^void Thread::exit()$/;"	f	class:Thread
+fd	clientsocket.h	/^	int fd;$/;"	m	class:ClientSocket
+fd	file.h	/^	int fd;$/;"	m	class:File
+fd	serversocket.h	/^	int fd;$/;"	m	class:ServerSocket
+fd	socket.h	/^	int fd;$/;"	m	class:ClientSocket
+fd	socket.h	/^	int fd;$/;"	m	class:ServerSocket
+fls	sclientsocket.h	/^	FriendList *fls;$/;"	m	class:SClientSocket
+friendlist_add	friendlist.c	/^int friendlist_add(FriendList *flt, Friend *fr)$/;"	f
+friendlist_exit	friendlist.c	/^void friendlist_exit(FriendList *flt)$/;"	f
+friendlist_init	friendlist.c	/^FriendList* friendlist_init()$/;"	f
+friendlsit_del	friendlist.c	/^int friendlsit_del(FriendList *flt, char *userno)$/;"	f
+getAddr	clientsocket.cpp	/^char* ClientSocket::getAddr()$/;"	f	class:ClientSocket
+getChar	file.cpp	/^char File::getChar()$/;"	f	class:File
+getCharP	file.cpp	/^char *File::getCharP(char *p)$/;"	f	class:File
+getCuruser	clientlist.cpp	/^int ClientList::getCuruser()$/;"	f	class:ClientList
+getCuruser	serversocket.cpp	/^int ServerSocket::getCuruser()$/;"	f	class:ServerSocket
+getFd	clientsocket.cpp	/^int ClientSocket::getFd()$/;"	f	class:ClientSocket
+getFd	file.cpp	/^int File::getFd()$/;"	f	class:File
+getHostId	multithread.cpp	/^pthread_t MultiThread::getHostId()$/;"	f	class:MultiThread
+getInt	file.cpp	/^int File::getInt()$/;"	f	class:File
+getMaxuser	serversocket.cpp	/^int ServerSocket::getMaxuser()$/;"	f	class:ServerSocket
+getNetId	multithread.cpp	/^pthread_t MultiThread::getNetId()$/;"	f	class:MultiThread
+getNext	sclientsocket.cpp	/^SClientSocket* SClientSocket::getNext()$/;"	f	class:SClientSocket
+getPort	clientsocket.cpp	/^int ClientSocket::getPort()$/;"	f	class:ClientSocket
+getPort	serversocket.cpp	/^int ServerSocket::getPort()$/;"	f	class:ServerSocket
+getPthread	multithread.cpp	/^pthread_t MultiThread::getPthread()$/;"	f	class:MultiThread
+getPthread	thread.cpp	/^pthread_t Thread::getPthread()$/;"	f	class:Thread
+getSaddr	serversocket.cpp	/^char * ServerSocket::getSaddr()$/;"	f	class:ServerSocket
+getlen	mystring.cpp	/^int String::getlen(void)\/\/ÇóstringµÄ³¤¶È$/;"	f	class:String
+head	clientlist.h	/^	SClientSocket *head;$/;"	m	class:ClientList
+head	friendlist.h	/^	Friend *head;$/;"	m	struct:__anon1
+head	socket.h	/^	SClientSocket *head;$/;"	m	class:ClientList
+head	unsendmessage.h	/^	UnsendMessage *head;$/;"	m	struct:__anon3
+hpid	multithread.h	/^	pthread_t npid, hpid;$/;"	m	class:MultiThread
+hpid	socket.h	/^	pthread_t npid, hpid;$/;"	m	class:MultiThread
+info	socket.h	/^	char info[BUFLEN];$/;"	m	class:Message
+info_length	message.h	/^	int info_length;$/;"	m	struct:__anon2
+intocharp	mystring.cpp	/^char* intocharp(int idat,char *str)$/;"	f
+isClientExit	sclientsocket.cpp	/^void SClientSocket::isClientExit(Message *ms)$/;"	f	class:SClientSocket
+isHasNext	sclientsocket.cpp	/^bool SClientSocket::isHasNext()$/;"	f	class:SClientSocket
+isHaveEnd	file.cpp	/^bool isHaveEnd(char *p, int num)$/;"	f
+isRun	sclientsocket.h	/^	bool isRun;$/;"	m	class:SClientSocket
+isRuning	sclientsocket.cpp	/^bool SClientSocket::isRuning()$/;"	f	class:SClientSocket
+join	thread.cpp	/^void Thread::join()$/;"	f	class:Thread
+joinHost	multithread.cpp	/^void MultiThread::joinHost()$/;"	f	class:MultiThread
+joinNet	multithread.cpp	/^void MultiThread::joinNet()$/;"	f	class:MultiThread
+length	socket.h	/^	int length;$/;"	m	class:Message
+login	sclientsocket.cpp	/^int SClientSocket::login()$/;"	f	class:SClientSocket
+loginFlag	socket.h	/^	int loginFlag;$/;"	m	class:CClientSocket
+m_data	mystring.h	/^	char *m_data;$/;"	m	class:String
+main	s.cpp	/^int main(void)$/;"	f
+manageUserinfo	serversocket.cpp	/^void ServerSocket::manageUserinfo()$/;"	f	class:ServerSocket
+match	file.cpp	/^bool File::match(const char *path, char *passwd)$/;"	f	class:File
+maxuser	clientlist.h	/^	int maxuser;$/;"	m	class:ClientList
+maxuser	serversocket.h	/^	int maxuser;$/;"	m	class:ServerSocket
+maxuser	socket.h	/^	int maxuser;$/;"	m	class:ClientList
+maxuser	socket.h	/^	int maxuser;$/;"	m	class:ServerSocket
+modify	sclientsocket.cpp	/^void SClientSocket::modify()$/;"	f	class:SClientSocket
+ms	unsendmessage.h	/^	Message *ms;$/;"	m	struct:UnsendMessage
+ms_exit	message.c	/^void ms_exit(Message *ms)$/;"	f
+ms_get_cmd	message.c	/^char *ms_get_cmd(Message *ms)$/;"	f
+ms_get_dest	message.c	/^char *ms_get_dest(Message *ms)$/;"	f
+ms_get_info	message.c	/^char *ms_get_info(Message *ms)$/;"	f
+ms_get_info_length	message.c	/^int ms_get_info_length(Message *ms)$/;"	f
+ms_get_src	message.c	/^char *ms_get_src(Message *ms)$/;"	f
+ms_init	message.c	/^Message* ms_init(char *dest, char *src, char *info)$/;"	f
+ms_recv_message	message.c	/^int ms_recv_message(int fd, Message *rms)$/;"	f
+ms_send_message	message.c	/^int ms_send_message(int fd, Message *wms)$/;"	f
+mystrcat	mystring.cpp	/^char * mystrcat(char *dest,const char *src)\/\/Á¬½Ó×Ö·û´®$/;"	f
+mystrcmp	mystring.cpp	/^int mystrcmp(const char *str1,const char *str2)$/;"	f
+mystrcpy	mystring.cpp	/^char * mystrcpy(char *dest,const char *src)\/\/¸´ÖÆ×Ö·û´®$/;"	f
+mystrlen	mystring.cpp	/^int mystrlen(const char *str)\/\/Çó×Ö·û´®³¤¶È$/;"	f
+name	userinfo.h	/^	char name[USERNAME_LEN + 1];$/;"	m	struct:__anon4
+next	friendlist.h	/^	struct Friend *next;$/;"	m	struct:Friend	typeref:struct:Friend::Friend
+next	sclientsocket.h	/^	SClientSocket *next;$/;"	m	class:SClientSocket
+next	socket.h	/^	SClientSocket *next;$/;"	m	class:SClientSocket
+next	unsendmessage.h	/^	struct UnsendMessage *next;$/;"	m	struct:UnsendMessage	typeref:struct:UnsendMessage::UnsendMessage
+nickname	friendlist.h	/^	char nickname[64];$/;"	m	struct:Friend
+npid	multithread.h	/^	pthread_t npid, hpid;$/;"	m	class:MultiThread
+npid	socket.h	/^	pthread_t npid, hpid;$/;"	m	class:MultiThread
+operator +	mystring.cpp	/^String String::operator+ (const String &rhs)$/;"	f	class:String
+operator <<	mystring.cpp	/^ostream& operator<< (ostream &out, const String &rhs)$/;"	f
+operator =	mystring.cpp	/^String & String::operator= (const String &rhs)$/;"	f	class:String
+operator ==	mystring.cpp	/^bool String::operator== (const String &rhs)$/;"	f	class:String
+passwd	userinfo.h	/^	char passwd[PASSWD_MAX_LEN + 1];$/;"	m	struct:__anon4
+pid	socket.h	/^	pthread_t pid;$/;"	m	class:Thread
+pid	thread.h	/^	pthread_t pid;$/;"	m	class:Thread
+port	clientsocket.h	/^	int port;$/;"	m	class:ClientSocket
+port	serversocket.h	/^	int port;$/;"	m	class:ServerSocket
+port	socket.h	/^	int port;$/;"	m	class:ClientSocket
+port	socket.h	/^	int port;$/;"	m	class:ServerSocket
+printClientInfo	serversocket.cpp	/^void ServerSocket::printClientInfo()$/;"	f	class:ServerSocket
+printServerInfo	serversocket.cpp	/^void ServerSocket::printServerInfo()$/;"	f	class:ServerSocket
+produceUserno	sclientsocket.cpp	/^void SClientSocket::produceUserno(char *buf)$/;"	f	class:SClientSocket
+putChar	file.cpp	/^bool File::putChar(char c)$/;"	f	class:File
+putCharP	file.cpp	/^bool File::putCharP(const char *p)$/;"	f	class:File
+putInt	file.cpp	/^bool File::putInt(int a)$/;"	f	class:File
+readBuffer	file.cpp	/^int File::readBuffer(char *buf, unsigned int size)$/;"	f	class:File
+readFromFile	mystring.cpp	/^String & String::readFromFile(int fd)$/;"	f	class:String
+recvMessage	clientsocket.cpp	/^int ClientSocket::recvMessage(Message *rms)$/;"	f	class:ClientSocket
+recvUnrecvMessage	sclientsocket.cpp	/^void SClientSocket::recvUnrecvMessage()$/;"	f	class:SClientSocket
+run	sclientsocket.cpp	/^void SClientSocket::run()$/;"	f	class:SClientSocket
+runFun	thread.cpp	/^void *Thread::runFun(void *arg)$/;"	f	class:Thread
+runHost	serversocket.cpp	/^void ServerSocket::runHost()$/;"	f	class:ServerSocket
+runNet	serversocket.cpp	/^void ServerSocket::runNet()$/;"	f	class:ServerSocket
+runh	multithread.cpp	/^void *MultiThread::runh(void *arg)$/;"	f	class:MultiThread
+runn	multithread.cpp	/^void *MultiThread::runn(void *arg)$/;"	f	class:MultiThread
+saddr	serversocket.h	/^	char *saddr;$/;"	m	class:ServerSocket
+saddr	socket.h	/^	char *saddr;$/;"	m	class:ServerSocket
+saveUserinfoToFile	sclientsocket.cpp	/^bool SClientSocket::saveUserinfoToFile()$/;"	f	class:SClientSocket
+searchClient	clientlist.cpp	/^SClientSocket* ClientList::searchClient(SClientSocket *nextis)$/;"	f	class:ClientList
+searchClient	clientlist.cpp	/^SClientSocket* ClientList::searchClient(char *userno)$/;"	f	class:ClientList
+sendMessage	clientsocket.cpp	/^int ClientSocket::sendMessage( Message *wms)$/;"	f	class:ClientSocket
+sendUnsendMessage	serversocket.cpp	/^void ServerSocket::sendUnsendMessage(SClientSocket *scs)$/;"	f	class:ServerSocket
+serverClient	serversocket.cpp	/^void ServerSocket::serverClient()$/;"	f	class:ServerSocket
+setFd	clientsocket.cpp	/^void ClientSocket::setFd(int fd)$/;"	f	class:ClientSocket
+setNext	sclientsocket.cpp	/^void SClientSocket::setNext(SClientSocket *dest)$/;"	f	class:SClientSocket
+setPthread	thread.cpp	/^void Thread::setPthread(pthread_t pid2)$/;"	f	class:Thread
+sex	userinfo.h	/^	char sex[7];$/;"	m	struct:__anon4
+show	sclientsocket.cpp	/^void SClientSocket::show()$/;"	f	class:SClientSocket
+showClient	clientlist.cpp	/^void ClientList::showClient()$/;"	f	class:ClientList
+src	socket.h	/^	char src[USERNO_LEN + 1]; $/;"	m	class:Message
+startThread	multithread.cpp	/^void MultiThread::startThread()$/;"	f	class:MultiThread
+startThread	thread.cpp	/^int Thread::startThread()$/;"	f	class:Thread
+talk	sclientsocket.cpp	/^void SClientSocket::talk(Message *ms)$/;"	f	class:SClientSocket
+talk	serversocket.cpp	/^void ServerSocket::talk(SClientSocket *scs, Message *ms)$/;"	f	class:ServerSocket
+talk	socket.h	/^	int talk(){$/;"	f	class:CClientSocket
+toEnd	file.cpp	/^int File::toEnd()$/;"	f	class:File
+toStart	file.cpp	/^int File::toStart()$/;"	f	class:File
+toWhere	file.cpp	/^int File::toWhere(int offset)$/;"	f	class:File
+tocharp	mystring.cpp	/^char* String::tocharp(void)$/;"	f	class:String
+trunc	file.cpp	/^int File::trunc()$/;"	f	class:File
+userStatus	sclientsocket.h	/^	int userStatus;$/;"	m	class:SClientSocket
+userinfo	sclientsocket.h	/^	Userinfo *userinfo;$/;"	m	class:SClientSocket
+userinfo_checkEmaile	userinfo.c	/^int userinfo_checkEmaile(char *emaile)$/;"	f
+userinfo_checkPasswd	userinfo.c	/^int userinfo_checkPasswd(char *passwd)$/;"	f
+userinfo_checkSex	userinfo.c	/^int userinfo_checkSex(char *sex)$/;"	f
+userinfo_checkUserno	userinfo.c	/^int userinfo_checkUserno(char *userno)$/;"	f
+userinfo_exit	userinfo.c	/^void userinfo_exit(Userinfo* uf)$/;"	f
+userinfo_init	userinfo.c	/^Userinfo *userinfo_init()$/;"	f
+userinfo_ioctl	userinfo.c	/^int userinfo_ioctl(Userinfo *uf, int opcode, void *arg)$/;"	f
+username	userinfo.h	/^	char username[USERNAME_LEN + 1];$/;"	m	struct:__anon4
+userno	friendlist.h	/^	char userno[7];$/;"	m	struct:Friend
+userno	userinfo.h	/^	char userno[USERNO_LEN + 1];$/;"	m	struct:__anon4
+usml	serversocket.h	/^	UnsendMessageList *usml;$/;"	m	class:ServerSocket
+usml_add	unsendmessage.c	/^int usml_add(UnsendMessageList *usml, UnsendMessage *usm)$/;"	f
+usml_del	unsendmessage.c	/^int usml_del(UnsendMessageList *usml, UnsendMessage *usm)$/;"	f
+usml_exit	unsendmessage.c	/^void usml_exit(UnsendMessageList *usml)$/;"	f
+usml_init	unsendmessage.c	/^UnsendMessageList *usml_init()$/;"	f
+usml_search_by_destuserno	unsendmessage.c	/^UnsendMessage *usml_search_by_destuserno(UnsendMessageList *usml, char *userno)$/;"	f
+writeBuffer	file.cpp	/^int File::writeBuffer(const char *buf, unsigned int size)$/;"	f	class:File
+writeToFile	mystring.cpp	/^int String::writeToFile(int fd)$/;"	f	class:String
+~ClientList	clientlist.cpp	/^ClientList::~ClientList()$/;"	f	class:ClientList
+~ClientSocket	clientsocket.cpp	/^ClientSocket::~ClientSocket()$/;"	f	class:ClientSocket
+~File	file.cpp	/^File::~File()$/;"	f	class:File
+~MultiThread	multithread.cpp	/^MultiThread::~MultiThread()$/;"	f	class:MultiThread
+~SClientSocket	sclientsocket.cpp	/^SClientSocket::~SClientSocket()$/;"	f	class:SClientSocket
+~ServerSocket	serversocket.cpp	/^ServerSocket::~ServerSocket()$/;"	f	class:ServerSocket
+~String	mystring.cpp	/^String::~String()$/;"	f	class:String
+~Thread	thread.cpp	/^Thread::~Thread()$/;"	f	class:Thread

@@ -1,0 +1,32 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+IPANEL_QUEUE_MESSAGE	porting_queue.c	/^} IPANEL_QUEUE_MESSAGE;$/;"	t	typeref:struct:__anon1	file:
+__list_create	porting_queue.c	/^queue_node* __list_create(int len)$/;"	f
+len	porting_queue.c	/^	int len;$/;"	m	struct:__anon3	file:
+m_queue	porting_queue.c	/^static porting_queue *m_queue;$/;"	v	file:
+main	porting_queue.c	/^int main()$/;"	f
+message	porting_queue.c	/^	IPANEL_QUEUE_MESSAGE message;$/;"	m	struct:__anon2	file:
+name	porting_queue.c	/^	char name[8];$/;"	m	struct:__anon2	file:
+next	porting_queue.c	/^	struct queue_node *next;$/;"	m	struct:__anon2	typeref:struct:__anon2::queue_node	file:
+porting_queue	porting_queue.c	/^}porting_queue;$/;"	t	typeref:struct:__anon3	file:
+porting_queue_create	porting_queue.c	/^int porting_queue_create(const char *name, int len)$/;"	f
+porting_queue_read	porting_queue.c	/^int porting_queue_read(IPANEL_QUEUE_MESSAGE *message)$/;"	f
+porting_queue_send	porting_queue.c	/^int porting_queue_send(IPANEL_QUEUE_MESSAGE *message)$/;"	f
+q1stWordOfMsg	porting_queue.c	/^    int q1stWordOfMsg;                \/* First word of a queue message.  *\/$/;"	m	struct:__anon1	file:
+q2ndWordOfMsg	porting_queue.c	/^    int q2ndWordOfMsg;                \/* Second word of a queue message. *\/$/;"	m	struct:__anon1	file:
+q3rdWordOfMsg	porting_queue.c	/^    int q3rdWordOfMsg;                \/* Third word of a queue message.  *\/$/;"	m	struct:__anon1	file:
+q4thWordOfMsg	porting_queue.c	/^    int q4thWordOfMsg;                \/* Fourth word of a queue message. *\/$/;"	m	struct:__anon1	file:
+q_mutex	porting_queue.c	/^static pthread_mutex_t q_mutex;$/;"	v	file:
+queue	porting_queue.c	/^	queue_node *queue;$/;"	m	struct:__anon3	file:
+queue_node	porting_queue.c	/^}queue_node;$/;"	t	typeref:struct:__anon2	file:
+r_count	porting_queue.c	/^static int  w_count,r_count;$/;"	v	file:
+r_ptr	porting_queue.c	/^static queue_node *w_ptr,*r_ptr;$/;"	v	file:
+send_1	porting_queue.c	/^void *send_1(void *arg)$/;"	f
+send_2	porting_queue.c	/^void *send_2(void *arg)$/;"	f
+value_flag	porting_queue.c	/^	int value_flag;$/;"	m	struct:__anon2	file:
+w_count	porting_queue.c	/^static int  w_count,r_count;$/;"	v	file:
+w_ptr	porting_queue.c	/^static queue_node *w_ptr,*r_ptr;$/;"	v	file:

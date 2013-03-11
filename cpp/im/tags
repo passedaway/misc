@@ -1,0 +1,899 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ADDFRIENDREPLY_H	clientgui/clientgui/addfriendreply.h	2;"	d
+ADDFRIEND_H	clientgui/clientgui/addfriend.h	2;"	d
+APPLYID_H	clientgui/clientgui/applyid.h	2;"	d
+AR	clientgui/clientgui-build-desktop/Makefile	/^AR            = ar cqs$/;"	m
+AR	clientgui/clientgui/Makefile	/^AR            = ar cqs$/;"	m
+AddFriend	clientgui/clientgui-build-desktop/ui_addfriend.h	/^    class AddFriend: public Ui_AddFriend {};$/;"	c	namespace:Ui
+AddFriend	clientgui/clientgui/addfriend.cpp	/^AddFriend::AddFriend(QWidget *parent, UserMainWindow *umw) :$/;"	f	class:AddFriend
+AddFriend	clientgui/clientgui/addfriend.h	/^class AddFriend : public QDialog$/;"	c
+AddFriendReply	clientgui/clientgui-build-desktop/ui_addfriendreply.h	/^    class AddFriendReply: public Ui_AddFriendReply {};$/;"	c	namespace:Ui
+AddFriendReply	clientgui/clientgui/addfriendreply.cpp	/^AddFriendReply::AddFriendReply(QWidget *parent, UserMainWindow *umw, QString qstr) :$/;"	f	class:AddFriendReply
+AddFriendReply	clientgui/clientgui/addfriendreply.h	/^class AddFriendReply : public QDialog$/;"	c
+ApplyId	clientgui/clientgui-build-desktop/ui_applyid.h	/^    class ApplyId: public Ui_ApplyId {};$/;"	c	namespace:Ui
+ApplyId	clientgui/clientgui/applyid.cpp	/^ApplyId::ApplyId(QWidget *parent, MainWindow *mw) :$/;"	f	class:ApplyId
+ApplyId	clientgui/clientgui/applyid.h	/^class ApplyId : public QDialog$/;"	c
+BUFLEN	client/define.h	3;"	d
+BUFLEN	clientgui/clientgui/define.h	3;"	d
+BUFLEN	server/define.h	3;"	d
+BUFLEN	server/socket.h	6;"	d
+BUF_LEN	server/mystring.h	2;"	d
+CC	clientgui/clientgui-build-desktop/Makefile	/^CC            = gcc$/;"	m
+CC	clientgui/clientgui/Makefile	/^CC            = gcc$/;"	m
+CClientSocket	server/socket.h	/^class CClientSocket : public ClientSocket, public MultiThread{$/;"	c
+CClientSocket_H	client/cclientsocket.h	8;"	d
+CFLAGS	clientgui/clientgui-build-desktop/Makefile	/^CFLAGS        = -pipe -O2 -Wall -W -D_REENTRANT $(DEFINES)$/;"	m
+CFLAGS	clientgui/clientgui/Makefile	/^CFLAGS        = -pipe -O2 -Wall -W -D_REENTRANT $(DEFINES)$/;"	m
+CHECK_EMAILE	client/userinfo.h	63;"	d
+CHECK_EMAILE	clientgui/clientgui/userinfo.h	64;"	d
+CHECK_EMAILE	server/userinfo.h	63;"	d
+CHECK_PASSWD	client/userinfo.h	64;"	d
+CHECK_PASSWD	clientgui/clientgui/userinfo.h	65;"	d
+CHECK_PASSWD	server/userinfo.h	64;"	d
+CHECK_SEX	client/userinfo.h	65;"	d
+CHECK_SEX	clientgui/clientgui/userinfo.h	66;"	d
+CHECK_SEX	server/userinfo.h	65;"	d
+CHECK_USERNO	client/userinfo.h	62;"	d
+CHECK_USERNO	clientgui/clientgui/userinfo.h	63;"	d
+CHECK_USERNO	server/userinfo.h	62;"	d
+CHK_DIR_EXISTS	clientgui/clientgui-build-desktop/Makefile	/^CHK_DIR_EXISTS= test -d$/;"	m
+CHK_DIR_EXISTS	clientgui/clientgui/Makefile	/^CHK_DIR_EXISTS= test -d$/;"	m
+CLIENTDATA_PATH	client/define.h	31;"	d
+CLIENTDATA_PATH	clientgui/clientgui/define.h	31;"	d
+CLIENT_OBJ	Makefile	/^CLIENT_OBJ=client\/c.o client\/cclientsocket.o client\/cmessage.o client\/cuserinfo.o client\/cfriendlist.o$/;"	m
+COMPRESS	clientgui/clientgui-build-desktop/Makefile	/^COMPRESS      = gzip -9f$/;"	m
+COMPRESS	clientgui/clientgui/Makefile	/^COMPRESS      = gzip -9f$/;"	m
+COPY	clientgui/clientgui-build-desktop/Makefile	/^COPY          = cp -f$/;"	m
+COPY	clientgui/clientgui/Makefile	/^COPY          = cp -f$/;"	m
+COPY_DIR	clientgui/clientgui-build-desktop/Makefile	/^COPY_DIR      = $(COPY) -r$/;"	m
+COPY_DIR	clientgui/clientgui/Makefile	/^COPY_DIR      = $(COPY) -r$/;"	m
+COPY_FILE	clientgui/clientgui-build-desktop/Makefile	/^COPY_FILE     = $(COPY)$/;"	m
+COPY_FILE	clientgui/clientgui/Makefile	/^COPY_FILE     = $(COPY)$/;"	m
+CXX	clientgui/clientgui-build-desktop/Makefile	/^CXX           = g++$/;"	m
+CXX	clientgui/clientgui/Makefile	/^CXX           = g++$/;"	m
+CXXFLAGS	clientgui/clientgui-build-desktop/Makefile	/^CXXFLAGS      = -pipe -O2 -Wall -W -D_REENTRANT $(DEFINES)$/;"	m
+CXXFLAGS	clientgui/clientgui/Makefile	/^CXXFLAGS      = -pipe -O2 -Wall -W -D_REENTRANT $(DEFINES)$/;"	m
+ClientList	server/clientlist.cpp	/^ClientList::ClientList(int maxuser):curuser(0),maxuser(maxuser),head(NULL),end(NULL)$/;"	f	class:ClientList
+ClientList	server/clientlist.h	/^class ClientList{$/;"	c
+ClientList	server/socket.h	/^class ClientList{$/;"	c
+ClientList_H	server/clientlist.h	8;"	d
+ClientSocket	server/clientsocket.cpp	/^ClientSocket::ClientSocket(const ClientSocket &dest)$/;"	f	class:ClientSocket
+ClientSocket	server/clientsocket.cpp	/^ClientSocket::ClientSocket(int fd, char *addr, int port):fd(fd),port(port)$/;"	f	class:ClientSocket
+ClientSocket	server/clientsocket.h	/^class ClientSocket {$/;"	c
+ClientSocket	server/socket.h	/^class ClientSocket { $/;"	c
+ClientSocket_H	server/clientsocket.h	8;"	d
+DEBUG	server/clientsocket.cpp	22;"	d	file:
+DEBUG	server/clientsocket.cpp	23;"	d	file:
+DEBUG	server/sclientsocket.cpp	31;"	d	file:
+DEBUG	server/sclientsocket.cpp	32;"	d	file:
+DEBUG	server/serversocket.cpp	34;"	d	file:
+DEBUG	server/serversocket.cpp	35;"	d	file:
+DEFINES	clientgui/clientgui-build-desktop/Makefile	/^DEFINES       = -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB$/;"	m
+DEFINES	clientgui/clientgui/Makefile	/^DEFINES       = -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB$/;"	m
+DEL_DIR	clientgui/clientgui-build-desktop/Makefile	/^DEL_DIR       = rmdir$/;"	m
+DEL_DIR	clientgui/clientgui/Makefile	/^DEL_DIR       = rmdir$/;"	m
+DEL_FILE	clientgui/clientgui-build-desktop/Makefile	/^DEL_FILE      = rm -f$/;"	m
+DEL_FILE	clientgui/clientgui/Makefile	/^DEL_FILE      = rm -f$/;"	m
+DESTDIR	clientgui/clientgui-build-desktop/Makefile	/^DESTDIR       = $/;"	m
+DESTDIR	clientgui/clientgui/Makefile	/^DESTDIR       = $/;"	m
+DIST	clientgui/clientgui-build-desktop/Makefile	/^DIST          = \/opt\/QtSDK\/Desktop\/Qt\/473\/gcc\/mkspecs\/common\/g++.conf \\$/;"	m
+DIST	clientgui/clientgui/Makefile	/^DIST          = \/opt\/QtSDK\/Desktop\/Qt\/473\/gcc\/mkspecs\/common\/g++.conf \\$/;"	m
+EMAILE_LEN	client/userinfo.h	27;"	d
+EMAILE_LEN	clientgui/clientgui/userinfo.h	31;"	d
+EMAILE_LEN	server/userinfo.h	27;"	d
+FILE_H	server/file.h	2;"	d
+File	server/file.cpp	/^File::File(const char *path)$/;"	f	class:File
+File	server/file.h	/^class File{$/;"	c
+Friend	client/friendlist.h	/^typedef struct Friend{$/;"	s
+Friend	client/friendlist.h	/^}Friend;$/;"	t	typeref:struct:Friend
+Friend	clientgui/clientgui/friendlist.h	/^typedef struct Friend{$/;"	s
+Friend	clientgui/clientgui/friendlist.h	/^}Friend;$/;"	t	typeref:struct:Friend
+Friend	server/friendlist.h	/^typedef struct Friend{$/;"	s
+Friend	server/friendlist.h	/^}Friend;$/;"	t	typeref:struct:Friend
+FriendList	client/friendlist.h	/^}FriendList;$/;"	t	typeref:struct:__anon1
+FriendList	clientgui/clientgui/friendlist.h	/^}FriendList;$/;"	t	typeref:struct:__anon4
+FriendList	server/friendlist.h	/^}FriendList;$/;"	t	typeref:struct:__anon7
+GET_EMAILE	client/userinfo.h	54;"	d
+GET_EMAILE	clientgui/clientgui/userinfo.h	55;"	d
+GET_EMAILE	server/userinfo.h	54;"	d
+GET_NAME	client/userinfo.h	52;"	d
+GET_NAME	clientgui/clientgui/userinfo.h	53;"	d
+GET_NAME	server/userinfo.h	52;"	d
+GET_PASSWD	client/userinfo.h	55;"	d
+GET_PASSWD	clientgui/clientgui/userinfo.h	56;"	d
+GET_PASSWD	server/userinfo.h	55;"	d
+GET_SEX	client/userinfo.h	53;"	d
+GET_SEX	clientgui/clientgui/userinfo.h	54;"	d
+GET_SEX	server/userinfo.h	53;"	d
+GET_USERNAME	client/userinfo.h	51;"	d
+GET_USERNAME	clientgui/clientgui/userinfo.h	52;"	d
+GET_USERNAME	server/userinfo.h	51;"	d
+GET_USERNO	client/userinfo.h	50;"	d
+GET_USERNO	clientgui/clientgui/userinfo.h	51;"	d
+GET_USERNO	server/userinfo.h	50;"	d
+HOST_NAME_MAX	client/define.h	23;"	d
+HOST_NAME_MAX	clientgui/clientgui/define.h	23;"	d
+HOST_NAME_MAX	server/define.h	23;"	d
+HOST_NAME_MAX	server/socket.h	26;"	d
+HOST_THREAD	client/cclientsocket.h	15;"	d
+INCPATH	clientgui/clientgui-build-desktop/Makefile	/^INCPATH       = -I\/opt\/QtSDK\/Desktop\/Qt\/473\/gcc\/mkspecs\/linux-g++ -I..\/clientgui -I\/opt\/QtSDK\/Desktop\/Qt\/473\/gcc\/include\/QtCore -I\/opt\/QtSDK\/Desktop\/Qt\/473\/gcc\/include\/QtGui -I\/opt\/QtSDK\/Desktop\/Qt\/473\/gcc\/include -I. -I. -I..\/clientgui -I.$/;"	m
+INCPATH	clientgui/clientgui/Makefile	/^INCPATH       = -I\/opt\/QtSDK\/Desktop\/Qt\/473\/gcc\/mkspecs\/default -I. -I\/opt\/QtSDK\/Desktop\/Qt\/473\/gcc\/include\/QtCore -I\/opt\/QtSDK\/Desktop\/Qt\/473\/gcc\/include\/QtGui -I\/opt\/QtSDK\/Desktop\/Qt\/473\/gcc\/include -I. -I.$/;"	m
+INSTALL_DIR	clientgui/clientgui-build-desktop/Makefile	/^INSTALL_DIR   = $(COPY_DIR)$/;"	m
+INSTALL_DIR	clientgui/clientgui/Makefile	/^INSTALL_DIR   = $(COPY_DIR)$/;"	m
+INSTALL_FILE	clientgui/clientgui-build-desktop/Makefile	/^INSTALL_FILE  = install -m 644 -p$/;"	m
+INSTALL_FILE	clientgui/clientgui/Makefile	/^INSTALL_FILE  = install -m 644 -p$/;"	m
+INSTALL_PROGRAM	clientgui/clientgui-build-desktop/Makefile	/^INSTALL_PROGRAM = install -m 755 -p$/;"	m
+INSTALL_PROGRAM	clientgui/clientgui/Makefile	/^INSTALL_PROGRAM = install -m 755 -p$/;"	m
+LFLAGS	clientgui/clientgui-build-desktop/Makefile	/^LFLAGS        = -Wl,-O1 -Wl,-rpath,\/opt\/QtSDK\/Desktop\/Qt\/473\/gcc\/lib$/;"	m
+LFLAGS	clientgui/clientgui/Makefile	/^LFLAGS        = -Wl,-O1 -Wl,-rpath,\/opt\/QtSDK\/Desktop\/Qt\/473\/gcc\/lib$/;"	m
+LIBS	clientgui/clientgui-build-desktop/Makefile	/^LIBS          = $(SUBLIBS)  -L\/opt\/QtSDK\/Desktop\/Qt\/473\/gcc\/lib -lQtGui -lQtCore -lpthread $/;"	m
+LIBS	clientgui/clientgui/Makefile	/^LIBS          = $(SUBLIBS)  -L\/opt\/QtSDK\/Desktop\/Qt\/473\/gcc\/lib -lQtGui -lQtCore -lpthread $/;"	m
+LINK	clientgui/clientgui-build-desktop/Makefile	/^LINK          = g++$/;"	m
+LINK	clientgui/clientgui/Makefile	/^LINK          = g++$/;"	m
+MAINWINDOW_H	clientgui/clientgui/mainwindow.h	2;"	d
+MAXSLEEP	client/cclientsocket.c	23;"	d	file:
+MAXSLEEP	server/clientsocket.cpp	20;"	d	file:
+MKDIR	clientgui/clientgui-build-desktop/Makefile	/^MKDIR         = mkdir -p$/;"	m
+MKDIR	clientgui/clientgui/Makefile	/^MKDIR         = mkdir -p$/;"	m
+MODIFYUSERINFO_H	clientgui/clientgui/modifyuserinfo.h	2;"	d
+MOVE	clientgui/clientgui-build-desktop/Makefile	/^MOVE          = mv -f$/;"	m
+MOVE	clientgui/clientgui/Makefile	/^MOVE          = mv -f$/;"	m
+MS_MESSAGE_LEN	client/message.h	11;"	d
+MS_MESSAGE_LEN	server/message.h	11;"	d
+MainWindow	clientgui/clientgui-build-desktop/ui_mainwindow.h	/^    class MainWindow: public Ui_MainWindow {};$/;"	c	namespace:Ui
+MainWindow	clientgui/clientgui/mainwindow.cpp	/^MainWindow::MainWindow(QWidget *parent) :$/;"	f	class:MainWindow
+MainWindow	clientgui/clientgui/mainwindow.h	/^class MainWindow : public QMainWindow$/;"	c
+Message	client/message.h	/^}Message;$/;"	t	typeref:struct:__anon3
+Message	clientgui/clientgui/message.h	/^}Message;$/;"	t	typeref:struct:__anon6
+Message	server/message.h	/^}Message;$/;"	t	typeref:struct:__anon9
+Message	server/socket.h	/^class Message{$/;"	c
+Message_H	client/message.h	8;"	d
+Message_H	clientgui/clientgui/message.h	8;"	d
+Message_H	server/message.h	8;"	d
+ModifyUserinfo	clientgui/clientgui-build-desktop/ui_modifyuserinfo.h	/^    class ModifyUserinfo: public Ui_ModifyUserinfo {};$/;"	c	namespace:Ui
+ModifyUserinfo	clientgui/clientgui/modifyuserinfo.cpp	/^ModifyUserinfo::ModifyUserinfo(QWidget *parent, UserMainWindow *umw) :$/;"	f	class:ModifyUserinfo
+ModifyUserinfo	clientgui/clientgui/modifyuserinfo.h	/^class ModifyUserinfo : public QDialog$/;"	c
+MultiThread	server/multithread.cpp	/^MultiThread::MultiThread():npid(0),hpid(0)$/;"	f	class:MultiThread
+MultiThread	server/multithread.h	/^class MultiThread{$/;"	c
+MultiThread	server/socket.h	/^class MultiThread{$/;"	c
+MultiThread_H	server/multithread.h	2;"	d
+NET_THREAD	client/cclientsocket.h	18;"	d
+OBJECTS	clientgui/clientgui-build-desktop/Makefile	/^OBJECTS       = main.o \\$/;"	m
+OBJECTS	clientgui/clientgui/Makefile	/^OBJECTS       = main.o \\$/;"	m
+OBJECTS_DIR	clientgui/clientgui-build-desktop/Makefile	/^OBJECTS_DIR   = .\/$/;"	m
+OBJECTS_DIR	clientgui/clientgui/Makefile	/^OBJECTS_DIR   = .\/$/;"	m
+PASSWD_MAX_LEN	client/userinfo.h	19;"	d
+PASSWD_MAX_LEN	clientgui/clientgui/userinfo.h	23;"	d
+PASSWD_MAX_LEN	server/userinfo.h	19;"	d
+PASSWD_MIN_LEN	client/userinfo.h	23;"	d
+PASSWD_MIN_LEN	clientgui/clientgui/userinfo.h	27;"	d
+PASSWD_MIN_LEN	server/userinfo.h	23;"	d
+QMAKE	clientgui/clientgui-build-desktop/Makefile	/^QMAKE         = \/opt\/QtSDK\/Desktop\/Qt\/473\/gcc\/bin\/qmake$/;"	m
+QMAKE	clientgui/clientgui/Makefile	/^QMAKE         = \/opt\/QtSDK\/Desktop\/Qt\/473\/gcc\/bin\/qmake$/;"	m
+QMAKE_TARGET	clientgui/clientgui-build-desktop/Makefile	/^QMAKE_TARGET  = clientgui$/;"	m
+QMAKE_TARGET	clientgui/clientgui/Makefile	/^QMAKE_TARGET  = clientgui$/;"	m
+RANLIB	clientgui/clientgui-build-desktop/Makefile	/^RANLIB        = $/;"	m
+RANLIB	clientgui/clientgui/Makefile	/^RANLIB        = $/;"	m
+Runable	server/socket.h	/^class Runable{$/;"	c
+SClientSocket	server/sclientsocket.cpp	/^SClientSocket::SClientSocket(int fd, char *addr, int port):ClientSocket(fd, addr, port),Thread(),next(NULL),isRun(false),userinfo(NULL),userStatus(0),fls(NULL)$/;"	f	class:SClientSocket
+SClientSocket	server/sclientsocket.h	/^class SClientSocket : public ClientSocket, public Thread{$/;"	c
+SClientSocket	server/socket.h	/^class SClientSocket : public ClientSocket , public Thread{$/;"	c
+SClientSocket_H	server/sclientsocket.h	8;"	d
+SED	clientgui/clientgui-build-desktop/Makefile	/^SED           = sed$/;"	m
+SED	clientgui/clientgui/Makefile	/^SED           = sed$/;"	m
+SERVERDATA_PATH	client/define.h	27;"	d
+SERVERDATA_PATH	clientgui/clientgui/define.h	27;"	d
+SERVERDATA_PATH	server/define.h	27;"	d
+SERVERINFO_H	clientgui/clientgui/serverinfo.h	2;"	d
+SERVER_MAXUSER	client/define.h	13;"	d
+SERVER_MAXUSER	clientgui/clientgui/define.h	13;"	d
+SERVER_MAXUSER	server/define.h	13;"	d
+SERVER_MAXUSER	server/socket.h	16;"	d
+SERVER_OBJ	Makefile	/^SERVER_OBJ=server\/s.o server\/serversocket.o server\/clientlist.o server\/clientsocket.o server\/sclientsocket.o\\$/;"	m
+SERVER_PORT	client/define.h	18;"	d
+SERVER_PORT	clientgui/clientgui/define.h	18;"	d
+SERVER_PORT	server/define.h	18;"	d
+SERVER_PORT	server/socket.h	21;"	d
+SERVER_START_USERNO	client/define.h	35;"	d
+SERVER_START_USERNO	clientgui/clientgui/define.h	35;"	d
+SERVER_START_USERNO	server/define.h	31;"	d
+SET_EMAILE	client/userinfo.h	60;"	d
+SET_EMAILE	clientgui/clientgui/userinfo.h	61;"	d
+SET_EMAILE	server/userinfo.h	60;"	d
+SET_NAME	client/userinfo.h	58;"	d
+SET_NAME	clientgui/clientgui/userinfo.h	59;"	d
+SET_NAME	server/userinfo.h	58;"	d
+SET_PASSWD	client/userinfo.h	61;"	d
+SET_PASSWD	clientgui/clientgui/userinfo.h	62;"	d
+SET_PASSWD	server/userinfo.h	61;"	d
+SET_SEX	client/userinfo.h	59;"	d
+SET_SEX	clientgui/clientgui/userinfo.h	60;"	d
+SET_SEX	server/userinfo.h	59;"	d
+SET_USERNAME	client/userinfo.h	57;"	d
+SET_USERNAME	clientgui/clientgui/userinfo.h	58;"	d
+SET_USERNAME	server/userinfo.h	57;"	d
+SET_USERNO	client/userinfo.h	56;"	d
+SET_USERNO	clientgui/clientgui/userinfo.h	57;"	d
+SET_USERNO	server/userinfo.h	56;"	d
+SOCKET_H	server/socket.h	2;"	d
+SOURCES	clientgui/clientgui-build-desktop/Makefile	/^SOURCES       = ..\/clientgui\/main.cpp \\$/;"	m
+SOURCES	clientgui/clientgui/Makefile	/^SOURCES       = main.cpp \\$/;"	m
+STRING_H	server/mystring.h	6;"	d
+STRIP	clientgui/clientgui-build-desktop/Makefile	/^STRIP         = strip$/;"	m
+STRIP	clientgui/clientgui/Makefile	/^STRIP         = strip$/;"	m
+SYMLINK	clientgui/clientgui-build-desktop/Makefile	/^SYMLINK       = ln -f -s$/;"	m
+SYMLINK	clientgui/clientgui/Makefile	/^SYMLINK       = ln -f -s$/;"	m
+ServerInfo	clientgui/clientgui-build-desktop/ui_serverinfo.h	/^    class ServerInfo: public Ui_ServerInfo {};$/;"	c	namespace:Ui
+ServerInfo	clientgui/clientgui/serverinfo.cpp	/^ServerInfo::ServerInfo(QWidget *parent, MainWindow *mw) :$/;"	f	class:ServerInfo
+ServerInfo	clientgui/clientgui/serverinfo.h	/^class ServerInfo : public QDialog$/;"	c
+ServerSocket	server/serversocket.cpp	/^ServerSocket::ServerSocket(int port, int maxuser):port(port),maxuser(maxuser)$/;"	f	class:ServerSocket
+ServerSocket	server/serversocket.h	/^class ServerSocket : public MultiThread{$/;"	c
+ServerSocket	server/socket.h	/^class ServerSocket : public MultiThread{$/;"	c
+ServerSocket_h	server/serversocket.h	8;"	d
+String	server/mystring.cpp	/^String::String(const String &other)$/;"	f	class:String
+String	server/mystring.cpp	/^String::String(const char *str)$/;"	f	class:String
+String	server/mystring.h	/^class String{$/;"	c
+TALK_H	clientgui/clientgui/talk.h	2;"	d
+TAR	clientgui/clientgui-build-desktop/Makefile	/^TAR           = tar -cf$/;"	m
+TAR	clientgui/clientgui/Makefile	/^TAR           = tar -cf$/;"	m
+TARGET	clientgui/clientgui-build-desktop/Makefile	/^TARGET        = clientgui$/;"	m
+TARGET	clientgui/clientgui/Makefile	/^TARGET        = clientgui$/;"	m
+THREAD_H	server/thread.h	2;"	d
+TalkList	clientgui/clientgui/talklist.cpp	/^TalkList::TalkList():head(NULL), end(NULL)$/;"	f	class:TalkList
+TalkList	clientgui/clientgui/talklist.h	/^class TalkList{$/;"	c
+Thread	server/socket.h	/^class Thread : public Runable{$/;"	c
+Thread	server/thread.cpp	/^Thread::Thread():pid(0)$/;"	f	class:Thread
+Thread	server/thread.h	/^class Thread{$/;"	c
+UI_ADDFRIENDREPLY_H	clientgui/clientgui-build-desktop/ui_addfriendreply.h	11;"	d
+UI_ADDFRIEND_H	clientgui/clientgui-build-desktop/ui_addfriend.h	11;"	d
+UI_APPLYID_H	clientgui/clientgui-build-desktop/ui_applyid.h	11;"	d
+UI_MAINWINDOW_H	clientgui/clientgui-build-desktop/ui_mainwindow.h	11;"	d
+UI_MODIFYUSERINFO_H	clientgui/clientgui-build-desktop/ui_modifyuserinfo.h	11;"	d
+UI_SERVERINFO_H	clientgui/clientgui-build-desktop/ui_serverinfo.h	11;"	d
+UI_TALK_H	clientgui/clientgui-build-desktop/ui_talk.h	11;"	d
+UI_USERMAINWINDOW_H	clientgui/clientgui-build-desktop/ui_usermainwindow.h	11;"	d
+USERMAINWINDOW_H	clientgui/clientgui/usermainwindow.h	2;"	d
+USERNAME_LEN	client/userinfo.h	15;"	d
+USERNAME_LEN	clientgui/clientgui/userinfo.h	19;"	d
+USERNAME_LEN	server/userinfo.h	15;"	d
+USERNO_LEN	client/define.h	8;"	d
+USERNO_LEN	client/userinfo.h	11;"	d
+USERNO_LEN	clientgui/clientgui/define.h	8;"	d
+USERNO_LEN	clientgui/clientgui/userinfo.h	15;"	d
+USERNO_LEN	server/define.h	8;"	d
+USERNO_LEN	server/socket.h	11;"	d
+USERNO_LEN	server/userinfo.h	11;"	d
+Ui	clientgui/clientgui-build-desktop/ui_addfriend.h	/^namespace Ui {$/;"	n
+Ui	clientgui/clientgui-build-desktop/ui_addfriendreply.h	/^namespace Ui {$/;"	n
+Ui	clientgui/clientgui-build-desktop/ui_applyid.h	/^namespace Ui {$/;"	n
+Ui	clientgui/clientgui-build-desktop/ui_mainwindow.h	/^namespace Ui {$/;"	n
+Ui	clientgui/clientgui-build-desktop/ui_modifyuserinfo.h	/^namespace Ui {$/;"	n
+Ui	clientgui/clientgui-build-desktop/ui_serverinfo.h	/^namespace Ui {$/;"	n
+Ui	clientgui/clientgui-build-desktop/ui_talk.h	/^namespace Ui {$/;"	n
+Ui	clientgui/clientgui-build-desktop/ui_usermainwindow.h	/^namespace Ui {$/;"	n
+Ui	clientgui/clientgui/addfriend.h	/^namespace Ui {$/;"	n
+Ui	clientgui/clientgui/addfriendreply.h	/^namespace Ui {$/;"	n
+Ui	clientgui/clientgui/applyid.h	/^namespace Ui {$/;"	n
+Ui	clientgui/clientgui/mainwindow.h	/^namespace Ui {$/;"	n
+Ui	clientgui/clientgui/modifyuserinfo.h	/^namespace Ui {$/;"	n
+Ui	clientgui/clientgui/serverinfo.h	/^namespace Ui {$/;"	n
+Ui	clientgui/clientgui/talk.h	/^namespace Ui {$/;"	n
+Ui	clientgui/clientgui/usermainwindow.h	/^namespace Ui {$/;"	n
+Ui_AddFriend	clientgui/clientgui-build-desktop/ui_addfriend.h	/^class Ui_AddFriend$/;"	c
+Ui_AddFriendReply	clientgui/clientgui-build-desktop/ui_addfriendreply.h	/^class Ui_AddFriendReply$/;"	c
+Ui_ApplyId	clientgui/clientgui-build-desktop/ui_applyid.h	/^class Ui_ApplyId$/;"	c
+Ui_MainWindow	clientgui/clientgui-build-desktop/ui_mainwindow.h	/^class Ui_MainWindow$/;"	c
+Ui_ModifyUserinfo	clientgui/clientgui-build-desktop/ui_modifyuserinfo.h	/^class Ui_ModifyUserinfo$/;"	c
+Ui_ServerInfo	clientgui/clientgui-build-desktop/ui_serverinfo.h	/^class Ui_ServerInfo$/;"	c
+Ui_UserMainWindow	clientgui/clientgui-build-desktop/ui_usermainwindow.h	/^class Ui_UserMainWindow$/;"	c
+Ui_talk	clientgui/clientgui-build-desktop/ui_talk.h	/^class Ui_talk$/;"	c
+UnsendMessage	server/unsendmessage.h	/^typedef struct UnsendMessage{$/;"	s
+UnsendMessage	server/unsendmessage.h	/^}UnsendMessage;$/;"	t	typeref:struct:UnsendMessage
+UnsendMessageList	server/unsendmessage.h	/^}UnsendMessageList;$/;"	t	typeref:struct:__anon10
+UserMainWindow	clientgui/clientgui-build-desktop/ui_usermainwindow.h	/^    class UserMainWindow: public Ui_UserMainWindow {};$/;"	c	namespace:Ui
+UserMainWindow	clientgui/clientgui/usermainwindow.cpp	/^UserMainWindow::UserMainWindow(QWidget *parent, MainWindow *mw) :$/;"	f	class:UserMainWindow
+UserMainWindow	clientgui/clientgui/usermainwindow.h	/^class UserMainWindow : public QMainWindow$/;"	c
+Userinfo	client/userinfo.h	/^}Userinfo;$/;"	t	typeref:struct:__anon2
+Userinfo	clientgui/clientgui/userinfo.h	/^}Userinfo;$/;"	t	typeref:struct:__anon5
+Userinfo	server/userinfo.h	/^}Userinfo;$/;"	t	typeref:struct:__anon8
+Userinfo_H	client/userinfo.h	8;"	d
+Userinfo_H	clientgui/clientgui/userinfo.h	8;"	d
+Userinfo_H	server/userinfo.h	8;"	d
+_FRIEND_LIST_H_	client/friendlist.h	8;"	d
+_FRIEND_LIST_H_	clientgui/clientgui/friendlist.h	8;"	d
+_FRIEND_LIST_H_	server/friendlist.h	8;"	d
+_TALK_LIST_H_	clientgui/clientgui/talklist.h	2;"	d
+_UNSEND_MESSAGE_H_	server/unsendmessage.h	8;"	d
+a_nickname	clientgui/clientgui/addfriendreply.h	/^	char a_nickname[64];$/;"	m	class:AddFriendReply
+a_userno	clientgui/clientgui/addfriendreply.h	/^	char a_userno[7];$/;"	m	class:AddFriendReply
+actionAddFriend	clientgui/clientgui-build-desktop/ui_usermainwindow.h	/^    QAction *actionAddFriend;$/;"	m	class:Ui_UserMainWindow
+actionAddFriendSlots	clientgui/clientgui/usermainwindow.cpp	/^void UserMainWindow::actionAddFriendSlots()$/;"	f	class:UserMainWindow
+actionApply	clientgui/clientgui-build-desktop/ui_mainwindow.h	/^    QAction *actionApply;$/;"	m	class:Ui_MainWindow
+actionApply_id	clientgui/clientgui-build-desktop/ui_mainwindow.h	/^    QAction *actionApply_id;$/;"	m	class:Ui_MainWindow
+actionExit	clientgui/clientgui-build-desktop/ui_usermainwindow.h	/^    QAction *actionExit;$/;"	m	class:Ui_UserMainWindow
+actionExitSlots	clientgui/clientgui/usermainwindow.cpp	/^void UserMainWindow::actionExitSlots()$/;"	f	class:UserMainWindow
+actionModifyUserinfo	clientgui/clientgui-build-desktop/ui_usermainwindow.h	/^    QAction *actionModifyUserinfo;$/;"	m	class:Ui_UserMainWindow
+actionModifyUserinfoSlots	clientgui/clientgui/usermainwindow.cpp	/^void UserMainWindow::actionModifyUserinfoSlots()$/;"	f	class:UserMainWindow
+actionSet_server	clientgui/clientgui-build-desktop/ui_mainwindow.h	/^    QAction *actionSet_server;$/;"	m	class:Ui_MainWindow
+addClient	server/clientlist.cpp	/^bool ClientList::addClient(int fd, char *addr, int port)$/;"	f	class:ClientList
+addItem	clientgui/clientgui/talklist.cpp	/^void TalkList::addItem(talk *tmp)$/;"	f	class:TalkList
+addList	clientgui/clientgui/talk.cpp	/^void talk::addList(QString &str)$/;"	f	class:talk
+addfriend	clientgui/clientgui/usermainwindow.h	/^	AddFriend *addfriend;$/;"	m	class:UserMainWindow
+addfriendreply	clientgui/clientgui/usermainwindow.h	/^	AddFriendReply *addfriendreply;$/;"	m	class:UserMainWindow
+addr	server/clientsocket.h	/^	char *addr;$/;"	m	class:ClientSocket
+addr	server/socket.h	/^	char *addr;$/;"	m	class:ClientSocket
+all	Makefile	/^all=exe\/c exe\/s$/;"	m
+all	client/client.mk	/^all=c.o\\$/;"	m
+all	server/server.mk	/^all= s.o\\$/;"	m
+analyseCmdSignal	clientgui/clientgui-build-desktop/moc_usermainwindow.cpp	/^void UserMainWindow::analyseCmdSignal(int _t1)$/;"	f	class:UserMainWindow
+analyseCmdSlots	clientgui/clientgui/usermainwindow.cpp	/^void UserMainWindow::analyseCmdSlots(int op)$/;"	f	class:UserMainWindow
+analyseMessage	clientgui/clientgui/usermainwindow.cpp	/^int UserMainWindow::analyseMessage(Message *ms)$/;"	f	class:UserMainWindow
+analyseMessage	server/sclientsocket.cpp	/^int SClientSocket::analyseMessage(Message *ms)$/;"	f	class:SClientSocket
+analyseMessageSignal	clientgui/clientgui-build-desktop/moc_usermainwindow.cpp	/^void UserMainWindow::analyseMessageSignal(char * _t1, QString _t2)$/;"	f	class:UserMainWindow
+analyseMessageSlots	clientgui/clientgui/usermainwindow.cpp	/^void UserMainWindow::analyseMessageSlots(char *userno_name, QString msstr)$/;"	f	class:UserMainWindow
+applyId	server/sclientsocket.cpp	/^int SClientSocket::applyId()$/;"	f	class:SClientSocket
+applyId	server/socket.h	/^	int applyId(){$/;"	f	class:CClientSocket
+apply_userno	clientgui/clientgui/applyid.h	/^    char apply_userno[7];$/;"	m	class:ApplyId
+applyid	clientgui/clientgui/mainwindow.h	/^    ApplyId *applyid;$/;"	m	class:MainWindow
+applyidSlots	clientgui/clientgui/mainwindow.cpp	/^void MainWindow::applyidSlots()$/;"	f	class:MainWindow
+b_nickname	clientgui/clientgui/addfriendreply.h	/^    char b_nickname[64];$/;"	m	class:AddFriendReply
+batext	clientgui/clientgui/talk.h	/^	QByteArray batext;$/;"	m	class:talk
+bytea_emaile	clientgui/clientgui/applyid.h	/^    QByteArray bytea_emaile;$/;"	m	class:ApplyId
+bytea_emaile	clientgui/clientgui/modifyuserinfo.h	/^    QByteArray bytea_emaile;$/;"	m	class:ModifyUserinfo
+bytea_name	clientgui/clientgui/applyid.h	/^    QByteArray bytea_name;$/;"	m	class:ApplyId
+bytea_name	clientgui/clientgui/modifyuserinfo.h	/^    QByteArray bytea_name;$/;"	m	class:ModifyUserinfo
+bytea_passwd	clientgui/clientgui/applyid.h	/^    QByteArray bytea_passwd;$/;"	m	class:ApplyId
+bytea_passwd	clientgui/clientgui/mainwindow.h	/^	QByteArray bytea_passwd;$/;"	m	class:MainWindow
+bytea_passwd	clientgui/clientgui/modifyuserinfo.h	/^    QByteArray bytea_passwd;$/;"	m	class:ModifyUserinfo
+bytea_passwd2	clientgui/clientgui/applyid.h	/^    QByteArray bytea_passwd2;$/;"	m	class:ApplyId
+bytea_passwd2	clientgui/clientgui/modifyuserinfo.h	/^    QByteArray bytea_passwd2;$/;"	m	class:ModifyUserinfo
+bytea_sex	clientgui/clientgui/applyid.h	/^    QByteArray bytea_sex;$/;"	m	class:ApplyId
+bytea_sex	clientgui/clientgui/modifyuserinfo.h	/^    QByteArray bytea_sex;$/;"	m	class:ModifyUserinfo
+bytea_username	clientgui/clientgui/applyid.h	/^    QByteArray bytea_username;$/;"	m	class:ApplyId
+bytea_username	clientgui/clientgui/modifyuserinfo.h	/^    QByteArray bytea_username;$/;"	m	class:ModifyUserinfo
+bytea_userno	clientgui/clientgui/mainwindow.h	/^	QByteArray bytea_userno;$/;"	m	class:MainWindow
+c_analyse_cmd	client/cclientsocket.c	/^static int c_analyse_cmd(Message *ms)$/;"	f	file:
+c_analyse_message	client/cclientsocket.c	/^int c_analyse_message(Message *ms)$/;"	f
+c_apply_id	client/cclientsocket.c	/^int c_apply_id()$/;"	f
+c_client_socket_exit	client/cclientsocket.c	/^void c_client_socket_exit()$/;"	f
+c_client_socket_init	client/cclientsocket.c	/^void c_client_socket_init(char *addr, int port)$/;"	f
+c_dis_connect	client/cclientsocket.c	/^int c_dis_connect()$/;"	f
+c_is_ms_exit	client/cclientsocket.c	/^void c_is_ms_exit(Message *ms)$/;"	f
+c_join	client/cclientsocket.c	/^void c_join(int op)$/;"	f
+c_login	client/cclientsocket.c	/^int c_login()$/;"	f
+c_modify_userinfo	client/cclientsocket.c	/^void c_modify_userinfo()$/;"	f
+c_run_local	client/cclientsocket.c	/^void c_run_local()$/;"	f
+c_run_net	client/cclientsocket.c	/^void c_run_net()$/;"	f
+c_send_message_to_server	client/cclientsocket.c	/^int c_send_message_to_server(char *ms)$/;"	f
+c_start_thread	client/cclientsocket.c	/^void c_start_thread()$/;"	f
+c_talk	client/cclientsocket.c	/^int c_talk()$/;"	f
+centralWidget	clientgui/clientgui-build-desktop/ui_mainwindow.h	/^    QWidget *centralWidget;$/;"	m	class:Ui_MainWindow
+centralwidget	clientgui/clientgui-build-desktop/ui_usermainwindow.h	/^    QWidget *centralwidget;$/;"	m	class:Ui_UserMainWindow
+checkEmaile	client/cuserinfo.c	/^int checkEmaile(char *emaile)$/;"	f
+checkEmaile	clientgui/clientgui/userinfo.cpp	/^int checkEmaile(char *emaile)$/;"	f
+checkEmaile	server/userinfo.c	/^int checkEmaile(char *emaile)$/;"	f
+checkPasswd	client/cuserinfo.c	/^int checkPasswd(char *passwd)$/;"	f
+checkPasswd	clientgui/clientgui/userinfo.cpp	/^int checkPasswd(char *passwd)$/;"	f
+checkPasswd	server/userinfo.c	/^int checkPasswd(char *passwd)$/;"	f
+checkUserno	client/cuserinfo.c	/^int checkUserno(char *userno)$/;"	f
+checkUserno	clientgui/clientgui/userinfo.cpp	/^int checkUserno(char *userno)$/;"	f
+checkUserno	server/userinfo.c	/^int checkUserno(char *userno)$/;"	f
+clientList	server/serversocket.h	/^	ClientList *clientList;$/;"	m	class:ServerSocket
+clientList	server/socket.h	/^	ClientList *clientList;$/;"	m	class:ServerSocket
+comboBoxSex	clientgui/clientgui-build-desktop/ui_applyid.h	/^    QComboBox *comboBoxSex;$/;"	m	class:Ui_ApplyId
+comboBoxSex	clientgui/clientgui-build-desktop/ui_modifyuserinfo.h	/^    QComboBox *comboBoxSex;$/;"	m	class:Ui_ModifyUserinfo
+commandListen	server/serversocket.cpp	/^void ServerSocket::commandListen()$/;"	f	class:ServerSocket
+curuser	server/clientlist.h	/^	int curuser;$/;"	m	class:ClientList
+curuser	server/socket.h	/^	int curuser;$/;"	m	class:ClientList
+data	client/message.h	/^	char *data;$/;"	m	struct:__anon3
+data	clientgui/clientgui/message.h	/^	char *data;$/;"	m	struct:__anon6
+data	server/message.h	/^	char *data;$/;"	m	struct:__anon9
+deleteClient	server/clientlist.cpp	/^bool ClientList::deleteClient()$/;"	f	class:ClientList
+deleteClient	server/clientlist.cpp	/^bool ClientList::deleteClient(SClientSocket *dest)$/;"	f	class:ClientList
+deleteItem	clientgui/clientgui/talklist.cpp	/^int TalkList::deleteItem(talk *tmp)$/;"	f	class:TalkList
+dest	server/socket.h	/^	char dest[USERNO_LEN + 1];$/;"	m	class:Message
+disCon	server/sclientsocket.cpp	/^int SClientSocket::disCon()$/;"	f	class:SClientSocket
+disCon	server/socket.h	/^	int disCon(){$/;"	f	class:CClientSocket
+emaile	client/userinfo.h	/^	char emaile[EMAILE_LEN + 1];$/;"	m	struct:__anon2
+emaile	clientgui/clientgui/userinfo.h	/^	char emaile[EMAILE_LEN + 1];$/;"	m	struct:__anon5
+emaile	server/userinfo.h	/^	char emaile[EMAILE_LEN + 1];$/;"	m	struct:__anon8
+end	client/friendlist.h	/^	Friend *end;$/;"	m	struct:__anon1
+end	clientgui/clientgui/friendlist.h	/^	Friend *end;$/;"	m	struct:__anon4
+end	clientgui/clientgui/talklist.h	/^		talk *end;$/;"	m	class:TalkList
+end	server/clientlist.h	/^	SClientSocket *end;$/;"	m	class:ClientList
+end	server/friendlist.h	/^	Friend *end;$/;"	m	struct:__anon7
+end	server/socket.h	/^	SClientSocket *end;$/;"	m	class:ClientList
+end	server/unsendmessage.h	/^	UnsendMessage *end;$/;"	m	struct:__anon10
+exists	server/file.cpp	/^bool File::exists(const char *path)$/;"	f	class:File
+exit	server/multithread.cpp	/^void MultiThread::exit()$/;"	f	class:MultiThread
+exit	server/thread.cpp	/^void Thread::exit()$/;"	f	class:Thread
+fd	server/clientsocket.h	/^	int fd;$/;"	m	class:ClientSocket
+fd	server/file.h	/^	int fd;$/;"	m	class:File
+fd	server/serversocket.h	/^	int fd;$/;"	m	class:ServerSocket
+fd	server/socket.h	/^	int fd;$/;"	m	class:ClientSocket
+fd	server/socket.h	/^	int fd;$/;"	m	class:ServerSocket
+fls	client/cclientsocket.c	/^FriendList *fls;$/;"	v
+fls	clientgui/clientgui/usermainwindow.h	/^	FriendList *fls;$/;"	m	class:UserMainWindow
+fls	server/sclientsocket.h	/^	FriendList *fls;$/;"	m	class:SClientSocket
+formLayout	clientgui/clientgui-build-desktop/ui_applyid.h	/^    QFormLayout *formLayout;$/;"	m	class:Ui_ApplyId
+formLayout	clientgui/clientgui-build-desktop/ui_mainwindow.h	/^    QFormLayout *formLayout;$/;"	m	class:Ui_MainWindow
+formLayout	clientgui/clientgui-build-desktop/ui_modifyuserinfo.h	/^    QFormLayout *formLayout;$/;"	m	class:Ui_ModifyUserinfo
+formLayout_2	clientgui/clientgui-build-desktop/ui_applyid.h	/^    QFormLayout *formLayout_2;$/;"	m	class:Ui_ApplyId
+formLayout_2	clientgui/clientgui-build-desktop/ui_modifyuserinfo.h	/^    QFormLayout *formLayout_2;$/;"	m	class:Ui_ModifyUserinfo
+formLayout_3	clientgui/clientgui-build-desktop/ui_applyid.h	/^    QFormLayout *formLayout_3;$/;"	m	class:Ui_ApplyId
+formLayout_3	clientgui/clientgui-build-desktop/ui_modifyuserinfo.h	/^    QFormLayout *formLayout_3;$/;"	m	class:Ui_ModifyUserinfo
+friend_userno	clientgui/clientgui/talk.h	/^	char friend_userno[7];$/;"	m	class:talk
+friendlist_add	client/cfriendlist.c	/^int friendlist_add(FriendList *flt, Friend *fr)$/;"	f
+friendlist_add	clientgui/clientgui/friendlist.cpp	/^int friendlist_add(FriendList *flt, Friend *fr)$/;"	f
+friendlist_add	server/friendlist.c	/^int friendlist_add(FriendList *flt, Friend *fr)$/;"	f
+friendlist_exit	client/cfriendlist.c	/^void friendlist_exit(FriendList *flt)$/;"	f
+friendlist_exit	clientgui/clientgui/friendlist.cpp	/^void friendlist_exit(FriendList *flt)$/;"	f
+friendlist_exit	server/friendlist.c	/^void friendlist_exit(FriendList *flt)$/;"	f
+friendlist_init	client/cfriendlist.c	/^FriendList* friendlist_init()$/;"	f
+friendlist_init	clientgui/clientgui/friendlist.cpp	/^FriendList* friendlist_init()$/;"	f
+friendlist_init	server/friendlist.c	/^FriendList* friendlist_init()$/;"	f
+friendlist_search	clientgui/clientgui/friendlist.cpp	/^Friend *friendlist_search(FriendList *flt, char *userno)$/;"	f
+friendlsit_del	client/cfriendlist.c	/^int friendlsit_del(FriendList *flt, char *userno)$/;"	f
+friendlsit_del	clientgui/clientgui/friendlist.cpp	/^int friendlsit_del(FriendList *flt, char *userno)$/;"	f
+friendlsit_del	server/friendlist.c	/^int friendlsit_del(FriendList *flt, char *userno)$/;"	f
+g_c_client_socket_fd	client/cclientsocket.c	/^int g_c_client_socket_fd;$/;"	v
+getAddr	server/clientsocket.cpp	/^char* ClientSocket::getAddr()$/;"	f	class:ClientSocket
+getChar	server/file.cpp	/^char File::getChar()$/;"	f	class:File
+getCharP	server/file.cpp	/^char *File::getCharP(char *p)$/;"	f	class:File
+getCuruser	server/clientlist.cpp	/^int ClientList::getCuruser()$/;"	f	class:ClientList
+getCuruser	server/serversocket.cpp	/^int ServerSocket::getCuruser()$/;"	f	class:ServerSocket
+getFd	server/clientsocket.cpp	/^int ClientSocket::getFd()$/;"	f	class:ClientSocket
+getFd	server/file.cpp	/^int File::getFd()$/;"	f	class:File
+getHostId	server/multithread.cpp	/^pthread_t MultiThread::getHostId()$/;"	f	class:MultiThread
+getInt	server/file.cpp	/^int File::getInt()$/;"	f	class:File
+getMaxuser	server/serversocket.cpp	/^int ServerSocket::getMaxuser()$/;"	f	class:ServerSocket
+getNetId	server/multithread.cpp	/^pthread_t MultiThread::getNetId()$/;"	f	class:MultiThread
+getNext	server/sclientsocket.cpp	/^SClientSocket* SClientSocket::getNext()$/;"	f	class:SClientSocket
+getPort	server/clientsocket.cpp	/^int ClientSocket::getPort()$/;"	f	class:ClientSocket
+getPort	server/serversocket.cpp	/^int ServerSocket::getPort()$/;"	f	class:ServerSocket
+getPthread	server/multithread.cpp	/^pthread_t MultiThread::getPthread()$/;"	f	class:MultiThread
+getPthread	server/thread.cpp	/^pthread_t Thread::getPthread()$/;"	f	class:Thread
+getSaddr	server/serversocket.cpp	/^char * ServerSocket::getSaddr()$/;"	f	class:ServerSocket
+getStaticMetaObject	clientgui/clientgui-build-desktop/moc_addfriend.cpp	/^const QMetaObject &AddFriend::getStaticMetaObject() { return staticMetaObject; }$/;"	f	class:AddFriend
+getStaticMetaObject	clientgui/clientgui-build-desktop/moc_addfriendreply.cpp	/^const QMetaObject &AddFriendReply::getStaticMetaObject() { return staticMetaObject; }$/;"	f	class:AddFriendReply
+getStaticMetaObject	clientgui/clientgui-build-desktop/moc_applyid.cpp	/^const QMetaObject &ApplyId::getStaticMetaObject() { return staticMetaObject; }$/;"	f	class:ApplyId
+getStaticMetaObject	clientgui/clientgui-build-desktop/moc_mainwindow.cpp	/^const QMetaObject &MainWindow::getStaticMetaObject() { return staticMetaObject; }$/;"	f	class:MainWindow
+getStaticMetaObject	clientgui/clientgui-build-desktop/moc_modifyuserinfo.cpp	/^const QMetaObject &ModifyUserinfo::getStaticMetaObject() { return staticMetaObject; }$/;"	f	class:ModifyUserinfo
+getStaticMetaObject	clientgui/clientgui-build-desktop/moc_serverinfo.cpp	/^const QMetaObject &ServerInfo::getStaticMetaObject() { return staticMetaObject; }$/;"	f	class:ServerInfo
+getStaticMetaObject	clientgui/clientgui-build-desktop/moc_talk.cpp	/^const QMetaObject &talk::getStaticMetaObject() { return staticMetaObject; }$/;"	f	class:talk
+getStaticMetaObject	clientgui/clientgui-build-desktop/moc_usermainwindow.cpp	/^const QMetaObject &UserMainWindow::getStaticMetaObject() { return staticMetaObject; }$/;"	f	class:UserMainWindow
+getlen	server/mystring.cpp	/^int String::getlen(void)\/\/ÇóstringµÄ³¤¶È$/;"	f	class:String
+gotoView	clientgui/clientgui-build-desktop/moc_mainwindow.cpp	/^void MainWindow::gotoView(int _t1)$/;"	f	class:MainWindow
+gotoViewSlots	clientgui/clientgui/mainwindow.cpp	/^void MainWindow::gotoViewSlots(int op)$/;"	f	class:MainWindow
+head	client/friendlist.h	/^	Friend *head;$/;"	m	struct:__anon1
+head	clientgui/clientgui/friendlist.h	/^	Friend *head;$/;"	m	struct:__anon4
+head	clientgui/clientgui/talklist.h	/^		talk *head;$/;"	m	class:TalkList
+head	server/clientlist.h	/^	SClientSocket *head;$/;"	m	class:ClientList
+head	server/friendlist.h	/^	Friend *head;$/;"	m	struct:__anon7
+head	server/socket.h	/^	SClientSocket *head;$/;"	m	class:ClientList
+head	server/unsendmessage.h	/^	UnsendMessage *head;$/;"	m	struct:__anon10
+hpid	server/multithread.h	/^	pthread_t npid, hpid;$/;"	m	class:MultiThread
+hpid	server/socket.h	/^	pthread_t npid, hpid;$/;"	m	class:MultiThread
+info	server/socket.h	/^	char info[BUFLEN];$/;"	m	class:Message
+info_length	client/message.h	/^	int info_length;$/;"	m	struct:__anon3
+info_length	clientgui/clientgui/message.h	/^	int info_length;$/;"	m	struct:__anon6
+info_length	server/message.h	/^	int info_length;$/;"	m	struct:__anon9
+intocharp	server/mystring.cpp	/^char* intocharp(int idat,char *str)$/;"	f
+ip	clientgui/clientgui/mainwindow.h	/^    char *ip;\/\/server ip$/;"	m	class:MainWindow
+ipbytearray	clientgui/clientgui/serverinfo.h	/^    QByteArray ipbytearray;$/;"	m	class:ServerInfo
+isClientExit	server/sclientsocket.cpp	/^void SClientSocket::isClientExit(Message *ms)$/;"	f	class:SClientSocket
+isHasNext	server/sclientsocket.cpp	/^bool SClientSocket::isHasNext()$/;"	f	class:SClientSocket
+isHaveEnd	server/file.cpp	/^bool isHaveEnd(char *p, int num)$/;"	f
+isRun	server/sclientsocket.h	/^	bool isRun;$/;"	m	class:SClientSocket
+isRuning	server/sclientsocket.cpp	/^bool SClientSocket::isRuning()$/;"	f	class:SClientSocket
+is_run_local	client/cclientsocket.c	/^static int is_run_local;$/;"	v	file:
+is_run_net	client/cclientsocket.c	/^static int is_run_net;$/;"	v	file:
+is_run_net	clientgui/clientgui/usermainwindow.h	/^	int is_run_net;$/;"	m	class:UserMainWindow
+itemA	clientgui/clientgui/usermainwindow.h	/^    QTreeWidgetItem *itemA;$/;"	m	class:UserMainWindow
+itemB	clientgui/clientgui/usermainwindow.h	/^    QTreeWidgetItem *itemB;$/;"	m	class:UserMainWindow
+itemC	clientgui/clientgui/usermainwindow.h	/^    QTreeWidgetItem *itemC;$/;"	m	class:UserMainWindow
+join	server/thread.cpp	/^void Thread::join()$/;"	f	class:Thread
+joinHost	server/multithread.cpp	/^void MultiThread::joinHost()$/;"	f	class:MultiThread
+joinNet	server/multithread.cpp	/^void MultiThread::joinNet()$/;"	f	class:MultiThread
+l_pid	client/cclientsocket.c	/^pthread_t	n_pid, l_pid;$/;"	v
+label	clientgui/clientgui-build-desktop/ui_addfriend.h	/^    QLabel *label;$/;"	m	class:Ui_AddFriend
+label	clientgui/clientgui-build-desktop/ui_addfriendreply.h	/^    QLabel *label;$/;"	m	class:Ui_AddFriendReply
+label	clientgui/clientgui-build-desktop/ui_applyid.h	/^    QLabel *label;$/;"	m	class:Ui_ApplyId
+label	clientgui/clientgui-build-desktop/ui_modifyuserinfo.h	/^    QLabel *label;$/;"	m	class:Ui_ModifyUserinfo
+label	clientgui/clientgui-build-desktop/ui_serverinfo.h	/^    QLabel *label;$/;"	m	class:Ui_ServerInfo
+labelUserno	clientgui/clientgui-build-desktop/ui_modifyuserinfo.h	/^    QLabel *labelUserno;$/;"	m	class:Ui_ModifyUserinfo
+label_2	clientgui/clientgui-build-desktop/ui_addfriend.h	/^    QLabel *label_2;$/;"	m	class:Ui_AddFriend
+label_2	clientgui/clientgui-build-desktop/ui_applyid.h	/^    QLabel *label_2;$/;"	m	class:Ui_ApplyId
+label_2	clientgui/clientgui-build-desktop/ui_modifyuserinfo.h	/^    QLabel *label_2;$/;"	m	class:Ui_ModifyUserinfo
+label_2	clientgui/clientgui-build-desktop/ui_serverinfo.h	/^    QLabel *label_2;$/;"	m	class:Ui_ServerInfo
+label_3	clientgui/clientgui-build-desktop/ui_addfriend.h	/^    QLabel *label_3;$/;"	m	class:Ui_AddFriend
+label_3	clientgui/clientgui-build-desktop/ui_applyid.h	/^    QLabel *label_3;$/;"	m	class:Ui_ApplyId
+label_3	clientgui/clientgui-build-desktop/ui_serverinfo.h	/^    QLabel *label_3;$/;"	m	class:Ui_ServerInfo
+label_4	clientgui/clientgui-build-desktop/ui_applyid.h	/^    QLabel *label_4;$/;"	m	class:Ui_ApplyId
+label_4	clientgui/clientgui-build-desktop/ui_modifyuserinfo.h	/^    QLabel *label_4;$/;"	m	class:Ui_ModifyUserinfo
+label_5	clientgui/clientgui-build-desktop/ui_applyid.h	/^    QLabel *label_5;$/;"	m	class:Ui_ApplyId
+label_5	clientgui/clientgui-build-desktop/ui_modifyuserinfo.h	/^    QLabel *label_5;$/;"	m	class:Ui_ModifyUserinfo
+label_6	clientgui/clientgui-build-desktop/ui_applyid.h	/^    QLabel *label_6;$/;"	m	class:Ui_ApplyId
+label_6	clientgui/clientgui-build-desktop/ui_modifyuserinfo.h	/^    QLabel *label_6;$/;"	m	class:Ui_ModifyUserinfo
+label_7	clientgui/clientgui-build-desktop/ui_applyid.h	/^    QLabel *label_7;$/;"	m	class:Ui_ApplyId
+label_7	clientgui/clientgui-build-desktop/ui_modifyuserinfo.h	/^    QLabel *label_7;$/;"	m	class:Ui_ModifyUserinfo
+label_8	clientgui/clientgui-build-desktop/ui_applyid.h	/^    QLabel *label_8;$/;"	m	class:Ui_ApplyId
+label_8	clientgui/clientgui-build-desktop/ui_modifyuserinfo.h	/^    QLabel *label_8;$/;"	m	class:Ui_ModifyUserinfo
+label_9	clientgui/clientgui-build-desktop/ui_modifyuserinfo.h	/^    QLabel *label_9;$/;"	m	class:Ui_ModifyUserinfo
+layoutWidget	clientgui/clientgui-build-desktop/ui_applyid.h	/^    QWidget *layoutWidget;$/;"	m	class:Ui_ApplyId
+layoutWidget	clientgui/clientgui-build-desktop/ui_mainwindow.h	/^    QWidget *layoutWidget;$/;"	m	class:Ui_MainWindow
+layoutWidget	clientgui/clientgui-build-desktop/ui_modifyuserinfo.h	/^    QWidget *layoutWidget;$/;"	m	class:Ui_ModifyUserinfo
+layoutWidget1	clientgui/clientgui-build-desktop/ui_applyid.h	/^    QWidget *layoutWidget1;$/;"	m	class:Ui_ApplyId
+layoutWidget1	clientgui/clientgui-build-desktop/ui_modifyuserinfo.h	/^    QWidget *layoutWidget1;$/;"	m	class:Ui_ModifyUserinfo
+layoutWidget2	clientgui/clientgui-build-desktop/ui_applyid.h	/^    QWidget *layoutWidget2;$/;"	m	class:Ui_ApplyId
+layoutWidget2	clientgui/clientgui-build-desktop/ui_modifyuserinfo.h	/^    QWidget *layoutWidget2;$/;"	m	class:Ui_ModifyUserinfo
+length	server/socket.h	/^	int length;$/;"	m	class:Message
+lineEdit	clientgui/clientgui-build-desktop/ui_addfriendreply.h	/^    QLineEdit *lineEdit;$/;"	m	class:Ui_AddFriendReply
+lineEditEmaile	clientgui/clientgui-build-desktop/ui_applyid.h	/^    QLineEdit *lineEditEmaile;$/;"	m	class:Ui_ApplyId
+lineEditEmaile	clientgui/clientgui-build-desktop/ui_modifyuserinfo.h	/^    QLineEdit *lineEditEmaile;$/;"	m	class:Ui_ModifyUserinfo
+lineEditIp	clientgui/clientgui-build-desktop/ui_serverinfo.h	/^    QLineEdit *lineEditIp;$/;"	m	class:Ui_ServerInfo
+lineEditName	clientgui/clientgui-build-desktop/ui_applyid.h	/^    QLineEdit *lineEditName;$/;"	m	class:Ui_ApplyId
+lineEditName	clientgui/clientgui-build-desktop/ui_modifyuserinfo.h	/^    QLineEdit *lineEditName;$/;"	m	class:Ui_ModifyUserinfo
+lineEditNickname	clientgui/clientgui-build-desktop/ui_addfriend.h	/^    QLineEdit *lineEditNickname;$/;"	m	class:Ui_AddFriend
+lineEditPasswd	clientgui/clientgui-build-desktop/ui_applyid.h	/^    QLineEdit *lineEditPasswd;$/;"	m	class:Ui_ApplyId
+lineEditPasswd	clientgui/clientgui-build-desktop/ui_mainwindow.h	/^    QLineEdit *lineEditPasswd;$/;"	m	class:Ui_MainWindow
+lineEditPasswd	clientgui/clientgui-build-desktop/ui_modifyuserinfo.h	/^    QLineEdit *lineEditPasswd;$/;"	m	class:Ui_ModifyUserinfo
+lineEditPasswd2	clientgui/clientgui-build-desktop/ui_applyid.h	/^    QLineEdit *lineEditPasswd2;$/;"	m	class:Ui_ApplyId
+lineEditPasswd2	clientgui/clientgui-build-desktop/ui_modifyuserinfo.h	/^    QLineEdit *lineEditPasswd2;$/;"	m	class:Ui_ModifyUserinfo
+lineEditPort	clientgui/clientgui-build-desktop/ui_serverinfo.h	/^    QLineEdit *lineEditPort;$/;"	m	class:Ui_ServerInfo
+lineEditUsername	clientgui/clientgui-build-desktop/ui_applyid.h	/^    QLineEdit *lineEditUsername;$/;"	m	class:Ui_ApplyId
+lineEditUsername	clientgui/clientgui-build-desktop/ui_modifyuserinfo.h	/^    QLineEdit *lineEditUsername;$/;"	m	class:Ui_ModifyUserinfo
+lineEditUserno	clientgui/clientgui-build-desktop/ui_addfriend.h	/^    QLineEdit *lineEditUserno;$/;"	m	class:Ui_AddFriend
+lineEditUserno	clientgui/clientgui-build-desktop/ui_mainwindow.h	/^    QLineEdit *lineEditUserno;$/;"	m	class:Ui_MainWindow
+listWidget	clientgui/clientgui-build-desktop/ui_talk.h	/^    QListWidget *listWidget;$/;"	m	class:Ui_talk
+login	clientgui/clientgui-build-desktop/ui_mainwindow.h	/^    QPushButton *login;$/;"	m	class:Ui_MainWindow
+login	clientgui/clientgui/mainwindow.cpp	/^int MainWindow::login()$/;"	f	class:MainWindow
+login	server/sclientsocket.cpp	/^int SClientSocket::login()$/;"	f	class:SClientSocket
+loginFlag	client/cclientsocket.c	/^static int loginFlag = -1;$/;"	v	file:
+loginFlag	server/socket.h	/^	int loginFlag;$/;"	m	class:CClientSocket
+login_status	client/cclientsocket.c	/^static int login_status = 0;$/;"	v	file:
+m_data	server/mystring.h	/^	char *m_data;$/;"	m	class:String
+main	client/c.c	/^int main(int argc ,char *argv[])$/;"	f
+main	clientgui/clientgui/main.cpp	/^int main(int argc, char *argv[])$/;"	f
+main	server/s.cpp	/^int main(void)$/;"	f
+mainToolBar	clientgui/clientgui-build-desktop/ui_mainwindow.h	/^    QToolBar *mainToolBar;$/;"	m	class:Ui_MainWindow
+manageUserinfo	server/serversocket.cpp	/^void ServerSocket::manageUserinfo()$/;"	f	class:ServerSocket
+match	server/file.cpp	/^bool File::match(const char *path, char *passwd)$/;"	f	class:File
+maxuser	server/clientlist.h	/^	int maxuser;$/;"	m	class:ClientList
+maxuser	server/serversocket.h	/^	int maxuser;$/;"	m	class:ServerSocket
+maxuser	server/socket.h	/^	int maxuser;$/;"	m	class:ClientList
+maxuser	server/socket.h	/^	int maxuser;$/;"	m	class:ServerSocket
+menu	clientgui/clientgui-build-desktop/ui_mainwindow.h	/^    QMenu *menu;$/;"	m	class:Ui_MainWindow
+menuBar	clientgui/clientgui-build-desktop/ui_mainwindow.h	/^    QMenuBar *menuBar;$/;"	m	class:Ui_MainWindow
+menuMenu	clientgui/clientgui-build-desktop/ui_usermainwindow.h	/^    QMenu *menuMenu;$/;"	m	class:Ui_UserMainWindow
+menubar	clientgui/clientgui-build-desktop/ui_usermainwindow.h	/^    QMenuBar *menubar;$/;"	m	class:Ui_UserMainWindow
+metaObject	clientgui/clientgui-build-desktop/moc_addfriend.cpp	/^const QMetaObject *AddFriend::metaObject() const$/;"	f	class:AddFriend
+metaObject	clientgui/clientgui-build-desktop/moc_addfriendreply.cpp	/^const QMetaObject *AddFriendReply::metaObject() const$/;"	f	class:AddFriendReply
+metaObject	clientgui/clientgui-build-desktop/moc_applyid.cpp	/^const QMetaObject *ApplyId::metaObject() const$/;"	f	class:ApplyId
+metaObject	clientgui/clientgui-build-desktop/moc_mainwindow.cpp	/^const QMetaObject *MainWindow::metaObject() const$/;"	f	class:MainWindow
+metaObject	clientgui/clientgui-build-desktop/moc_modifyuserinfo.cpp	/^const QMetaObject *ModifyUserinfo::metaObject() const$/;"	f	class:ModifyUserinfo
+metaObject	clientgui/clientgui-build-desktop/moc_serverinfo.cpp	/^const QMetaObject *ServerInfo::metaObject() const$/;"	f	class:ServerInfo
+metaObject	clientgui/clientgui-build-desktop/moc_talk.cpp	/^const QMetaObject *talk::metaObject() const$/;"	f	class:talk
+metaObject	clientgui/clientgui-build-desktop/moc_usermainwindow.cpp	/^const QMetaObject *UserMainWindow::metaObject() const$/;"	f	class:UserMainWindow
+modify	server/sclientsocket.cpp	/^void SClientSocket::modify()$/;"	f	class:SClientSocket
+modify_userno	clientgui/clientgui/modifyuserinfo.h	/^    char modify_userno[7];$/;"	m	class:ModifyUserinfo
+modifyuserinfo	clientgui/clientgui/usermainwindow.h	/^	ModifyUserinfo *modifyuserinfo;$/;"	m	class:UserMainWindow
+ms	server/unsendmessage.h	/^	Message *ms;$/;"	m	struct:UnsendMessage
+ms_exit	client/cmessage.c	/^void ms_exit(Message *ms)$/;"	f
+ms_exit	clientgui/clientgui/message.cpp	/^void ms_exit(Message *ms)$/;"	f
+ms_exit	server/message.c	/^void ms_exit(Message *ms)$/;"	f
+ms_get_cmd	client/cmessage.c	/^char *ms_get_cmd(Message *ms)$/;"	f
+ms_get_cmd	clientgui/clientgui/message.cpp	/^char *ms_get_cmd(Message *ms)$/;"	f
+ms_get_cmd	server/message.c	/^char *ms_get_cmd(Message *ms)$/;"	f
+ms_get_dest	client/cmessage.c	/^char *ms_get_dest(Message *ms)$/;"	f
+ms_get_dest	clientgui/clientgui/message.cpp	/^char *ms_get_dest(Message *ms)$/;"	f
+ms_get_dest	server/message.c	/^char *ms_get_dest(Message *ms)$/;"	f
+ms_get_info	client/cmessage.c	/^char *ms_get_info(Message *ms)$/;"	f
+ms_get_info	clientgui/clientgui/message.cpp	/^char *ms_get_info(Message *ms)$/;"	f
+ms_get_info	server/message.c	/^char *ms_get_info(Message *ms)$/;"	f
+ms_get_info_length	client/cmessage.c	/^int ms_get_info_length(Message *ms)$/;"	f
+ms_get_info_length	clientgui/clientgui/message.cpp	/^int ms_get_info_length(Message *ms)$/;"	f
+ms_get_info_length	server/message.c	/^int ms_get_info_length(Message *ms)$/;"	f
+ms_get_src	client/cmessage.c	/^char *ms_get_src(Message *ms)$/;"	f
+ms_get_src	clientgui/clientgui/message.cpp	/^char *ms_get_src(Message *ms)$/;"	f
+ms_get_src	server/message.c	/^char *ms_get_src(Message *ms)$/;"	f
+ms_init	client/cmessage.c	/^Message* ms_init(char *dest, char *src, char *info)$/;"	f
+ms_init	clientgui/clientgui/message.cpp	/^Message* ms_init(char *dest, char *src, char *info)$/;"	f
+ms_init	server/message.c	/^Message* ms_init(char *dest, char *src, char *info)$/;"	f
+ms_is_ms_exit	clientgui/clientgui/message.cpp	/^int ms_is_ms_exit(Message *ms)$/;"	f
+ms_recv_message	client/cmessage.c	/^int ms_recv_message(int fd, Message *rms)$/;"	f
+ms_recv_message	clientgui/clientgui/message.cpp	/^int ms_recv_message(int fd, Message *rms)$/;"	f
+ms_recv_message	server/message.c	/^int ms_recv_message(int fd, Message *rms)$/;"	f
+ms_send_message	client/cmessage.c	/^int ms_send_message(int fd, Message *wms)$/;"	f
+ms_send_message	clientgui/clientgui/message.cpp	/^int ms_send_message(int fd, Message *wms)$/;"	f
+ms_send_message	server/message.c	/^int ms_send_message(int fd, Message *wms)$/;"	f
+ms_send_message_to_server	clientgui/clientgui/message.cpp	/^int ms_send_message_to_server(int socket_fd, char *ms)$/;"	f
+mw	clientgui/clientgui/applyid.h	/^    MainWindow *mw;$/;"	m	class:ApplyId
+mw	clientgui/clientgui/serverinfo.h	/^    MainWindow  *mw;$/;"	m	class:ServerInfo
+mw	clientgui/clientgui/usermainwindow.h	/^	MainWindow *mw;$/;"	m	class:UserMainWindow
+mystrcat	server/mystring.cpp	/^char * mystrcat(char *dest,const char *src)\/\/Á¬½Ó×Ö·û´®$/;"	f
+mystrcmp	server/mystring.cpp	/^int mystrcmp(const char *str1,const char *str2)$/;"	f
+mystrcpy	server/mystring.cpp	/^char * mystrcpy(char *dest,const char *src)\/\/¸´ÖÆ×Ö·û´®$/;"	f
+mystrlen	server/mystring.cpp	/^int mystrlen(const char *str)\/\/Çó×Ö·û´®³¤¶È$/;"	f
+n_pid	client/cclientsocket.c	/^pthread_t	n_pid, l_pid;$/;"	v
+name	client/userinfo.h	/^	char name[USERNAME_LEN + 1];$/;"	m	struct:__anon2
+name	clientgui/clientgui/userinfo.h	/^	char name[USERNAME_LEN + 1];$/;"	m	struct:__anon5
+name	server/userinfo.h	/^	char name[USERNAME_LEN + 1];$/;"	m	struct:__anon8
+next	client/friendlist.h	/^	struct Friend *next;$/;"	m	struct:Friend	typeref:struct:Friend::Friend
+next	clientgui/clientgui/friendlist.h	/^	struct Friend *next;$/;"	m	struct:Friend	typeref:struct:Friend::Friend
+next	clientgui/clientgui/talk.h	/^	talk *next;$/;"	m	class:talk
+next	server/friendlist.h	/^	struct Friend *next;$/;"	m	struct:Friend	typeref:struct:Friend::Friend
+next	server/sclientsocket.h	/^	SClientSocket *next;$/;"	m	class:SClientSocket
+next	server/socket.h	/^	SClientSocket *next;$/;"	m	class:SClientSocket
+next	server/unsendmessage.h	/^	struct UnsendMessage *next;$/;"	m	struct:UnsendMessage	typeref:struct:UnsendMessage::UnsendMessage
+nickname	client/friendlist.h	/^	char nickname[64];$/;"	m	struct:Friend
+nickname	clientgui/clientgui/friendlist.h	/^	char nickname[64];$/;"	m	struct:Friend
+nickname	server/friendlist.h	/^	char nickname[64];$/;"	m	struct:Friend
+npid	clientgui/clientgui/usermainwindow.h	/^	pthread_t npid;$/;"	m	class:UserMainWindow
+npid	server/multithread.h	/^	pthread_t npid, hpid;$/;"	m	class:MultiThread
+npid	server/socket.h	/^	pthread_t npid, hpid;$/;"	m	class:MultiThread
+on_login_clicked	clientgui/clientgui/mainwindow.cpp	/^void MainWindow::on_login_clicked()$/;"	f	class:MainWindow
+on_pushButtonAgree_clicked	clientgui/clientgui/addfriendreply.cpp	/^void AddFriendReply::on_pushButtonAgree_clicked()$/;"	f	class:AddFriendReply
+on_pushButtonCancel_clicked	clientgui/clientgui/addfriend.cpp	/^void AddFriend::on_pushButtonCancel_clicked()$/;"	f	class:AddFriend
+on_pushButtonCancel_clicked	clientgui/clientgui/applyid.cpp	/^void ApplyId::on_pushButtonCancel_clicked()$/;"	f	class:ApplyId
+on_pushButtonCancel_clicked	clientgui/clientgui/serverinfo.cpp	/^void ServerInfo::on_pushButtonCancel_clicked()$/;"	f	class:ServerInfo
+on_pushButtonClose_clicked	clientgui/clientgui/talk.cpp	/^void talk::on_pushButtonClose_clicked()$/;"	f	class:talk
+on_pushButtonCommit_clicked	clientgui/clientgui/applyid.cpp	/^void ApplyId::on_pushButtonCommit_clicked()$/;"	f	class:ApplyId
+on_pushButtonDisagree_clicked	clientgui/clientgui/addfriendreply.cpp	/^void AddFriendReply::on_pushButtonDisagree_clicked()$/;"	f	class:AddFriendReply
+on_pushButtonOK_clicked	clientgui/clientgui/serverinfo.cpp	/^void ServerInfo::on_pushButtonOK_clicked()$/;"	f	class:ServerInfo
+on_pushButtonOk_clicked	clientgui/clientgui/addfriend.cpp	/^void AddFriend::on_pushButtonOk_clicked()$/;"	f	class:AddFriend
+on_pushButtonSend_clicked	clientgui/clientgui/talk.cpp	/^void talk::on_pushButtonSend_clicked()$/;"	f	class:talk
+on_pushButton_2_clicked	clientgui/clientgui/modifyuserinfo.cpp	/^void ModifyUserinfo::on_pushButton_2_clicked()$/;"	f	class:ModifyUserinfo
+on_pushButton_clicked	clientgui/clientgui/modifyuserinfo.cpp	/^void ModifyUserinfo::on_pushButton_clicked()$/;"	f	class:ModifyUserinfo
+on_quit_clicked	clientgui/clientgui/mainwindow.cpp	/^void MainWindow::on_quit_clicked()$/;"	f	class:MainWindow
+on_treeWidget_itemDoubleClicked	clientgui/clientgui/usermainwindow.cpp	/^void UserMainWindow::on_treeWidget_itemDoubleClicked(QTreeWidgetItem *item, int column)$/;"	f	class:UserMainWindow
+operator +	server/mystring.cpp	/^String String::operator+ (const String &rhs)$/;"	f	class:String
+operator <<	server/mystring.cpp	/^ostream& operator<< (ostream &out, const String &rhs)$/;"	f
+operator =	server/mystring.cpp	/^String & String::operator= (const String &rhs)$/;"	f	class:String
+operator ==	server/mystring.cpp	/^bool String::operator== (const String &rhs)$/;"	f	class:String
+passwd	client/userinfo.h	/^	char passwd[PASSWD_MAX_LEN + 1];$/;"	m	struct:__anon2
+passwd	clientgui/clientgui-build-desktop/ui_mainwindow.h	/^    QLabel *passwd;$/;"	m	class:Ui_MainWindow
+passwd	clientgui/clientgui/userinfo.h	/^	char passwd[PASSWD_MAX_LEN + 1];$/;"	m	struct:__anon5
+passwd	server/userinfo.h	/^	char passwd[PASSWD_MAX_LEN + 1];$/;"	m	struct:__anon8
+pid	server/socket.h	/^	pthread_t pid;$/;"	m	class:Thread
+pid	server/thread.h	/^	pthread_t pid;$/;"	m	class:Thread
+port	clientgui/clientgui/mainwindow.h	/^    unsigned int port;\/\/server port$/;"	m	class:MainWindow
+port	server/clientsocket.h	/^	int port;$/;"	m	class:ClientSocket
+port	server/serversocket.h	/^	int port;$/;"	m	class:ServerSocket
+port	server/socket.h	/^	int port;$/;"	m	class:ClientSocket
+port	server/socket.h	/^	int port;$/;"	m	class:ServerSocket
+printClientInfo	server/serversocket.cpp	/^void ServerSocket::printClientInfo()$/;"	f	class:ServerSocket
+printServerInfo	server/serversocket.cpp	/^void ServerSocket::printServerInfo()$/;"	f	class:ServerSocket
+produceUserno	server/sclientsocket.cpp	/^void SClientSocket::produceUserno(char *buf)$/;"	f	class:SClientSocket
+pushButton	clientgui/clientgui-build-desktop/ui_modifyuserinfo.h	/^    QPushButton *pushButton;$/;"	m	class:Ui_ModifyUserinfo
+pushButtonAgree	clientgui/clientgui-build-desktop/ui_addfriendreply.h	/^    QPushButton *pushButtonAgree;$/;"	m	class:Ui_AddFriendReply
+pushButtonCancel	clientgui/clientgui-build-desktop/ui_addfriend.h	/^    QPushButton *pushButtonCancel;$/;"	m	class:Ui_AddFriend
+pushButtonCancel	clientgui/clientgui-build-desktop/ui_applyid.h	/^    QPushButton *pushButtonCancel;$/;"	m	class:Ui_ApplyId
+pushButtonCancel	clientgui/clientgui-build-desktop/ui_serverinfo.h	/^    QPushButton *pushButtonCancel;$/;"	m	class:Ui_ServerInfo
+pushButtonClose	clientgui/clientgui-build-desktop/ui_talk.h	/^    QPushButton *pushButtonClose;$/;"	m	class:Ui_talk
+pushButtonCommit	clientgui/clientgui-build-desktop/ui_applyid.h	/^    QPushButton *pushButtonCommit;$/;"	m	class:Ui_ApplyId
+pushButtonDisagree	clientgui/clientgui-build-desktop/ui_addfriendreply.h	/^    QPushButton *pushButtonDisagree;$/;"	m	class:Ui_AddFriendReply
+pushButtonOK	clientgui/clientgui-build-desktop/ui_serverinfo.h	/^    QPushButton *pushButtonOK;$/;"	m	class:Ui_ServerInfo
+pushButtonOk	clientgui/clientgui-build-desktop/ui_addfriend.h	/^    QPushButton *pushButtonOk;$/;"	m	class:Ui_AddFriend
+pushButtonSend	clientgui/clientgui-build-desktop/ui_talk.h	/^    QPushButton *pushButtonSend;$/;"	m	class:Ui_talk
+pushButton_2	clientgui/clientgui-build-desktop/ui_modifyuserinfo.h	/^    QPushButton *pushButton_2;$/;"	m	class:Ui_ModifyUserinfo
+putChar	server/file.cpp	/^bool File::putChar(char c)$/;"	f	class:File
+putCharP	server/file.cpp	/^bool File::putCharP(const char *p)$/;"	f	class:File
+putInt	server/file.cpp	/^bool File::putInt(int a)$/;"	f	class:File
+qt_meta_data_AddFriend	clientgui/clientgui-build-desktop/moc_addfriend.cpp	/^static const uint qt_meta_data_AddFriend[] = {$/;"	v	file:
+qt_meta_data_AddFriendReply	clientgui/clientgui-build-desktop/moc_addfriendreply.cpp	/^static const uint qt_meta_data_AddFriendReply[] = {$/;"	v	file:
+qt_meta_data_ApplyId	clientgui/clientgui-build-desktop/moc_applyid.cpp	/^static const uint qt_meta_data_ApplyId[] = {$/;"	v	file:
+qt_meta_data_MainWindow	clientgui/clientgui-build-desktop/moc_mainwindow.cpp	/^static const uint qt_meta_data_MainWindow[] = {$/;"	v	file:
+qt_meta_data_ModifyUserinfo	clientgui/clientgui-build-desktop/moc_modifyuserinfo.cpp	/^static const uint qt_meta_data_ModifyUserinfo[] = {$/;"	v	file:
+qt_meta_data_ServerInfo	clientgui/clientgui-build-desktop/moc_serverinfo.cpp	/^static const uint qt_meta_data_ServerInfo[] = {$/;"	v	file:
+qt_meta_data_UserMainWindow	clientgui/clientgui-build-desktop/moc_usermainwindow.cpp	/^static const uint qt_meta_data_UserMainWindow[] = {$/;"	v	file:
+qt_meta_data_talk	clientgui/clientgui-build-desktop/moc_talk.cpp	/^static const uint qt_meta_data_talk[] = {$/;"	v	file:
+qt_meta_stringdata_AddFriend	clientgui/clientgui-build-desktop/moc_addfriend.cpp	/^static const char qt_meta_stringdata_AddFriend[] = {$/;"	v	file:
+qt_meta_stringdata_AddFriendReply	clientgui/clientgui-build-desktop/moc_addfriendreply.cpp	/^static const char qt_meta_stringdata_AddFriendReply[] = {$/;"	v	file:
+qt_meta_stringdata_ApplyId	clientgui/clientgui-build-desktop/moc_applyid.cpp	/^static const char qt_meta_stringdata_ApplyId[] = {$/;"	v	file:
+qt_meta_stringdata_MainWindow	clientgui/clientgui-build-desktop/moc_mainwindow.cpp	/^static const char qt_meta_stringdata_MainWindow[] = {$/;"	v	file:
+qt_meta_stringdata_ModifyUserinfo	clientgui/clientgui-build-desktop/moc_modifyuserinfo.cpp	/^static const char qt_meta_stringdata_ModifyUserinfo[] = {$/;"	v	file:
+qt_meta_stringdata_ServerInfo	clientgui/clientgui-build-desktop/moc_serverinfo.cpp	/^static const char qt_meta_stringdata_ServerInfo[] = {$/;"	v	file:
+qt_meta_stringdata_UserMainWindow	clientgui/clientgui-build-desktop/moc_usermainwindow.cpp	/^static const char qt_meta_stringdata_UserMainWindow[] = {$/;"	v	file:
+qt_meta_stringdata_talk	clientgui/clientgui-build-desktop/moc_talk.cpp	/^static const char qt_meta_stringdata_talk[] = {$/;"	v	file:
+qt_metacall	clientgui/clientgui-build-desktop/moc_addfriend.cpp	/^int AddFriend::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:AddFriend
+qt_metacall	clientgui/clientgui-build-desktop/moc_addfriendreply.cpp	/^int AddFriendReply::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:AddFriendReply
+qt_metacall	clientgui/clientgui-build-desktop/moc_applyid.cpp	/^int ApplyId::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:ApplyId
+qt_metacall	clientgui/clientgui-build-desktop/moc_mainwindow.cpp	/^int MainWindow::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:MainWindow
+qt_metacall	clientgui/clientgui-build-desktop/moc_modifyuserinfo.cpp	/^int ModifyUserinfo::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:ModifyUserinfo
+qt_metacall	clientgui/clientgui-build-desktop/moc_serverinfo.cpp	/^int ServerInfo::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:ServerInfo
+qt_metacall	clientgui/clientgui-build-desktop/moc_talk.cpp	/^int talk::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:talk
+qt_metacall	clientgui/clientgui-build-desktop/moc_usermainwindow.cpp	/^int UserMainWindow::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:UserMainWindow
+qt_metacast	clientgui/clientgui-build-desktop/moc_addfriend.cpp	/^void *AddFriend::qt_metacast(const char *_clname)$/;"	f	class:AddFriend
+qt_metacast	clientgui/clientgui-build-desktop/moc_addfriendreply.cpp	/^void *AddFriendReply::qt_metacast(const char *_clname)$/;"	f	class:AddFriendReply
+qt_metacast	clientgui/clientgui-build-desktop/moc_applyid.cpp	/^void *ApplyId::qt_metacast(const char *_clname)$/;"	f	class:ApplyId
+qt_metacast	clientgui/clientgui-build-desktop/moc_mainwindow.cpp	/^void *MainWindow::qt_metacast(const char *_clname)$/;"	f	class:MainWindow
+qt_metacast	clientgui/clientgui-build-desktop/moc_modifyuserinfo.cpp	/^void *ModifyUserinfo::qt_metacast(const char *_clname)$/;"	f	class:ModifyUserinfo
+qt_metacast	clientgui/clientgui-build-desktop/moc_serverinfo.cpp	/^void *ServerInfo::qt_metacast(const char *_clname)$/;"	f	class:ServerInfo
+qt_metacast	clientgui/clientgui-build-desktop/moc_talk.cpp	/^void *talk::qt_metacast(const char *_clname)$/;"	f	class:talk
+qt_metacast	clientgui/clientgui-build-desktop/moc_usermainwindow.cpp	/^void *UserMainWindow::qt_metacast(const char *_clname)$/;"	f	class:UserMainWindow
+quit	clientgui/clientgui-build-desktop/ui_mainwindow.h	/^    QPushButton *quit;$/;"	m	class:Ui_MainWindow
+readBuffer	server/file.cpp	/^int File::readBuffer(char *buf, unsigned int size)$/;"	f	class:File
+readFromFile	server/mystring.cpp	/^String & String::readFromFile(int fd)$/;"	f	class:String
+recvMessage	server/clientsocket.cpp	/^int ClientSocket::recvMessage(Message *rms)$/;"	f	class:ClientSocket
+recvUnrecvMessage	server/sclientsocket.cpp	/^void SClientSocket::recvUnrecvMessage()$/;"	f	class:SClientSocket
+retranslateUi	clientgui/clientgui-build-desktop/ui_addfriend.h	/^    void retranslateUi(QDialog *AddFriend)$/;"	f	class:Ui_AddFriend
+retranslateUi	clientgui/clientgui-build-desktop/ui_addfriendreply.h	/^    void retranslateUi(QDialog *AddFriendReply)$/;"	f	class:Ui_AddFriendReply
+retranslateUi	clientgui/clientgui-build-desktop/ui_applyid.h	/^    void retranslateUi(QDialog *ApplyId)$/;"	f	class:Ui_ApplyId
+retranslateUi	clientgui/clientgui-build-desktop/ui_mainwindow.h	/^    void retranslateUi(QMainWindow *MainWindow)$/;"	f	class:Ui_MainWindow
+retranslateUi	clientgui/clientgui-build-desktop/ui_modifyuserinfo.h	/^    void retranslateUi(QDialog *ModifyUserinfo)$/;"	f	class:Ui_ModifyUserinfo
+retranslateUi	clientgui/clientgui-build-desktop/ui_serverinfo.h	/^    void retranslateUi(QDialog *ServerInfo)$/;"	f	class:Ui_ServerInfo
+retranslateUi	clientgui/clientgui-build-desktop/ui_talk.h	/^    void retranslateUi(QDialog *talk)$/;"	f	class:Ui_talk
+retranslateUi	clientgui/clientgui-build-desktop/ui_usermainwindow.h	/^    void retranslateUi(QMainWindow *UserMainWindow)$/;"	f	class:Ui_UserMainWindow
+run	clientgui/clientgui/usermainwindow.cpp	/^void UserMainWindow::run()$/;"	f	class:UserMainWindow
+run	server/sclientsocket.cpp	/^void SClientSocket::run()$/;"	f	class:SClientSocket
+runFun	clientgui/clientgui/usermainwindow.cpp	/^void *UserMainWindow::runFun(void *arg)$/;"	f	class:UserMainWindow
+runFun	server/thread.cpp	/^void *Thread::runFun(void *arg)$/;"	f	class:Thread
+runHost	server/serversocket.cpp	/^void ServerSocket::runHost()$/;"	f	class:ServerSocket
+runNet	server/serversocket.cpp	/^void ServerSocket::runNet()$/;"	f	class:ServerSocket
+runh	server/multithread.cpp	/^void *MultiThread::runh(void *arg)$/;"	f	class:MultiThread
+runn	server/multithread.cpp	/^void *MultiThread::runn(void *arg)$/;"	f	class:MultiThread
+saddr	server/serversocket.h	/^	char *saddr;$/;"	m	class:ServerSocket
+saddr	server/socket.h	/^	char *saddr;$/;"	m	class:ServerSocket
+saveUserinfoToFile	server/sclientsocket.cpp	/^bool SClientSocket::saveUserinfoToFile()$/;"	f	class:SClientSocket
+searchClient	server/clientlist.cpp	/^SClientSocket* ClientList::searchClient(SClientSocket *nextis)$/;"	f	class:ClientList
+searchClient	server/clientlist.cpp	/^SClientSocket* ClientList::searchClient(char *userno)$/;"	f	class:ClientList
+searchItem	clientgui/clientgui/talklist.cpp	/^talk *TalkList::searchItem(char *username_userno)$/;"	f	class:TalkList
+sendMessage	server/clientsocket.cpp	/^int ClientSocket::sendMessage( Message *wms)$/;"	f	class:ClientSocket
+sendUnsendMessage	server/serversocket.cpp	/^void ServerSocket::sendUnsendMessage(SClientSocket *scs)$/;"	f	class:ServerSocket
+serverClient	server/serversocket.cpp	/^void ServerSocket::serverClient()$/;"	f	class:ServerSocket
+serverinfo	clientgui/clientgui/mainwindow.h	/^    ServerInfo *serverinfo;$/;"	m	class:MainWindow
+setFd	server/clientsocket.cpp	/^void ClientSocket::setFd(int fd)$/;"	f	class:ClientSocket
+setLabelText	clientgui/clientgui/usermainwindow.cpp	/^void UserMainWindow::setLabelText(QString str)$/;"	f	class:UserMainWindow
+setNext	server/sclientsocket.cpp	/^void SClientSocket::setNext(SClientSocket *dest)$/;"	f	class:SClientSocket
+setPthread	server/thread.cpp	/^void Thread::setPthread(pthread_t pid2)$/;"	f	class:Thread
+setServerInfo	clientgui/clientgui/mainwindow.cpp	/^void MainWindow::setServerInfo(char *ip, unsigned int port)$/;"	f	class:MainWindow
+setServerSlots	clientgui/clientgui/mainwindow.cpp	/^void MainWindow::setServerSlots()$/;"	f	class:MainWindow
+setupUi	clientgui/clientgui-build-desktop/ui_addfriend.h	/^    void setupUi(QDialog *AddFriend)$/;"	f	class:Ui_AddFriend
+setupUi	clientgui/clientgui-build-desktop/ui_addfriendreply.h	/^    void setupUi(QDialog *AddFriendReply)$/;"	f	class:Ui_AddFriendReply
+setupUi	clientgui/clientgui-build-desktop/ui_applyid.h	/^    void setupUi(QDialog *ApplyId)$/;"	f	class:Ui_ApplyId
+setupUi	clientgui/clientgui-build-desktop/ui_mainwindow.h	/^    void setupUi(QMainWindow *MainWindow)$/;"	f	class:Ui_MainWindow
+setupUi	clientgui/clientgui-build-desktop/ui_modifyuserinfo.h	/^    void setupUi(QDialog *ModifyUserinfo)$/;"	f	class:Ui_ModifyUserinfo
+setupUi	clientgui/clientgui-build-desktop/ui_serverinfo.h	/^    void setupUi(QDialog *ServerInfo)$/;"	f	class:Ui_ServerInfo
+setupUi	clientgui/clientgui-build-desktop/ui_talk.h	/^    void setupUi(QDialog *talk)$/;"	f	class:Ui_talk
+setupUi	clientgui/clientgui-build-desktop/ui_usermainwindow.h	/^    void setupUi(QMainWindow *UserMainWindow)$/;"	f	class:Ui_UserMainWindow
+sex	client/userinfo.h	/^	char sex[7];$/;"	m	struct:__anon2
+sex	clientgui/clientgui/userinfo.h	/^	char sex[7];$/;"	m	struct:__anon5
+sex	server/userinfo.h	/^	char sex[7];$/;"	m	struct:__anon8
+show	server/sclientsocket.cpp	/^void SClientSocket::show()$/;"	f	class:SClientSocket
+showClient	server/clientlist.cpp	/^void ClientList::showClient()$/;"	f	class:ClientList
+showInfoSignal	clientgui/clientgui-build-desktop/moc_usermainwindow.cpp	/^void UserMainWindow::showInfoSignal(int _t1, QString _t2)$/;"	f	class:UserMainWindow
+showInfoSlots	clientgui/clientgui/usermainwindow.cpp	/^void UserMainWindow::showInfoSlots(int op, QString str)$/;"	f	class:UserMainWindow
+socket_close	clientgui/clientgui/message.cpp	/^int socket_close(int socket_fd)$/;"	f
+socket_connect	clientgui/clientgui/message.cpp	/^int socket_connect(int fd, const struct sockaddr *serv_addr, socklen_t addrlen)$/;"	f
+socket_fd	clientgui/clientgui/addfriend.h	/^    int socket_fd;$/;"	m	class:AddFriend
+socket_fd	clientgui/clientgui/addfriendreply.h	/^	int socket_fd;$/;"	m	class:AddFriendReply
+socket_fd	clientgui/clientgui/applyid.h	/^    int socket_fd;$/;"	m	class:ApplyId
+socket_fd	clientgui/clientgui/mainwindow.h	/^	int socket_fd;$/;"	m	class:MainWindow
+socket_fd	clientgui/clientgui/modifyuserinfo.h	/^    int socket_fd;$/;"	m	class:ModifyUserinfo
+socket_fd	clientgui/clientgui/usermainwindow.h	/^	int socket_fd;$/;"	m	class:UserMainWindow
+socket_init	clientgui/clientgui/message.cpp	/^int socket_init(char *ipaddr, int port)$/;"	f
+src	server/socket.h	/^	char src[USERNO_LEN + 1]; $/;"	m	class:Message
+startThread	server/multithread.cpp	/^void MultiThread::startThread()$/;"	f	class:MultiThread
+startThread	server/thread.cpp	/^int Thread::startThread()$/;"	f	class:Thread
+staticMetaObject	clientgui/clientgui-build-desktop/moc_addfriend.cpp	/^const QMetaObject AddFriend::staticMetaObject = {$/;"	m	class:AddFriend	file:
+staticMetaObject	clientgui/clientgui-build-desktop/moc_addfriendreply.cpp	/^const QMetaObject AddFriendReply::staticMetaObject = {$/;"	m	class:AddFriendReply	file:
+staticMetaObject	clientgui/clientgui-build-desktop/moc_applyid.cpp	/^const QMetaObject ApplyId::staticMetaObject = {$/;"	m	class:ApplyId	file:
+staticMetaObject	clientgui/clientgui-build-desktop/moc_mainwindow.cpp	/^const QMetaObject MainWindow::staticMetaObject = {$/;"	m	class:MainWindow	file:
+staticMetaObject	clientgui/clientgui-build-desktop/moc_modifyuserinfo.cpp	/^const QMetaObject ModifyUserinfo::staticMetaObject = {$/;"	m	class:ModifyUserinfo	file:
+staticMetaObject	clientgui/clientgui-build-desktop/moc_serverinfo.cpp	/^const QMetaObject ServerInfo::staticMetaObject = {$/;"	m	class:ServerInfo	file:
+staticMetaObject	clientgui/clientgui-build-desktop/moc_talk.cpp	/^const QMetaObject talk::staticMetaObject = {$/;"	m	class:talk	file:
+staticMetaObject	clientgui/clientgui-build-desktop/moc_usermainwindow.cpp	/^const QMetaObject UserMainWindow::staticMetaObject = {$/;"	m	class:UserMainWindow	file:
+statusBar	clientgui/clientgui-build-desktop/ui_mainwindow.h	/^    QStatusBar *statusBar;$/;"	m	class:Ui_MainWindow
+statusLabel	clientgui/clientgui-build-desktop/ui_addfriendreply.h	/^    QLabel *statusLabel;$/;"	m	class:Ui_AddFriendReply
+statusLabel	clientgui/clientgui-build-desktop/ui_applyid.h	/^    QLabel *statusLabel;$/;"	m	class:Ui_ApplyId
+statusbar	clientgui/clientgui-build-desktop/ui_usermainwindow.h	/^    QStatusBar *statusbar;$/;"	m	class:Ui_UserMainWindow
+talk	clientgui/clientgui-build-desktop/ui_talk.h	/^    class talk: public Ui_talk {};$/;"	c	namespace:Ui
+talk	clientgui/clientgui/talk.cpp	/^talk::talk(QWidget *parent, char *username_userno, UserMainWindow *umw) :$/;"	f	class:talk
+talk	clientgui/clientgui/talk.h	/^class talk : public QDialog$/;"	c
+talk	server/sclientsocket.cpp	/^void SClientSocket::talk(Message *ms)$/;"	f	class:SClientSocket
+talk	server/serversocket.cpp	/^void ServerSocket::talk(SClientSocket *scs, Message *ms)$/;"	f	class:ServerSocket
+talk	server/socket.h	/^	int talk(){$/;"	f	class:CClientSocket
+talklist	clientgui/clientgui/usermainwindow.h	/^	TalkList *talklist;$/;"	m	class:UserMainWindow
+textEdit	clientgui/clientgui-build-desktop/ui_talk.h	/^    QTextEdit *textEdit;$/;"	m	class:Ui_talk
+toEnd	server/file.cpp	/^int File::toEnd()$/;"	f	class:File
+toStart	server/file.cpp	/^int File::toStart()$/;"	f	class:File
+toWhere	server/file.cpp	/^int File::toWhere(int offset)$/;"	f	class:File
+tocharp	server/mystring.cpp	/^char* String::tocharp(void)$/;"	f	class:String
+treeWidget	clientgui/clientgui-build-desktop/ui_usermainwindow.h	/^    QTreeWidget *treeWidget;$/;"	m	class:Ui_UserMainWindow
+trunc	server/file.cpp	/^int File::trunc()$/;"	f	class:File
+ui	clientgui/clientgui/addfriend.h	/^    Ui::AddFriend *ui;$/;"	m	class:AddFriend
+ui	clientgui/clientgui/addfriendreply.h	/^	Ui::AddFriendReply *ui;$/;"	m	class:AddFriendReply
+ui	clientgui/clientgui/applyid.h	/^    Ui::ApplyId *ui;$/;"	m	class:ApplyId
+ui	clientgui/clientgui/mainwindow.h	/^    Ui::MainWindow *ui;$/;"	m	class:MainWindow
+ui	clientgui/clientgui/modifyuserinfo.h	/^	Ui::ModifyUserinfo *ui;$/;"	m	class:ModifyUserinfo
+ui	clientgui/clientgui/serverinfo.h	/^    Ui::ServerInfo *ui;$/;"	m	class:ServerInfo
+ui	clientgui/clientgui/talk.h	/^	Ui::talk *ui;$/;"	m	class:talk
+ui	clientgui/clientgui/usermainwindow.h	/^	Ui::UserMainWindow *ui;$/;"	m	class:UserMainWindow
+umw	clientgui/clientgui/addfriend.h	/^	UserMainWindow *umw;$/;"	m	class:AddFriend
+umw	clientgui/clientgui/addfriendreply.h	/^	UserMainWindow *umw;$/;"	m	class:AddFriendReply
+umw	clientgui/clientgui/modifyuserinfo.h	/^	UserMainWindow *umw;$/;"	m	class:ModifyUserinfo
+umw	clientgui/clientgui/talk.h	/^	UserMainWindow *umw;$/;"	m	class:talk
+user	client/cclientsocket.c	/^Userinfo *user;$/;"	v
+userStatus	client/cclientsocket.c	/^int userStatus;$/;"	v
+userStatus	server/sclientsocket.h	/^	int userStatus;$/;"	m	class:SClientSocket
+userViewSlots	clientgui/clientgui/mainwindow.cpp	/^void MainWindow::userViewSlots()$/;"	f	class:MainWindow
+userinfo	clientgui/clientgui/modifyuserinfo.h	/^    Userinfo *userinfo;$/;"	m	class:ModifyUserinfo
+userinfo	clientgui/clientgui/usermainwindow.h	/^	Userinfo *userinfo;$/;"	m	class:UserMainWindow
+userinfo	server/sclientsocket.h	/^	Userinfo *userinfo;$/;"	m	class:SClientSocket
+userinfo_checkEmaile	client/cuserinfo.c	/^int userinfo_checkEmaile(char *emaile)$/;"	f
+userinfo_checkEmaile	clientgui/clientgui/userinfo.cpp	/^int userinfo_checkEmaile(char *emaile)$/;"	f
+userinfo_checkEmaile	server/userinfo.c	/^int userinfo_checkEmaile(char *emaile)$/;"	f
+userinfo_checkPasswd	client/cuserinfo.c	/^int userinfo_checkPasswd(char *passwd)$/;"	f
+userinfo_checkPasswd	clientgui/clientgui/userinfo.cpp	/^int userinfo_checkPasswd(char *passwd)$/;"	f
+userinfo_checkPasswd	server/userinfo.c	/^int userinfo_checkPasswd(char *passwd)$/;"	f
+userinfo_checkSex	client/cuserinfo.c	/^int userinfo_checkSex(char *sex)$/;"	f
+userinfo_checkSex	clientgui/clientgui/userinfo.cpp	/^int userinfo_checkSex(char *sex)$/;"	f
+userinfo_checkSex	server/userinfo.c	/^int userinfo_checkSex(char *sex)$/;"	f
+userinfo_checkUserno	client/cuserinfo.c	/^int userinfo_checkUserno(char *userno)$/;"	f
+userinfo_checkUserno	clientgui/clientgui/userinfo.cpp	/^int userinfo_checkUserno(char *userno)$/;"	f
+userinfo_checkUserno	server/userinfo.c	/^int userinfo_checkUserno(char *userno)$/;"	f
+userinfo_exit	client/cuserinfo.c	/^void userinfo_exit(Userinfo* uf)$/;"	f
+userinfo_exit	clientgui/clientgui/userinfo.cpp	/^void userinfo_exit(Userinfo* uf)$/;"	f
+userinfo_exit	server/userinfo.c	/^void userinfo_exit(Userinfo* uf)$/;"	f
+userinfo_init	client/cuserinfo.c	/^Userinfo *userinfo_init()$/;"	f
+userinfo_init	clientgui/clientgui/userinfo.cpp	/^Userinfo *userinfo_init()$/;"	f
+userinfo_init	server/userinfo.c	/^Userinfo *userinfo_init()$/;"	f
+userinfo_ioctl	client/cuserinfo.c	/^int userinfo_ioctl(Userinfo *uf, int opcode, void *arg)$/;"	f
+userinfo_ioctl	clientgui/clientgui/userinfo.cpp	/^int userinfo_ioctl(Userinfo *uf, int opcode, void *arg)$/;"	f
+userinfo_ioctl	server/userinfo.c	/^int userinfo_ioctl(Userinfo *uf, int opcode, void *arg)$/;"	f
+usermainwindow	clientgui/clientgui/mainwindow.h	/^    UserMainWindow *usermainwindow;$/;"	m	class:MainWindow
+username	client/userinfo.h	/^	char username[USERNAME_LEN + 1];$/;"	m	struct:__anon2
+username	clientgui/clientgui/userinfo.h	/^	char username[USERNAME_LEN + 1];$/;"	m	struct:__anon5
+username	server/userinfo.h	/^	char username[USERNAME_LEN + 1];$/;"	m	struct:__anon8
+username_userno	clientgui/clientgui/talk.h	/^	char *username_userno;$/;"	m	class:talk
+userno	client/friendlist.h	/^	char userno[7];$/;"	m	struct:Friend
+userno	client/userinfo.h	/^	char userno[USERNO_LEN + 1];$/;"	m	struct:__anon2
+userno	clientgui/clientgui-build-desktop/ui_applyid.h	/^    QLabel *userno;$/;"	m	class:Ui_ApplyId
+userno	clientgui/clientgui-build-desktop/ui_mainwindow.h	/^    QLabel *userno;$/;"	m	class:Ui_MainWindow
+userno	clientgui/clientgui/friendlist.h	/^	char userno[7];$/;"	m	struct:Friend
+userno	clientgui/clientgui/userinfo.h	/^	char userno[USERNO_LEN + 1];$/;"	m	struct:__anon5
+userno	server/friendlist.h	/^	char userno[7];$/;"	m	struct:Friend
+userno	server/userinfo.h	/^	char userno[USERNO_LEN + 1];$/;"	m	struct:__anon8
+usernoLabel	clientgui/clientgui-build-desktop/ui_usermainwindow.h	/^    QLabel *usernoLabel;$/;"	m	class:Ui_UserMainWindow
+usml	server/serversocket.h	/^	UnsendMessageList *usml;$/;"	m	class:ServerSocket
+usml_add	server/unsendmessage.c	/^int usml_add(UnsendMessageList *usml, UnsendMessage *usm)$/;"	f
+usml_del	server/unsendmessage.c	/^int usml_del(UnsendMessageList *usml, UnsendMessage *usm)$/;"	f
+usml_exit	server/unsendmessage.c	/^void usml_exit(UnsendMessageList *usml)$/;"	f
+usml_init	server/unsendmessage.c	/^UnsendMessageList *usml_init()$/;"	f
+usml_search_by_destuserno	server/unsendmessage.c	/^UnsendMessage *usml_search_by_destuserno(UnsendMessageList *usml, char *userno)$/;"	f
+verticalSpacer	clientgui/clientgui-build-desktop/ui_applyid.h	/^    QSpacerItem *verticalSpacer;$/;"	m	class:Ui_ApplyId
+verticalSpacer	clientgui/clientgui-build-desktop/ui_mainwindow.h	/^    QSpacerItem *verticalSpacer;$/;"	m	class:Ui_MainWindow
+verticalSpacer	clientgui/clientgui-build-desktop/ui_modifyuserinfo.h	/^    QSpacerItem *verticalSpacer;$/;"	m	class:Ui_ModifyUserinfo
+verticalSpacer_2	clientgui/clientgui-build-desktop/ui_applyid.h	/^    QSpacerItem *verticalSpacer_2;$/;"	m	class:Ui_ApplyId
+verticalSpacer_2	clientgui/clientgui-build-desktop/ui_modifyuserinfo.h	/^    QSpacerItem *verticalSpacer_2;$/;"	m	class:Ui_ModifyUserinfo
+verticalSpacer_3	clientgui/clientgui-build-desktop/ui_applyid.h	/^    QSpacerItem *verticalSpacer_3;$/;"	m	class:Ui_ApplyId
+verticalSpacer_3	clientgui/clientgui-build-desktop/ui_modifyuserinfo.h	/^    QSpacerItem *verticalSpacer_3;$/;"	m	class:Ui_ModifyUserinfo
+verticalSpacer_4	clientgui/clientgui-build-desktop/ui_applyid.h	/^    QSpacerItem *verticalSpacer_4;$/;"	m	class:Ui_ApplyId
+verticalSpacer_4	clientgui/clientgui-build-desktop/ui_modifyuserinfo.h	/^    QSpacerItem *verticalSpacer_4;$/;"	m	class:Ui_ModifyUserinfo
+verticalSpacer_5	clientgui/clientgui-build-desktop/ui_applyid.h	/^    QSpacerItem *verticalSpacer_5;$/;"	m	class:Ui_ApplyId
+verticalSpacer_5	clientgui/clientgui-build-desktop/ui_modifyuserinfo.h	/^    QSpacerItem *verticalSpacer_5;$/;"	m	class:Ui_ModifyUserinfo
+writeBuffer	server/file.cpp	/^int File::writeBuffer(const char *buf, unsigned int size)$/;"	f	class:File
+writeToFile	server/mystring.cpp	/^int String::writeToFile(int fd)$/;"	f	class:String
+~AddFriend	clientgui/clientgui/addfriend.cpp	/^AddFriend::~AddFriend()$/;"	f	class:AddFriend
+~AddFriendReply	clientgui/clientgui/addfriendreply.cpp	/^AddFriendReply::~AddFriendReply()$/;"	f	class:AddFriendReply
+~ApplyId	clientgui/clientgui/applyid.cpp	/^ApplyId::~ApplyId()$/;"	f	class:ApplyId
+~ClientList	server/clientlist.cpp	/^ClientList::~ClientList()$/;"	f	class:ClientList
+~ClientSocket	server/clientsocket.cpp	/^ClientSocket::~ClientSocket()$/;"	f	class:ClientSocket
+~File	server/file.cpp	/^File::~File()$/;"	f	class:File
+~MainWindow	clientgui/clientgui/mainwindow.cpp	/^MainWindow::~MainWindow()$/;"	f	class:MainWindow
+~ModifyUserinfo	clientgui/clientgui/modifyuserinfo.cpp	/^ModifyUserinfo::~ModifyUserinfo()$/;"	f	class:ModifyUserinfo
+~MultiThread	server/multithread.cpp	/^MultiThread::~MultiThread()$/;"	f	class:MultiThread
+~SClientSocket	server/sclientsocket.cpp	/^SClientSocket::~SClientSocket()$/;"	f	class:SClientSocket
+~ServerInfo	clientgui/clientgui/serverinfo.cpp	/^ServerInfo::~ServerInfo()$/;"	f	class:ServerInfo
+~ServerSocket	server/serversocket.cpp	/^ServerSocket::~ServerSocket()$/;"	f	class:ServerSocket
+~String	server/mystring.cpp	/^String::~String()$/;"	f	class:String
+~TalkList	clientgui/clientgui/talklist.cpp	/^TalkList::~TalkList()$/;"	f	class:TalkList
+~Thread	server/thread.cpp	/^Thread::~Thread()$/;"	f	class:Thread
+~UserMainWindow	clientgui/clientgui/usermainwindow.cpp	/^UserMainWindow::~UserMainWindow()$/;"	f	class:UserMainWindow
+~talk	clientgui/clientgui/talk.cpp	/^talk::~talk()$/;"	f	class:talk

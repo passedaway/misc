@@ -1,0 +1,1283 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ADDR_SIZE	gtp_rb.c	22;"	d	file:
+BUF_MAX_DATA_SIZE	ring_buffer.c	459;"	d	file:
+BUF_PAGE_HDR_SIZE	ring_buffer.c	175;"	d	file:
+BUF_PAGE_SIZE	ring_buffer.c	456;"	d	file:
+CONFIG_RING_BUFFER	gtp.c	78;"	d	file:
+CORE_ADDR	gtp.h	38;"	d
+CORE_ADDR	gtp.h	57;"	d
+CORE_ADDR	gtp.h	8;"	d
+CROSS_COMPILE	Makefile	/^CROSS_COMPILE :=$/;"	m
+DEBUG_SHIFT	ring_buffer.c	567;"	d	file:
+DEFINE_SEMAPHORE	gtp.c	157;"	d	file:
+DKMS_FILES	Makefile	/^DKMS_FILES := Makefile dkms.conf dkms_others_install.sh 		\\$/;"	m
+FID	gtp.c	176;"	d	file:
+FID_END	gtp.c	/^	FID_END,$/;"	e	enum:__anon8	file:
+FID_HEAD	gtp.c	/^	FID_HEAD = 0,$/;"	e	enum:__anon8	file:
+FID_MEM	gtp.c	/^	FID_MEM,$/;"	e	enum:__anon8	file:
+FID_PAGE_BEGIN	gtp.c	/^	FID_PAGE_BEGIN,$/;"	e	enum:__anon8	file:
+FID_PAGE_END	gtp.c	/^	FID_PAGE_END,$/;"	e	enum:__anon8	file:
+FID_REG	gtp.c	/^	FID_REG,$/;"	e	enum:__anon8	file:
+FID_SIZE	gtp.c	175;"	d	file:
+FID_TYPE	gtp.c	174;"	d	file:
+FID_VAR	gtp.c	/^	FID_VAR,$/;"	e	enum:__anon8	file:
+FRAME_ALIGN	gtp.c	191;"	d	file:
+FRAME_ALIGN_SIZE	gtp.c	190;"	d	file:
+GTP_CLOCK_CYCLE	gtp.c	67;"	d	file:
+GTP_DEBUG	gtp.c	161;"	d	file:
+GTP_FRAME_HEAD_SIZE	gtp.c	195;"	d	file:
+GTP_FRAME_HEAD_SIZE	gtp.c	204;"	d	file:
+GTP_FRAME_HEAD_SIZE	gtp.c	208;"	d	file:
+GTP_FRAME_MEM_SIZE	gtp.c	198;"	d	file:
+GTP_FRAME_MEM_SIZE	gtp.c	212;"	d	file:
+GTP_FRAME_PAGE_BEGIN_SIZE	gtp.c	205;"	d	file:
+GTP_FRAME_PIPE_DIR	getframe.c	33;"	d	file:
+GTP_FRAME_REG_SIZE	gtp.c	196;"	d	file:
+GTP_FRAME_REG_SIZE	gtp.c	211;"	d	file:
+GTP_FRAME_RINGBUFFER_ALLOC	gtp.c	3003;"	d	file:
+GTP_FRAME_SIZE	gtp.c	188;"	d	file:
+GTP_FRAME_VAR_SIZE	gtp.c	200;"	d	file:
+GTP_FRAME_VAR_SIZE	gtp.c	213;"	d	file:
+GTP_LOCAL_CLOCK	gtp.c	442;"	d	file:
+GTP_PC_NUM	gtp.h	25;"	d
+GTP_PC_NUM	gtp.h	31;"	d
+GTP_PC_NUM	gtp.h	51;"	d
+GTP_PC_NUM	gtp.h	65;"	d
+GTP_PERF_EVENTS	gtp.c	114;"	d	file:
+GTP_PIPE_CONSUME	gtp.c	10089;"	d	file:
+GTP_PIPE_CONSUME	gtp.c	10106;"	d	file:
+GTP_PIPE_PEEK	gtp.c	9968;"	d	file:
+GTP_PIPE_PEEK	gtp.c	9972;"	d	file:
+GTP_PIPE_PEEK	gtp.c	9984;"	d	file:
+GTP_PRINTF_MAX	gtp.c	396;"	d	file:
+GTP_PRINTK_FORMAT_A	gtp.c	2995;"	d	file:
+GTP_PRINTK_FORMAT_B	gtp.c	3000;"	d	file:
+GTP_PRINTK_FORMAT_D	gtp.c	2996;"	d	file:
+GTP_PRINTK_FORMAT_S	gtp.c	2999;"	d	file:
+GTP_PRINTK_FORMAT_U	gtp.c	2997;"	d	file:
+GTP_PRINTK_FORMAT_X	gtp.c	2998;"	d	file:
+GTP_RB	gtp.c	32;"	d	file:
+GTP_RB	gtp.c	39;"	d	file:
+GTP_RB	gtp.c	43;"	d	file:
+GTP_RB_DATA	gtp_rb.c	24;"	d	file:
+GTP_RB_DATA_MAX	gtp_rb.c	28;"	d	file:
+GTP_RB_END	gtp_rb.c	25;"	d	file:
+GTP_RB_HEAD	gtp_rb.c	23;"	d	file:
+GTP_RB_LOCK	gtp_rb.c	187;"	d	file:
+GTP_RB_LOCK_IRQ	gtp_rb.c	189;"	d	file:
+GTP_RB_NEXT	gtp_rb.c	27;"	d	file:
+GTP_RB_PAGE_IS_EMPTY	gtp_rb.c	113;"	d	file:
+GTP_RB_PREV	gtp_rb.c	26;"	d	file:
+GTP_RB_RELEASE	gtp_rb.c	191;"	d	file:
+GTP_RB_UNLOCK	gtp_rb.c	188;"	d	file:
+GTP_RB_UNLOCK_IRQ	gtp_rb.c	190;"	d	file:
+GTP_RB_WALK_CHECK_END	gtp_rb.c	251;"	d	file:
+GTP_RB_WALK_CHECK_ID	gtp_rb.c	257;"	d	file:
+GTP_RB_WALK_CHECK_TYPE	gtp_rb.c	259;"	d	file:
+GTP_RB_WALK_PASS_ENTRY	gtp_rb.c	255;"	d	file:
+GTP_RB_WALK_PASS_PAGE	gtp_rb.c	253;"	d	file:
+GTP_RB_WALK_STEP	gtp_rb.c	261;"	d	file:
+GTP_REGS_PC	gtp.h	11;"	d
+GTP_REGS_PC	gtp.h	14;"	d
+GTP_REGS_PC	gtp.h	16;"	d
+GTP_REGS_PC	gtp.h	40;"	d
+GTP_REGS_PC	gtp.h	59;"	d
+GTP_REG_ASCII_SIZE	gtp.h	21;"	d
+GTP_REG_ASCII_SIZE	gtp.h	27;"	d
+GTP_REG_ASCII_SIZE	gtp.h	43;"	d
+GTP_REG_ASCII_SIZE	gtp.h	46;"	d
+GTP_REG_ASCII_SIZE	gtp.h	61;"	d
+GTP_REG_BIN_SIZE	gtp.h	22;"	d
+GTP_REG_BIN_SIZE	gtp.h	28;"	d
+GTP_REG_BIN_SIZE	gtp.h	44;"	d
+GTP_REG_BIN_SIZE	gtp.h	47;"	d
+GTP_REG_BIN_SIZE	gtp.h	62;"	d
+GTP_REPORT_TRACEPOINT_MAX	gtp.c	7884;"	d	file:
+GTP_RW_BUFP_MAX	gtp.c	172;"	d	file:
+GTP_RW_MAX	gtp.c	171;"	d	file:
+GTP_SELF_RING_BUFFER	gtp.c	81;"	d	file:
+GTP_SP_NUM	gtp.h	24;"	d
+GTP_SP_NUM	gtp.h	30;"	d
+GTP_SP_NUM	gtp.h	50;"	d
+GTP_SP_NUM	gtp.h	64;"	d
+GTP_VAR_BT_ID	gtp.c	/^	GTP_VAR_BT_ID				= 29,$/;"	e	enum:__anon11	file:
+GTP_VAR_CLOCK_ID	gtp.c	/^	GTP_VAR_CLOCK_ID			= 5,$/;"	e	enum:__anon11	file:
+GTP_VAR_COOKED_CLOCK_ID	gtp.c	/^	GTP_VAR_COOKED_CLOCK_ID			= 6,$/;"	e	enum:__anon11	file:
+GTP_VAR_COOKED_RDTSC_ID	gtp.c	/^	GTP_VAR_COOKED_RDTSC_ID			= 8,$/;"	e	enum:__anon11	file:
+GTP_VAR_CPU_ID	gtp.c	/^	GTP_VAR_CPU_ID				= 2,$/;"	e	enum:__anon11	file:
+GTP_VAR_CPU_NUMBER_ID	gtp.c	/^	GTP_VAR_CPU_NUMBER_ID			= 15,$/;"	e	enum:__anon11	file:
+GTP_VAR_CURRENT_ID	gtp.c	/^	GTP_VAR_CURRENT_ID			= 28,$/;"	e	enum:__anon11	file:
+GTP_VAR_CURRENT_TASK_ID	gtp.c	/^	GTP_VAR_CURRENT_TASK_ID			= 3,$/;"	e	enum:__anon11	file:
+GTP_VAR_CURRENT_TASK_PID_ID	gtp.c	/^	GTP_VAR_CURRENT_TASK_PID_ID		= 26,$/;"	e	enum:__anon11	file:
+GTP_VAR_CURRENT_TASK_USER_ID	gtp.c	/^	GTP_VAR_CURRENT_TASK_USER_ID		= 27,$/;"	e	enum:__anon11	file:
+GTP_VAR_CURRENT_THREAD_INFO_ID	gtp.c	/^	GTP_VAR_CURRENT_THREAD_INFO_ID		= 4,$/;"	e	enum:__anon11	file:
+GTP_VAR_DISABLE_ID	gtp.c	/^	GTP_VAR_DISABLE_ID			= 31,$/;"	e	enum:__anon11	file:
+GTP_VAR_DUMP_STACK_ID	gtp.c	/^	GTP_VAR_DUMP_STACK_ID			= 13,$/;"	e	enum:__anon11	file:
+GTP_VAR_ENABLE_ID	gtp.c	/^	GTP_VAR_ENABLE_ID			= 30,$/;"	e	enum:__anon11	file:
+GTP_VAR_GTP_RB_DISCARD_PAGE_NUMBER	gtp.c	/^	GTP_VAR_GTP_RB_DISCARD_PAGE_NUMBER	= 9,$/;"	e	enum:__anon11	file:
+GTP_VAR_HARDIRQ_COUNT_ID	gtp.c	/^	GTP_VAR_HARDIRQ_COUNT_ID		= 22,$/;"	e	enum:__anon11	file:
+GTP_VAR_IGNORE_ERROR_ID	gtp.c	/^	GTP_VAR_IGNORE_ERROR_ID			= 20,$/;"	e	enum:__anon11	file:
+GTP_VAR_IRQ_COUNT_ID	gtp.c	/^	GTP_VAR_IRQ_COUNT_ID			= 24,$/;"	e	enum:__anon11	file:
+GTP_VAR_KRET_ID	gtp.c	/^	GTP_VAR_KRET_ID				= 17,$/;"	e	enum:__anon11	file:
+GTP_VAR_LAST_ERRNO_ID	gtp.c	/^	GTP_VAR_LAST_ERRNO_ID			= 21,$/;"	e	enum:__anon11	file:
+GTP_VAR_NO_SELF_TRACE_ID	gtp.c	/^	GTP_VAR_NO_SELF_TRACE_ID		= 14,$/;"	e	enum:__anon11	file:
+GTP_VAR_PC_PE_EN_ID	gtp.c	/^	GTP_VAR_PC_PE_EN_ID			= 16,$/;"	e	enum:__anon11	file:
+GTP_VAR_PIPE_TRACE_ID	gtp.c	/^	GTP_VAR_PIPE_TRACE_ID			= 25,$/;"	e	enum:__anon11	file:
+GTP_VAR_PRINTK_FORMAT_ID	gtp.c	/^	GTP_VAR_PRINTK_FORMAT_ID		= 12,$/;"	e	enum:__anon11	file:
+GTP_VAR_PRINTK_LEVEL_ID	gtp.c	/^	GTP_VAR_PRINTK_LEVEL_ID			= 11,$/;"	e	enum:__anon11	file:
+GTP_VAR_PRINTK_TMP_ID	gtp.c	/^	GTP_VAR_PRINTK_TMP_ID			= 10,$/;"	e	enum:__anon11	file:
+GTP_VAR_RDTSC_ID	gtp.c	/^	GTP_VAR_RDTSC_ID			= 7,$/;"	e	enum:__anon11	file:
+GTP_VAR_SOFTIRQ_COUNT_ID	gtp.c	/^	GTP_VAR_SOFTIRQ_COUNT_ID		= 23,$/;"	e	enum:__anon11	file:
+GTP_VAR_SPECIAL_MAX	gtp.c	/^	GTP_VAR_SPECIAL_MAX			= GTP_VAR_DISABLE_ID,$/;"	e	enum:__anon11	file:
+GTP_VAR_SPECIAL_MIN	gtp.c	/^	GTP_VAR_SPECIAL_MIN			= GTP_VAR_VERSION_ID,$/;"	e	enum:__anon11	file:
+GTP_VAR_VERSION_ID	gtp.c	/^	GTP_VAR_VERSION_ID			= 1,$/;"	e	enum:__anon11	file:
+GTP_VAR_XTIME_NSEC_ID	gtp.c	/^	GTP_VAR_XTIME_NSEC_ID			= 19,$/;"	e	enum:__anon11	file:
+GTP_VAR_XTIME_SEC_ID	gtp.c	/^	GTP_VAR_XTIME_SEC_ID			= 18,$/;"	e	enum:__anon11	file:
+GTP_VERSION	gtp.c	23;"	d	file:
+HAVE_PTE_SPECIAL	gtp.c	2527;"	d	file:
+HAVE_PTE_SPECIAL	gtp.c	2529;"	d	file:
+INT2CHAR	gtp.c	216;"	d	file:
+KERNELDIR	Makefile	/^KERNELDIR := \/lib\/modules\/$(KERNELVERSION)\/build\/$/;"	m
+KERNELVERSION	Makefile	/^KERNELVERSION := $(shell uname -r)$/;"	m
+KERN_NULL	gtp.c	128;"	d	file:
+KGTP_API_VERSION_LOCAL	gtp.c	151;"	d	file:
+KGTP_API_VERSION_LOCAL	gtp.c	153;"	d	file:
+LONGEST	gtp.h	37;"	d
+LONGEST	gtp.h	56;"	d
+LONGEST	gtp.h	7;"	d
+MAX_INTERRUPTS	perf_event.c	824;"	d	file:
+MODULEDIR	Makefile	/^MODULEDIR := \/lib\/modules\/$(KERNELVERSION)\/lib\/$/;"	m
+MODULEVERSION	Makefile	/^MODULEVERSION := 20120920$/;"	m
+MOD_DIR	getmod.c	33;"	d	file:
+OUTFORMAT	gtp.c	2255;"	d	file:
+OUTFORMAT	gtp.c	2299;"	d	file:
+PROC_MOD	getmod.c	34;"	d	file:
+PWD	Makefile	/^PWD  := $(shell pwd)$/;"	m
+PyApp	add-ons/pe.py	/^	class PyApp(gtk.Window):$/;"	c
+RB_ALIGNMENT	ring_buffer.c	224;"	d	file:
+RB_ARCH_ALIGNMENT	ring_buffer.c	230;"	d	file:
+RB_ARCH_ALIGNMENT	ring_buffer.c	233;"	d	file:
+RB_BUFFERS_DISABLED	ring_buffer.c	/^	RB_BUFFERS_DISABLED	= 1 << RB_BUFFERS_DISABLED_BIT,$/;"	e	enum:__anon16	file:
+RB_BUFFERS_DISABLED_BIT	ring_buffer.c	/^	RB_BUFFERS_DISABLED_BIT	= 1,$/;"	e	enum:__anon15	file:
+RB_BUFFERS_ON	ring_buffer.c	/^	RB_BUFFERS_ON		= 1 << RB_BUFFERS_ON_BIT,$/;"	e	enum:__anon16	file:
+RB_BUFFERS_ON_BIT	ring_buffer.c	/^	RB_BUFFERS_ON_BIT	= 0,$/;"	e	enum:__anon15	file:
+RB_EVNT_HDR_SIZE	ring_buffer.c	223;"	d	file:
+RB_EVNT_MIN_SIZE	ring_buffer.c	226;"	d	file:
+RB_FLAG_MASK	ring_buffer.c	669;"	d	file:
+RB_FL_OVERWRITE	ring_buffer.h	/^	RB_FL_OVERWRITE		= 1 << 0,$/;"	e	enum:ring_buffer_flags
+RB_FORCE_8BYTE_ALIGNMENT	ring_buffer.c	229;"	d	file:
+RB_FORCE_8BYTE_ALIGNMENT	ring_buffer.c	232;"	d	file:
+RB_LEN_TIME_EXTEND	ring_buffer.c	/^	RB_LEN_TIME_EXTEND = 8,$/;"	e	enum:__anon17	file:
+RB_LEN_TIME_STAMP	ring_buffer.c	/^	RB_LEN_TIME_STAMP = 16,$/;"	e	enum:__anon17	file:
+RB_MAX_SMALL_DATA	ring_buffer.c	225;"	d	file:
+RB_MISSED_EVENTS	ring_buffer.c	377;"	d	file:
+RB_MISSED_STORED	ring_buffer.c	379;"	d	file:
+RB_PAGE_HEAD	ring_buffer.c	665;"	d	file:
+RB_PAGE_MOVED	ring_buffer.c	672;"	d	file:
+RB_PAGE_NORMAL	ring_buffer.c	664;"	d	file:
+RB_PAGE_UPDATE	ring_buffer.c	666;"	d	file:
+RB_WARN_ON	ring_buffer.c	551;"	d	file:
+RB_WRITE_INTCNT	ring_buffer.c	417;"	d	file:
+RB_WRITE_MASK	ring_buffer.c	416;"	d	file:
+REGSIZE	gtp.c	2256;"	d	file:
+REGSIZE	gtp.c	2300;"	d	file:
+REGSIZE	gtp.c	2326;"	d	file:
+REGSIZE	gtp.c	2350;"	d	file:
+RHEL_RELEASE_CODE	gtp.c	28;"	d	file:
+RHEL_RELEASE_VERSION	gtp.c	27;"	d	file:
+RINGBUF_TYPE_DATA	ring_buffer.c	237;"	d	file:
+RINGBUF_TYPE_DATA_TYPE_LEN_MAX	ring_buffer.h	/^	RINGBUF_TYPE_DATA_TYPE_LEN_MAX = 28,$/;"	e	enum:ring_buffer_type
+RINGBUF_TYPE_PADDING	ring_buffer.h	/^	RINGBUF_TYPE_PADDING,$/;"	e	enum:ring_buffer_type
+RINGBUF_TYPE_TIME_EXTEND	ring_buffer.h	/^	RINGBUF_TYPE_TIME_EXTEND,$/;"	e	enum:ring_buffer_type
+RINGBUF_TYPE_TIME_STAMP	ring_buffer.h	/^	RINGBUF_TYPE_TIME_STAMP,$/;"	e	enum:ring_buffer_type
+SDIR_MAX	getmod.c	37;"	d	file:
+STACK_MAX	gtp.c	3558;"	d	file:
+SWAB	gtp.c	2258;"	d	file:
+SWAB	gtp.c	2301;"	d	file:
+SWAB	gtp.c	2372;"	d	file:
+SWAB	gtp.c	2397;"	d	file:
+SYS_MOD	getmod.c	35;"	d	file:
+TS_DELTA_TEST	ring_buffer.c	374;"	d	file:
+TS_MASK	ring_buffer.c	373;"	d	file:
+TS_SHIFT	ring_buffer.c	372;"	d	file:
+ULONGEST	gtp.h	36;"	d
+ULONGEST	gtp.h	55;"	d
+ULONGEST	gtp.h	6;"	d
+USE_PROC	gtp.c	49;"	d	file:
+_GTP_PLUGIN_H_	gtp.h	2;"	d
+_LINUX_RING_BUFFER_H	ring_buffer.h	7;"	d
+__ARCH_SPIN_LOCK_UNLOCKED	ring_buffer.c	35;"	d	file:
+__del__	add-ons/gtpwin.py	/^	def __del__(self):$/;"	m	class:gtpwin	file:
+__del__	add-ons/pe.py	/^		def __del__(self):$/;"	m	class:.PyApp	file:
+__del__	add-ons/pe.py	/^	def __del__(self):$/;"	m	class:kgtp	file:
+__get_cpu_context	perf_event.c	/^__get_cpu_context(struct perf_event_context *ctx)$/;"	f	file:
+__gtp_perf_event_disable	perf_event.c	/^static int __gtp_perf_event_disable(void *info)$/;"	f	file:
+__gtp_perf_event_enable	perf_event.c	/^static int __gtp_perf_event_enable(void *info)$/;"	f	file:
+__init__	add-ons/gtpwin.py	/^	def __init__(self, lines, title = "", sec = 1, width = 10, remove_first = False, button_each_line = 4):$/;"	m	class:gtpwin
+__init__	add-ons/gtpwin.py	/^	def __init__(self, name):$/;"	m	class:gtpline
+__init__	add-ons/hotcode.py	/^	def __init__(self):$/;"	m	class:hotcode_list
+__init__	add-ons/hotcode.py	/^	def __init__(self, fid, user_dir):$/;"	m	class:task
+__init__	add-ons/pe.py	/^		def __init__(self):$/;"	m	class:.PyApp
+__init__	add-ons/pe.py	/^	def __init__(self):$/;"	m	class:kgtp
+__percpu	gtp.c	121;"	d	file:
+__perf_event__output_id_sample	perf_event.c	/^static void __perf_event__output_id_sample(struct perf_output_handle *handle,$/;"	f	file:
+__perf_event_header__init_id	perf_event.c	/^static void __perf_event_header__init_id(struct perf_event_header *header,$/;"	f	file:
+__perf_event_mark_enabled	perf_event.c	/^static void __perf_event_mark_enabled(struct perf_event *event,$/;"	f	file:
+__rb_data_page_index	ring_buffer.c	/^__rb_data_page_index(struct buffer_data_page *bpage, unsigned index)$/;"	f	file:
+__rb_page_index	ring_buffer.c	/^static inline void *__rb_page_index(struct buffer_page *bpage, unsigned index)$/;"	f	file:
+__rb_reserve_next	ring_buffer.c	/^__rb_reserve_next(struct ring_buffer_per_cpu *cpu_buffer,$/;"	f	file:
+__read_mostly	ring_buffer.c	/^static unsigned long ring_buffer_flags __read_mostly = RB_BUFFERS_ON;$/;"	v	file:
+__ring_buffer_alloc	ring_buffer.c	/^EXPORT_SYMBOL_GPL(__ring_buffer_alloc);$/;"	v
+__ring_buffer_alloc	ring_buffer.c	/^struct ring_buffer *__ring_buffer_alloc(unsigned long size, unsigned flags,$/;"	f
+action	gtp.c	/^struct action {$/;"	s	file:
+action_agent_exp	gtp.c	/^struct action_agent_exp {$/;"	s	file:
+action_cmd	gtp.c	/^	struct gtpsrc		*action_cmd;$/;"	m	struct:gtp_entry	typeref:struct:gtp_entry::gtpsrc	file:
+action_list	gtp.c	/^	struct action		*action_list;$/;"	m	struct:gtp_entry	typeref:struct:gtp_entry::action	file:
+action_m	gtp.c	/^struct action_m {$/;"	s	file:
+add	add-ons/gtpwin.py	/^	def add(self, val):$/;"	m	class:gtpline
+add_inferior	add-ons/hotcode.py	/^def add_inferior():$/;"	f
+add_info_to_code_list	add-ons/hotcode.py	/^def add_info_to_code_list(info, code_list):$/;"	f
+add_line_to_list	add-ons/hotcode.py	/^def add_line_to_list(line, line_list):$/;"	f
+add_rdir	getmod.c	/^add_rdir(char *dir)$/;"	f
+add_sdir	getmod.c	/^add_sdir(char *dir)$/;"	f
+addr	add-ons/hotcode.py	/^				addr = "0x"+c_list[0][0:c.find('-')]$/;"	v
+addr	gtp.c	/^	CORE_ADDR	addr;$/;"	m	struct:gtp_frame_mem	file:
+addr	gtp.c	/^	ULONGEST		addr;$/;"	m	struct:gtp_entry	file:
+addr	gtp.c	/^	unsigned int		addr;$/;"	m	struct:gtp_x_loop	file:
+agent_get_val	gtp.h	/^	int	(*agent_get_val)(struct gtp_trace_s *gts, struct gtp_var *var,$/;"	m	struct:gtp_var_hooks
+agent_set_val	gtp.h	/^	int	(*agent_set_val)(struct gtp_trace_s *gts, struct gtp_var *var,$/;"	m	struct:gtp_var_hooks
+arch_spin_lock	ring_buffer.c	36;"	d	file:
+arch_spin_unlock	ring_buffer.c	37;"	d	file:
+arch_spinlock_t	ring_buffer.c	34;"	d	file:
+array	ring_buffer.h	/^	u32		array[];$/;"	m	struct:ring_buffer_event
+attr	gtp.c	/^	struct perf_event_attr		attr;$/;"	m	struct:gtp_var_perf_event	typeref:struct:gtp_var_perf_event::perf_event_attr	file:
+begin	gtp.c	/^	loff_t			begin;$/;"	m	struct:gtpframe_pipe_s	file:
+buf	gtp.c	/^	char	*buf;$/;"	m	struct:gtp_realloc_s	file:
+buf	gtp.c	/^	uint8_t		*buf;$/;"	m	struct:action_agent_exp	file:
+buf_max	add-ons/pe.py	/^	buf_max = 1024$/;"	v	class:kgtp
+buffer	ring_buffer.c	/^	struct ring_buffer		*buffer;$/;"	m	struct:ring_buffer_per_cpu	typeref:struct:ring_buffer_per_cpu::ring_buffer	file:
+buffer_data_page	ring_buffer.c	/^struct buffer_data_page {$/;"	s	file:
+buffer_page	ring_buffer.c	/^struct buffer_page {$/;"	s	file:
+buffers	ring_buffer.c	/^	struct ring_buffer_per_cpu	**buffers;$/;"	m	struct:ring_buffer	typeref:struct:ring_buffer::ring_buffer_per_cpu	file:
+button_click	add-ons/gtpwin.py	/^	def button_click(self, widget):$/;"	m	class:gtpwin
+button_click	add-ons/pe.py	/^		def button_click(self, widget):$/;"	m	class:.PyApp
+button_reset	add-ons/pe.py	/^		def button_reset(self, i, e):$/;"	m	class:.PyApp
+c_list	add-ons/hotcode.py	/^			c_list = c.split(" ")$/;"	v
+cache_read	ring_buffer.c	/^	unsigned long			cache_read;$/;"	m	struct:ring_buffer_iter	file:
+cache_reader_page	ring_buffer.c	/^	struct buffer_page		*cache_reader_page;$/;"	m	struct:ring_buffer_iter	typeref:struct:ring_buffer_iter::buffer_page	file:
+check_disk_size	getframe.c	/^check_disk_size(void)$/;"	f
+check_sdir	getmod.c	/^check_sdir(char *dir)$/;"	f
+clock	ring_buffer.c	/^	u64				(*clock)(void);$/;"	m	struct:ring_buffer	file:
+command	getmod.py	/^	command = " "$/;"	v
+commit	ring_buffer.c	/^	local_t		 commit;	\/* write committed index *\/$/;"	m	struct:buffer_data_page	file:
+commit_overrun	ring_buffer.c	/^	local_t				commit_overrun;$/;"	m	struct:ring_buffer_per_cpu	file:
+commit_page	ring_buffer.c	/^	struct buffer_page		*commit_page;	\/* committed pages *\/$/;"	m	struct:ring_buffer_per_cpu	typeref:struct:ring_buffer_per_cpu::buffer_page	file:
+commits	ring_buffer.c	/^	local_t				commits;$/;"	m	struct:ring_buffer_per_cpu	file:
+committing	ring_buffer.c	/^	local_t				committing;$/;"	m	struct:ring_buffer_per_cpu	file:
+cond	gtp.c	/^	struct action		*cond;$/;"	m	struct:gtp_entry	typeref:struct:gtp_entry::action	file:
+cond_str	add-ons/hotcode.py	/^	cond_str = ""$/;"	v
+cpu	gtp.c	/^	int				cpu;$/;"	m	struct:gtp_var_pc	file:
+cpu	gtp.c	/^	int				cpu;$/;"	m	struct:gtp_var_perf_event	file:
+cpu	gtp_rb.c	/^	int		cpu;$/;"	m	struct:gtp_rb_s	file:
+cpu	ring_buffer.c	/^	int				cpu;$/;"	m	struct:ring_buffer_per_cpu	file:
+cpu_buffer	ring_buffer.c	/^	struct ring_buffer_per_cpu	*cpu_buffer;$/;"	m	struct:ring_buffer_iter	typeref:struct:ring_buffer_iter::ring_buffer_per_cpu	file:
+cpu_function_call	perf_event.c	/^static int cpu_function_call(int cpu, int (*func) (void *info), void *info)$/;"	f	file:
+cpu_notify	ring_buffer.c	/^	struct notifier_block		cpu_notify;$/;"	m	struct:ring_buffer	typeref:struct:ring_buffer::notifier_block	file:
+cpu_number	add-ons/hotcode.py	/^cpu_number = int(gdb.parse_and_eval("$cpu_number"))$/;"	v
+cpu_number	add-ons/pe.py	/^cpu_number = 0$/;"	v
+cpumask	ring_buffer.c	/^	cpumask_var_t			cpumask;$/;"	m	struct:ring_buffer	file:
+cpus	ring_buffer.c	/^	int				cpus;$/;"	m	struct:ring_buffer	file:
+current_gtp	gtp.c	/^static struct gtp_entry		*current_gtp;$/;"	v	typeref:struct:gtp_entry	file:
+current_gtp_action_cmd	gtp.c	/^static struct gtpsrc		*current_gtp_action_cmd;$/;"	v	typeref:struct:gtpsrc	file:
+current_gtp_src	gtp.c	/^static struct gtpsrc		*current_gtp_src;$/;"	v	typeref:struct:gtpsrc	file:
+current_gtp_var	gtp.c	/^static struct gtp_var	*current_gtp_var;$/;"	v	typeref:struct:gtp_var	file:
+current_pass	gtp.c	/^	atomic_t		current_pass;$/;"	m	struct:gtp_entry	file:
+current_task	gtp.c	/^	int			current_task;$/;"	m	struct:gtp_entry	file:
+data	ring_buffer.c	/^	unsigned char	 data[];	\/* data of buffer page *\/$/;"	m	struct:buffer_data_page	file:
+data_pages	perf_event.c	/^	void				*data_pages[0];$/;"	m	struct:ring_buffer	file:
+debug_dir	add-ons/hotcode.py	/^debug_dir = "\/usr\/lib\/debug\/"$/;"	v
+dialog_error	add-ons/gtpwin.py	/^	def dialog_error(self, msg):$/;"	m	class:gtpwin
+dialog_error	add-ons/pe.py	/^		def dialog_error(self, msg):$/;"	m	class:.PyApp
+dict_sort	add-ons/hotcode.py	/^def dict_sort(d, reverse=False):$/;"	f
+disable	gtp.c	/^	int			disable;$/;"	m	struct:gtp_entry	file:
+disable_tasklet	gtp.c	/^	struct tasklet_struct	disable_tasklet;$/;"	m	struct:gtp_entry	typeref:struct:gtp_entry::tasklet_struct	file:
+disable_work	gtp.c	/^	struct work_struct	disable_work;$/;"	m	struct:gtp_entry	typeref:struct:gtp_entry::work_struct	file:
+draw_line	add-ons/gtpwin.py	/^	def draw_line(self, line, cr):$/;"	m	class:gtpwin
+each_entry	add-ons/pe.py	/^def each_entry(callback):$/;"	f
+each_lines	add-ons/gtpwin.py	/^	def each_lines(self, callback, argument = 0):$/;"	m	class:gtpwin
+en	gtp.c	/^	int				en;$/;"	m	struct:gtp_var_perf_event	file:
+enable_tasklet	gtp.c	/^	struct tasklet_struct	enable_tasklet;$/;"	m	struct:gtp_entry	typeref:struct:gtp_entry::tasklet_struct	file:
+enable_work	gtp.c	/^	struct work_struct	enable_work;$/;"	m	struct:gtp_entry	typeref:struct:gtp_entry::work_struct	file:
+enabled	gtp.c	/^	u64				enabled;	\/* The perf inside timer *\/$/;"	m	struct:gtp_var_perf_event	file:
+end	gtp.c	/^	CORE_ADDR		end;$/;"	m	struct:gtpro_entry	file:
+end	gtp_rb.c	/^	void			*end;$/;"	m	struct:gtp_rb_walk_s	file:
+entries	ring_buffer.c	/^	local_t				entries;$/;"	m	struct:ring_buffer_per_cpu	file:
+entries	ring_buffer.c	/^	local_t		 entries;	\/* entries on this page *\/$/;"	m	struct:buffer_page	file:
+entry_number	getframe.c	/^int	entry_number = 1000;$/;"	v
+event	gtp.c	/^	struct perf_event		*event;$/;"	m	struct:gtp_var_perf_event	typeref:struct:gtp_var_perf_event::perf_event	file:
+event_filter_match	perf_event.c	/^event_filter_match(struct perf_event *event)$/;"	f	file:
+event_sched_in	perf_event.c	/^event_sched_in(struct perf_event *event,$/;"	f	file:
+event_sched_out	perf_event.c	/^event_sched_out(struct perf_event *event,$/;"	f	file:
+events	perf_event.c	/^	local_t				events;		\/* event limit       *\/$/;"	m	struct:ring_buffer	file:
+example	add-ons/gtpwin_example.py	/^class example(gtpwin.gtpline):$/;"	c
+exp	gtp.c	/^		struct action_agent_exp	exp;$/;"	m	union:action::__anon10	typeref:struct:action::__anon10::action_agent_exp	file:
+expose	add-ons/gtpwin.py	/^	def expose(self, widget, event):$/;"	m	class:gtpwin
+expose	add-ons/pe.py	/^		def expose(self, widget, event):$/;"	m	class:.PyApp
+fd	add-ons/pe.py	/^	fd = -1$/;"	v	class:kgtp
+fid	add-ons/hotcode.py	/^		fid = add_inferior()$/;"	v
+fid	add-ons/hotcode.py	/^	fid = 0$/;"	v
+file_is_exist	getframe.c	/^file_is_exist(char *name)$/;"	f
+filename	add-ons/hotcode.py	/^			filename = c_list[-1].strip()$/;"	v
+flags	gtp.c	/^	unsigned int		flags;$/;"	m	struct:gtp_x_var	file:
+flags	gtp_rb.c	/^	unsigned int		flags;$/;"	m	struct:gtp_rb_walk_s	file:
+flags	ring_buffer.c	/^	unsigned			flags;$/;"	m	struct:ring_buffer	file:
+for_each_buffer_cpu	ring_buffer.c	369;"	d	file:
+format_file	add-ons/hotcode.py	/^	def format_file(name):$/;"	f	function:getmod
+format_file	getmod.py	/^def format_file(name):$/;"	f
+frame_alloc_size	gtp.c	/^ULONGEST	frame_alloc_size;$/;"	v
+frame_alloc_size_hole	gtp.c	/^ULONGEST	frame_alloc_size_hole;$/;"	v
+free_buffer_page	ring_buffer.c	/^static void free_buffer_page(struct buffer_page *bpage)$/;"	f	file:
+free_size_g	getframe.c	/^int	free_size_g = 2;$/;"	v
+func	perf_event.c	/^	int			(*func)(void *info);$/;"	m	struct:remote_function_call	file:
+gdb_get_val	gtp.h	/^	int	(*gdb_get_val)(struct gtp_trace_s *unused, struct gtp_var *var,$/;"	m	struct:gtp_var_hooks
+gdb_set_val	gtp.h	/^	int	(*gdb_set_val)(struct gtp_trace_s *unused, struct gtp_var *var,$/;"	m	struct:gtp_var_hooks
+get_addr_range_list	add-ons/hotcode.py	/^def get_addr_range_list(fun):$/;"	f
+get_default_sdir	getmod.c	/^get_default_sdir(void)$/;"	f
+get_ignore_str	add-ons/hotcode.py	/^def get_ignore_str(function):$/;"	f
+get_line_from_sym	add-ons/hotcode.py	/^def get_line_from_sym(sym):$/;"	f
+get_pagination	getmod.py	/^def get_pagination():$/;"	f
+getmod	add-ons/hotcode.py	/^def getmod():$/;"	f
+got_dir	getmod.c	/^char	got_dir[512];$/;"	v
+group_can_go_on	perf_event.c	/^static int group_can_go_on(struct perf_event *event,$/;"	f	file:
+grs	gtp.c	/^	struct gtp_realloc_s	*grs;$/;"	m	struct:gtpframe_pipe_s	typeref:struct:gtpframe_pipe_s::gtp_realloc_s	file:
+gtp_access_cooked_clock	gtp.c	/^static int	gtp_access_cooked_clock;$/;"	v	file:
+gtp_access_cooked_rdtsc	gtp.c	/^static int	gtp_access_cooked_rdtsc;$/;"	v	file:
+gtp_action_alloc	gtp.c	/^gtp_action_alloc(char type)$/;"	f	file:
+gtp_action_head	gtp.c	/^gtp_action_head(struct gtp_trace_s *gts)$/;"	f	file:
+gtp_action_memory_read	gtp.c	/^gtp_action_memory_read(struct gtp_trace_s *gts, int reg, CORE_ADDR addr,$/;"	f	file:
+gtp_action_printk	gtp.c	/^gtp_action_printk(struct gtp_trace_s *gts, ULONGEST addr, size_t size)$/;"	f	file:
+gtp_action_r	gtp.c	/^gtp_action_r(struct gtp_trace_s *gts, struct action *ae)$/;"	f	file:
+gtp_action_reg_read	gtp.c	/^EXPORT_SYMBOL(gtp_action_reg_read);$/;"	v
+gtp_action_reg_read	gtp.c	/^gtp_action_reg_read(struct gtp_trace_s *gts, int num)$/;"	f
+gtp_action_reg_read	gtp.c	/^gtp_action_reg_read(struct gtp_trace_s *gts, int num)$/;"	f	file:
+gtp_action_release	gtp.c	/^gtp_action_release(struct action *ae)$/;"	f	file:
+gtp_action_x	gtp.c	/^gtp_action_x(struct gtp_trace_s *gts, struct action *ae)$/;"	f	file:
+gtp_add_backtrace_actions	gtp.c	/^gtp_add_backtrace_actions(struct gtp_entry *tpe)$/;"	f	file:
+gtp_bt_hooks	gtp.c	/^static struct gtp_var_hooks	gtp_bt_hooks = {$/;"	v	typeref:struct:gtp_var_hooks	file:
+gtp_bt_hooks_get_val	gtp.c	/^gtp_bt_hooks_get_val(struct gtp_trace_s *unused1,$/;"	f	file:
+gtp_bt_hooks_set_val	gtp.c	/^gtp_bt_hooks_set_val(struct gtp_trace_s *unused1,$/;"	f	file:
+gtp_bt_size	gtp.c	/^static int			gtp_bt_size;$/;"	v	file:
+gtp_check_getv	gtp.c	/^gtp_check_getv(struct gtp_entry *tpe, struct action *ae,$/;"	f	file:
+gtp_check_setv	gtp.c	/^gtp_check_setv(struct gtp_entry *tpe, struct action *ae,$/;"	f	file:
+gtp_check_x	gtp.c	/^gtp_check_x(struct gtp_entry *tpe, struct action *ae)$/;"	f	file:
+gtp_check_x_loop	gtp.c	/^gtp_check_x_loop(struct gtp_entry *tpe, struct action *ae)$/;"	f	file:
+gtp_check_x_simple	gtp.c	/^gtp_check_x_simple(struct gtp_entry *tpe, struct action *ae)$/;"	f	file:
+gtp_circular	gtp.c	/^static int			gtp_circular;$/;"	v	file:
+gtp_circular_is_changed	gtp.c	/^static int			gtp_circular_is_changed;$/;"	v	file:
+gtp_clock_hooks	gtp.c	/^static struct gtp_var_hooks	gtp_clock_hooks = {$/;"	v	typeref:struct:gtp_var_hooks	file:
+gtp_clock_hooks_get_val	gtp.c	/^gtp_clock_hooks_get_val(struct gtp_trace_s *unused1,$/;"	f	file:
+gtp_collect_var	gtp.c	/^gtp_collect_var(struct gtp_trace_s *gts, int num)$/;"	f	file:
+gtp_cooked_clock_hooks	gtp.c	/^static struct gtp_var_hooks	gtp_cooked_clock_hooks = {$/;"	v	typeref:struct:gtp_var_hooks	file:
+gtp_cooked_clock_hooks_get_val	gtp.c	/^gtp_cooked_clock_hooks_get_val(struct gtp_trace_s *unused1,$/;"	f	file:
+gtp_cooked_rdtsc_hooks	gtp.c	/^static struct gtp_var_hooks	gtp_cooked_rdtsc_hooks = {$/;"	v	typeref:struct:gtp_var_hooks	file:
+gtp_cooked_rdtsc_hooks_get_val	gtp.c	/^gtp_cooked_rdtsc_hooks_get_val(struct gtp_trace_s *unused1,$/;"	f	file:
+gtp_cpu_number	gtp.c	/^static int			gtp_cpu_number;$/;"	v	file:
+gtp_cpu_number_hooks	gtp.c	/^static struct gtp_var_hooks	gtp_cpu_number_hooks = {$/;"	v	typeref:struct:gtp_var_hooks	file:
+gtp_cpu_number_hooks_get_val	gtp.c	/^gtp_cpu_number_hooks_get_val(struct gtp_trace_s *unused1,$/;"	f	file:
+gtp_current_action_check	gtp.c	/^gtp_current_action_check(void)$/;"	f	file:
+gtp_current_pid	gtp.c	/^static pid_t			gtp_current_pid;$/;"	v	file:
+gtp_current_set_check	gtp.c	/^gtp_current_set_check(void)$/;"	f	file:
+gtp_current_task_hooks	gtp.c	/^static struct gtp_var_hooks	gtp_current_task_hooks = {$/;"	v	typeref:struct:gtp_var_hooks	file:
+gtp_current_task_hooks_get_val	gtp.c	/^gtp_current_task_hooks_get_val(struct gtp_trace_s *gts,$/;"	f	file:
+gtp_current_task_pid_hooks	gtp.c	/^static struct gtp_var_hooks	gtp_current_task_pid_hooks = {$/;"	v	typeref:struct:gtp_var_hooks	file:
+gtp_current_task_pid_hooks_get_val	gtp.c	/^gtp_current_task_pid_hooks_get_val(struct gtp_trace_s *gts,$/;"	f	file:
+gtp_current_task_user_hooks	gtp.c	/^static struct gtp_var_hooks	gtp_current_task_user_hooks = {$/;"	v	typeref:struct:gtp_var_hooks	file:
+gtp_current_task_user_hooks_get_val	gtp.c	/^gtp_current_task_user_hooks_get_val(struct gtp_trace_s *unused1,$/;"	f	file:
+gtp_current_thread_info_hooks	gtp.c	/^static struct gtp_var_hooks	gtp_current_thread_info_hooks = {$/;"	v	typeref:struct:gtp_var_hooks	file:
+gtp_current_thread_info_hooks_get_val	gtp.c	/^gtp_current_thread_info_hooks_get_val(struct gtp_trace_s *unused1,$/;"	f	file:
+gtp_dir	gtp.c	/^struct dentry	*gtp_dir;$/;"	v	typeref:struct:dentry
+gtp_disconnected_tracing	gtp.c	/^static int			gtp_disconnected_tracing;$/;"	v	file:
+gtp_dump_stack_hooks	gtp.c	/^static struct gtp_var_hooks	gtp_dump_stack_hooks = {$/;"	v	typeref:struct:gtp_var_hooks	file:
+gtp_dump_stack_hooks_get_val	gtp.c	/^gtp_dump_stack_hooks_get_val(struct gtp_trace_s *gts,$/;"	f	file:
+gtp_enable_disable_hooks	gtp.c	/^static struct gtp_var_hooks	gtp_enable_disable_hooks = {$/;"	v	typeref:struct:gtp_var_hooks	file:
+gtp_enable_disable_hooks_set_val	gtp.c	/^gtp_enable_disable_hooks_set_val(struct gtp_trace_s *gts,$/;"	f	file:
+gtp_entry	gtp.c	/^struct gtp_entry {$/;"	s	file:
+gtp_exit	gtp.c	/^static void __exit gtp_exit(void)$/;"	f	file:
+gtp_fake_task	gtp.c	/^static struct task_struct	gtp_fake_task;$/;"	v	typeref:struct:task_struct	file:
+gtp_fake_thread	gtp.c	/^static struct thread_info	gtp_fake_thread;$/;"	v	typeref:struct:thread_info	file:
+gtp_follow_page	gtp.c	/^gtp_follow_page(struct vm_area_struct *vma, unsigned long address,$/;"	f
+gtp_frame	gtp.c	/^static char			*gtp_frame;$/;"	v	file:
+gtp_frame	gtp.c	/^static struct ring_buffer	*gtp_frame;$/;"	v	typeref:struct:ring_buffer	file:
+gtp_frame2file	gtp.c	/^gtp_frame2file(struct gtp_realloc_s *grs)$/;"	f
+gtp_frame2file_m	gtp.c	/^gtp_frame2file_m(struct gtp_realloc_s *grs, uint32_t *data_size, char *frame)$/;"	f	file:
+gtp_frame2file_r	gtp.c	/^gtp_frame2file_r(struct gtp_realloc_s *grs, uint32_t *data_size, char *frame)$/;"	f	file:
+gtp_frame2file_v	gtp.c	/^gtp_frame2file_v(struct gtp_realloc_s *grs, uint32_t *data_size, char *frame)$/;"	f	file:
+gtp_frame_alloc	gtp.c	/^gtp_frame_alloc(size_t size)$/;"	f	file:
+gtp_frame_count	gtp.c	/^static unsigned int	gtp_frame_count;$/;"	v	file:
+gtp_frame_count_get	gtp.c	/^gtp_frame_count_get(void)$/;"	f	file:
+gtp_frame_count_put	gtp.c	/^gtp_frame_count_put(void)$/;"	f	file:
+gtp_frame_create	gtp.c	/^static atomic_t			gtp_frame_create;$/;"	v	file:
+gtp_frame_current	gtp.c	/^static char			*gtp_frame_current;$/;"	v	file:
+gtp_frame_current_clock	gtp.c	/^static u64			gtp_frame_current_clock;$/;"	v	file:
+gtp_frame_current_cpu	gtp.c	/^static int			gtp_frame_current_cpu;$/;"	v	file:
+gtp_frame_current_id	gtp_rb.c	/^static u64		gtp_frame_current_id;$/;"	v	file:
+gtp_frame_current_num	gtp.c	/^static int			gtp_frame_current_num;$/;"	v	file:
+gtp_frame_current_rb	gtp_rb.c	/^static struct gtp_rb_s	*gtp_frame_current_rb;$/;"	v	typeref:struct:gtp_rb_s	file:
+gtp_frame_current_tpe	gtp.c	/^static ULONGEST			gtp_frame_current_tpe;$/;"	v	file:
+gtp_frame_end	gtp.c	/^static char			*gtp_frame_end;$/;"	v	file:
+gtp_frame_file	gtp.c	/^static char			*gtp_frame_file;$/;"	v	file:
+gtp_frame_file_header	gtp.c	/^gtp_frame_file_header(struct gtp_realloc_s *grs, int is_end)$/;"	f	file:
+gtp_frame_file_size	gtp.c	/^static size_t			gtp_frame_file_size;$/;"	v	file:
+gtp_frame_head_find_addr	gtp.c	/^gtp_frame_head_find_addr(int inside, unsigned long lo,$/;"	f	file:
+gtp_frame_head_find_num	gtp.c	/^gtp_frame_head_find_num(int num)$/;"	f	file:
+gtp_frame_head_find_trace	gtp.c	/^gtp_frame_head_find_trace(ULONGEST trace)$/;"	f	file:
+gtp_frame_is_circular	gtp.c	/^static int			gtp_frame_is_circular;$/;"	v	file:
+gtp_frame_iter	gtp.c	/^static struct ring_buffer_iter	*gtp_frame_iter[NR_CPUS];$/;"	v	typeref:struct:ring_buffer_iter	file:
+gtp_frame_iter_close	gtp.c	/^gtp_frame_iter_close(void)$/;"	f	file:
+gtp_frame_iter_open	gtp.c	/^gtp_frame_iter_open(void)$/;"	f	file:
+gtp_frame_iter_peek_head	gtp.c	/^gtp_frame_iter_peek_head(void)$/;"	f	file:
+gtp_frame_iter_reset	gtp.c	/^gtp_frame_iter_reset(void)$/;"	f	file:
+gtp_frame_mem	gtp.c	/^struct gtp_frame_mem {$/;"	s	file:
+gtp_frame_next	gtp.c	/^gtp_frame_next(char *frame)$/;"	f	file:
+gtp_frame_r_start	gtp.c	/^static char			*gtp_frame_r_start;$/;"	v	file:
+gtp_frame_reset	gtp.c	/^gtp_frame_reset(void)$/;"	f	file:
+gtp_frame_var	gtp.c	/^struct gtp_frame_var {$/;"	s	file:
+gtp_frame_w_start	gtp.c	/^static char			*gtp_frame_w_start;$/;"	v	file:
+gtp_gdbrsp_D	gtp.c	/^gtp_gdbrsp_D(char *pkg)$/;"	f	file:
+gtp_gdbrsp_H	gtp.c	/^gtp_gdbrsp_H(char *pkg)$/;"	f	file:
+gtp_gdbrsp_QT	gtp.c	/^gtp_gdbrsp_QT(char *pkg)$/;"	f	file:
+gtp_gdbrsp_g	gtp.c	/^gtp_gdbrsp_g(void)$/;"	f	file:
+gtp_gdbrsp_m	gtp.c	/^gtp_gdbrsp_m(char *pkg)$/;"	f	file:
+gtp_gdbrsp_qT	gtp.c	/^gtp_gdbrsp_qT(char *pkg)$/;"	f	file:
+gtp_gdbrsp_qtbuffer	gtp.c	/^gtp_gdbrsp_qtbuffer(char *pkg)$/;"	f	file:
+gtp_gdbrsp_qtdisconnected	gtp.c	/^gtp_gdbrsp_qtdisconnected(char *pkg)$/;"	f	file:
+gtp_gdbrsp_qtdp	gtp.c	/^gtp_gdbrsp_qtdp(char *pkg)$/;"	f	file:
+gtp_gdbrsp_qtdpsrc	gtp.c	/^gtp_gdbrsp_qtdpsrc(char *pkg)$/;"	f	file:
+gtp_gdbrsp_qtdv	gtp.c	/^gtp_gdbrsp_qtdv(char *pkg)$/;"	f	file:
+gtp_gdbrsp_qtenable_qtdisable	gtp.c	/^gtp_gdbrsp_qtenable_qtdisable(char *pkg, int enable)$/;"	f	file:
+gtp_gdbrsp_qtfp	gtp.c	/^gtp_gdbrsp_qtfp(void)$/;"	f	file:
+gtp_gdbrsp_qtframe	gtp.c	/^gtp_gdbrsp_qtframe(char *pkg)$/;"	f	file:
+gtp_gdbrsp_qtfsv	gtp.c	/^gtp_gdbrsp_qtfsv(int f)$/;"	f	file:
+gtp_gdbrsp_qtinit	gtp.c	/^gtp_gdbrsp_qtinit(void)$/;"	f	file:
+gtp_gdbrsp_qtro	gtp.c	/^gtp_gdbrsp_qtro(char *pkg)$/;"	f	file:
+gtp_gdbrsp_qtsp	gtp.c	/^gtp_gdbrsp_qtsp(void)$/;"	f	file:
+gtp_gdbrsp_qtstart	gtp.c	/^gtp_gdbrsp_qtstart(void)$/;"	f	file:
+gtp_gdbrsp_qtstatus	gtp.c	/^gtp_gdbrsp_qtstatus(void)$/;"	f	file:
+gtp_gdbrsp_qtstop	gtp.c	/^gtp_gdbrsp_qtstop(void)$/;"	f	file:
+gtp_gdbrsp_qtv	gtp.c	/^gtp_gdbrsp_qtv(char *pkg)$/;"	f	file:
+gtp_gdbrsp_qxfer_traceframe_info_read	gtp.c	/^gtp_gdbrsp_qxfer_traceframe_info_read(char *pkg)$/;"	f	file:
+gtp_gdbrsp_vAttach	gtp.c	/^gtp_gdbrsp_vAttach(char *pkg)$/;"	f	file:
+gtp_get_status	gtp.c	/^gtp_get_status(struct gtp_entry *tpe, char *buf, int bufmax)$/;"	f	file:
+gtp_get_user_page	gtp.c	/^gtp_get_user_page(struct mm_struct *mm, unsigned long start,$/;"	f	file:
+gtp_gtp_pid	gtp.c	/^static pid_t			gtp_gtp_pid;$/;"	v	file:
+gtp_gtp_pid_count	gtp.c	/^static unsigned int		gtp_gtp_pid_count;$/;"	v	file:
+gtp_gtpframe_pid	gtp.c	/^static pid_t			gtp_gtpframe_pid;$/;"	v	file:
+gtp_gtpframe_pid_count	gtp.c	/^static unsigned int		gtp_gtpframe_pid_count;$/;"	v	file:
+gtp_gtpframe_pipe_pid	gtp.c	/^static pid_t			gtp_gtpframe_pipe_pid;$/;"	v	file:
+gtp_handler	gtp.c	/^gtp_handler(struct gtp_trace_s *gts)$/;"	f	file:
+gtp_handler_begin	gtp.c	/^gtp_handler_begin(void)$/;"	f	file:
+gtp_handler_enable_disable	gtp.c	/^gtp_handler_enable_disable(struct gtp_trace_s *gts, ULONGEST val, int enable)$/;"	f	file:
+gtp_handler_end	gtp.c	/^gtp_handler_end(void)$/;"	f	file:
+gtp_handler_wakeup	gtp.c	/^gtp_handler_wakeup(void)$/;"	f	file:
+gtp_hardirq_count_hooks	gtp.c	/^static struct gtp_var_hooks	gtp_hardirq_count_hooks = {$/;"	v	typeref:struct:gtp_var_hooks	file:
+gtp_hardirq_count_hooks_get_val	gtp.c	/^gtp_hardirq_count_hooks_get_val(struct gtp_trace_s *unused1,$/;"	f	file:
+gtp_have_pc_pe	gtp.c	/^static int	gtp_have_pc_pe;$/;"	v	file:
+gtp_ignore_error_hooks	gtp.c	/^static struct gtp_var_hooks	gtp_ignore_error_hooks = {$/;"	v	typeref:struct:gtp_var_hooks	file:
+gtp_ignore_error_hooks_get_val	gtp.c	/^gtp_ignore_error_hooks_get_val(struct gtp_trace_s *unused1,$/;"	f	file:
+gtp_ignore_error_hooks_set_val	gtp.c	/^gtp_ignore_error_hooks_set_val(struct gtp_trace_s *unused1,$/;"	f	file:
+gtp_init	gtp.c	/^static int __init gtp_init(void)$/;"	f	file:
+gtp_ioctl	gtp.c	/^gtp_ioctl(struct file *file, unsigned int cmd, unsigned long arg)$/;"	f	file:
+gtp_ioctl	gtp.c	/^gtp_ioctl(struct inode *inode, struct file *file,$/;"	f	file:
+gtp_irq_count_hooks	gtp.c	/^static struct gtp_var_hooks	gtp_irq_count_hooks = {$/;"	v	typeref:struct:gtp_var_hooks	file:
+gtp_irq_count_hooks_get_val	gtp.c	/^gtp_irq_count_hooks_get_val(struct gtp_trace_s *unused1,$/;"	f	file:
+gtp_kp_post_handler	gtp.c	/^gtp_kp_post_handler(struct kprobe *p, struct pt_regs *regs,$/;"	f	file:
+gtp_kp_post_handler_1	gtp.c	/^gtp_kp_post_handler_1(struct kprobe *p, struct pt_regs *regs,$/;"	f	file:
+gtp_kp_post_handler_plus	gtp.c	/^gtp_kp_post_handler_plus(struct kprobe *p, struct pt_regs *regs,$/;"	f	file:
+gtp_kp_pre_handler	gtp.c	/^gtp_kp_pre_handler(struct kprobe *p, struct pt_regs *regs)$/;"	f	file:
+gtp_kp_pre_handler_1	gtp.c	/^gtp_kp_pre_handler_1(struct kprobe *p, struct pt_regs *regs)$/;"	f	file:
+gtp_kp_pre_handler_plus	gtp.c	/^gtp_kp_pre_handler_plus(struct kprobe *p, struct pt_regs *regs)$/;"	f	file:
+gtp_kp_pre_handler_plus_step	gtp.c	/^gtp_kp_pre_handler_plus_step(struct kprobe *p, struct pt_regs *regs)$/;"	f	file:
+gtp_kp_ret_handler	gtp.c	/^gtp_kp_ret_handler(struct kretprobe_instance *ri, struct pt_regs *regs)$/;"	f	file:
+gtp_kp_ret_handler_1	gtp.c	/^gtp_kp_ret_handler_1(struct kretprobe_instance *ri, struct pt_regs *regs)$/;"	f	file:
+gtp_kp_ret_handler_plus	gtp.c	/^gtp_kp_ret_handler_plus(struct kretprobe_instance *ri, struct pt_regs *regs)$/;"	f	file:
+gtp_last_errno_hooks	gtp.c	/^static struct gtp_var_hooks	gtp_last_errno_hooks = {$/;"	v	typeref:struct:gtp_var_hooks	file:
+gtp_last_errno_hooks_get_val	gtp.c	/^gtp_last_errno_hooks_get_val(struct gtp_trace_s *unused1,$/;"	f	file:
+gtp_list	gtp.c	/^static struct gtp_entry		*gtp_list;$/;"	v	typeref:struct:gtp_entry	file:
+gtp_list_add	gtp.c	/^gtp_list_add(ULONGEST num, ULONGEST addr)$/;"	f	file:
+gtp_list_find	gtp.c	/^gtp_list_find(ULONGEST num, ULONGEST addr)$/;"	f	file:
+gtp_list_find_without_addr	gtp.c	/^gtp_list_find_without_addr(ULONGEST num)$/;"	f	file:
+gtp_list_release	gtp.c	/^gtp_list_release(void)$/;"	f	file:
+gtp_local_clock	gtp.c	/^gtp_local_clock(void)$/;"	f	file:
+gtp_m_buffer	gtp.c	/^static uint8_t	gtp_m_buffer[0xffff];$/;"	v	file:
+gtp_modules_load_del_nb	gtp.c	/^static struct notifier_block	gtp_modules_load_del_nb = {$/;"	v	typeref:struct:notifier_block	file:
+gtp_modules_load_del_notify	gtp.c	/^gtp_modules_load_del_notify(struct notifier_block *self, unsigned long val,$/;"	f	file:
+gtp_modules_traceframe_info	gtp.c	/^static char		*gtp_modules_traceframe_info;$/;"	v	file:
+gtp_modules_traceframe_info_get	gtp.c	/^gtp_modules_traceframe_info_get(void)$/;"	f	file:
+gtp_modules_traceframe_info_len	gtp.c	/^static unsigned int	gtp_modules_traceframe_info_len;$/;"	v	file:
+gtp_modules_traceframe_info_need_get	gtp.c	/^static int		gtp_modules_traceframe_info_need_get;$/;"	v	file:
+gtp_noack_mode	gtp.c	/^static int			gtp_noack_mode;$/;"	v	file:
+gtp_open	gtp.c	/^gtp_open(struct inode *inode, struct file *file)$/;"	f	file:
+gtp_operations	gtp.c	/^static const struct file_operations gtp_operations = {$/;"	v	typeref:struct:file_operations	file:
+gtp_parse_x	gtp.c	/^gtp_parse_x(struct gtp_entry *tpe, struct action *ae, char **pkgp)$/;"	f	file:
+gtp_pc_pe_en	gtp.c	/^gtp_pc_pe_en(int enable)$/;"	f	file:
+gtp_pc_pe_en_hooks	gtp.c	/^static struct gtp_var_hooks	gtp_pc_pe_en_hooks = {$/;"	v	typeref:struct:gtp_var_hooks	file:
+gtp_pc_pe_en_hooks_set_val	gtp.c	/^gtp_pc_pe_en_hooks_set_val(struct gtp_trace_s *unused1,$/;"	f	file:
+gtp_pe_set_en	gtp.c	/^gtp_pe_set_en(struct gtp_var_perf_event *pts, int enable)$/;"	f	file:
+gtp_perf_event_disable	perf_event.c	/^gtp_perf_event_disable(struct perf_event *event)$/;"	f	file:
+gtp_perf_event_enable	perf_event.c	/^gtp_perf_event_enable(struct perf_event *event)$/;"	f	file:
+gtp_perf_event_set	perf_event.c	/^static void gtp_perf_event_set(struct perf_event *event, u64 val)$/;"	f	file:
+gtp_perf_event_wakeup	perf_event.c	/^static void gtp_perf_event_wakeup(struct perf_event *event)$/;"	f	file:
+gtp_perf_output_begin	perf_event.c	/^static int gtp_perf_output_begin(struct perf_output_handle *handle,$/;"	f	file:
+gtp_perf_output_end	perf_event.c	/^static void gtp_perf_output_end(struct perf_output_handle *handle)$/;"	f	file:
+gtp_pipe_trace	gtp.c	/^static int			gtp_pipe_trace;$/;"	v	file:
+gtp_pipe_trace_hooks	gtp.c	/^static struct gtp_var_hooks	gtp_pipe_trace_hooks = {$/;"	v	typeref:struct:gtp_var_hooks	file:
+gtp_pipe_trace_hooks_get_val	gtp.c	/^gtp_pipe_trace_hooks_get_val(struct gtp_trace_s *unused1,$/;"	f	file:
+gtp_pipe_trace_hooks_set_val	gtp.c	/^gtp_pipe_trace_hooks_set_val(struct gtp_trace_s *unused1,$/;"	f	file:
+gtp_plugin_mod	gtp.c	/^struct gtp_plugin_mod$/;"	s	file:
+gtp_plugin_mod_get	gtp.c	/^gtp_plugin_mod_get(void)$/;"	f	file:
+gtp_plugin_mod_put	gtp.c	/^gtp_plugin_mod_put(void)$/;"	f	file:
+gtp_plugin_mod_register	gtp.c	/^EXPORT_SYMBOL(gtp_plugin_mod_register);$/;"	v
+gtp_plugin_mod_register	gtp.c	/^gtp_plugin_mod_register(struct module *mod)$/;"	f
+gtp_plugin_mod_unregister	gtp.c	/^EXPORT_SYMBOL(gtp_plugin_mod_unregister);$/;"	v
+gtp_plugin_mod_unregister	gtp.c	/^gtp_plugin_mod_unregister(struct module *mod)$/;"	f
+gtp_plugin_var_add	gtp.c	/^EXPORT_SYMBOL(gtp_plugin_var_add);$/;"	v
+gtp_plugin_var_add	gtp.c	/^gtp_plugin_var_add(char *name, int64_t val, struct gtp_var_hooks *hooks)$/;"	f
+gtp_plugin_var_del	gtp.c	/^EXPORT_SYMBOL(gtp_plugin_var_del);$/;"	v
+gtp_plugin_var_del	gtp.c	/^gtp_plugin_var_del(struct gtp_var *var)$/;"	f
+gtp_poll	gtp.c	/^gtp_poll(struct file *file, poll_table *wait)$/;"	f	file:
+gtp_printk_format_hooks	gtp.c	/^static struct gtp_var_hooks	gtp_printk_format_hooks = {$/;"	v	typeref:struct:gtp_var_hooks	file:
+gtp_printk_format_hooks_set_val	gtp.c	/^gtp_printk_format_hooks_set_val(struct gtp_trace_s *gts,$/;"	f	file:
+gtp_printk_level_hooks	gtp.c	/^static struct gtp_var_hooks	gtp_printk_level_hooks = {$/;"	v	typeref:struct:gtp_var_hooks	file:
+gtp_printk_level_hooks_set_val	gtp.c	/^gtp_printk_level_hooks_set_val(struct gtp_trace_s *gts,$/;"	f	file:
+gtp_printk_tmp_hooks	gtp.c	/^static struct gtp_var_hooks	gtp_printk_tmp_hooks = {$/;"	v	typeref:struct:gtp_var_hooks	file:
+gtp_printk_tmp_hooks_get_val	gtp.c	/^gtp_printk_tmp_hooks_get_val(struct gtp_trace_s *gts,$/;"	f	file:
+gtp_printk_tmp_hooks_set_val	gtp.c	/^gtp_printk_tmp_hooks_set_val(struct gtp_trace_s *gts,$/;"	f	file:
+gtp_rb	gtp_rb.c	/^static struct gtp_rb_s __percpu	*gtp_rb;$/;"	v	typeref:struct:__percpu	file:
+gtp_rb_alloc	gtp_rb.c	/^gtp_rb_alloc(struct gtp_rb_s *rb, size_t size, u64 id)$/;"	f	file:
+gtp_rb_clock	gtp_rb.c	/^gtp_rb_clock(void)$/;"	f	file:
+gtp_rb_count	gtp_rb.c	/^static atomic64_t			gtp_rb_count;$/;"	v	file:
+gtp_rb_count	gtp_rb.c	/^static atomic_t				gtp_rb_count;$/;"	v	file:
+gtp_rb_discard_page_number	gtp_rb.c	/^static atomic_t			gtp_rb_discard_page_number;$/;"	v	file:
+gtp_rb_discard_page_number_hooks	gtp.c	/^static struct gtp_var_hooks	gtp_rb_discard_page_number_hooks = {$/;"	v	typeref:struct:gtp_var_hooks	file:
+gtp_rb_discard_page_number_hooks_get_val	gtp.c	/^gtp_rb_discard_page_number_hooks_get_val(struct gtp_trace_s *unused1,$/;"	f	file:
+gtp_rb_get_page	gtp_rb.c	/^gtp_rb_get_page(struct gtp_rb_s *rb)$/;"	f	file:
+gtp_rb_init	gtp_rb.c	/^gtp_rb_init(void)$/;"	f	file:
+gtp_rb_page_alloc	gtp_rb.c	/^gtp_rb_page_alloc(int size)$/;"	f	file:
+gtp_rb_page_count	gtp_rb.c	/^static unsigned int		gtp_rb_page_count;$/;"	v	file:
+gtp_rb_page_free	gtp_rb.c	/^gtp_rb_page_free(void)$/;"	f	file:
+gtp_rb_put_page	gtp_rb.c	/^gtp_rb_put_page(struct gtp_rb_s *rb, void *page, int page_is_empty)$/;"	f	file:
+gtp_rb_read	gtp_rb.c	/^gtp_rb_read(void)$/;"	f	file:
+gtp_rb_read_reset	gtp_rb.c	/^gtp_rb_read_reset(void)$/;"	f	file:
+gtp_rb_release	gtp_rb.c	/^gtp_rb_release(void)$/;"	f	file:
+gtp_rb_reset	gtp_rb.c	/^gtp_rb_reset(void)$/;"	f	file:
+gtp_rb_s	gtp_rb.c	/^struct gtp_rb_s {$/;"	s	file:
+gtp_rb_walk	gtp_rb.c	/^gtp_rb_walk(struct gtp_rb_walk_s *s, void *ret)$/;"	f	file:
+gtp_rb_walk_end	gtp_rb.c	/^	gtp_rb_walk_end = 0,$/;"	e	enum:gtp_rb_walk_reason	file:
+gtp_rb_walk_end_entry	gtp_rb.c	/^	gtp_rb_walk_end_entry,$/;"	e	enum:gtp_rb_walk_reason	file:
+gtp_rb_walk_end_page	gtp_rb.c	/^	gtp_rb_walk_end_page,$/;"	e	enum:gtp_rb_walk_reason	file:
+gtp_rb_walk_error	gtp_rb.c	/^	gtp_rb_walk_error,$/;"	e	enum:gtp_rb_walk_reason	file:
+gtp_rb_walk_new_entry	gtp_rb.c	/^	gtp_rb_walk_new_entry,$/;"	e	enum:gtp_rb_walk_reason	file:
+gtp_rb_walk_reason	gtp_rb.c	/^enum gtp_rb_walk_reason {$/;"	g	file:
+gtp_rb_walk_s	gtp_rb.c	/^struct gtp_rb_walk_s {$/;"	s	file:
+gtp_rb_walk_step	gtp_rb.c	/^	gtp_rb_walk_step,$/;"	e	enum:gtp_rb_walk_reason	file:
+gtp_rb_walk_type	gtp_rb.c	/^	gtp_rb_walk_type,$/;"	e	enum:gtp_rb_walk_reason	file:
+gtp_rdtsc_hooks	gtp.c	/^static struct gtp_var_hooks	gtp_rdtsc_hooks = {$/;"	v	typeref:struct:gtp_var_hooks	file:
+gtp_rdtsc_hooks_get_val	gtp.c	/^gtp_rdtsc_hooks_get_val(struct gtp_trace_s *unused1,$/;"	f	file:
+gtp_read	gtp.c	/^gtp_read(struct file *file, char __user *buf, size_t size,$/;"	f	file:
+gtp_read_ack	gtp.c	/^static int			gtp_read_ack;$/;"	v	file:
+gtp_realloc	gtp.c	/^gtp_realloc(struct gtp_realloc_s *grs, size_t size, int is_end)$/;"	f	file:
+gtp_realloc_alloc	gtp.c	/^gtp_realloc_alloc(struct gtp_realloc_s *grs, size_t size)$/;"	f	file:
+gtp_realloc_is_alloced	gtp.c	/^gtp_realloc_is_alloced(struct gtp_realloc_s *grs)$/;"	f	file:
+gtp_realloc_is_empty	gtp.c	/^gtp_realloc_is_empty(struct gtp_realloc_s *grs)$/;"	f	file:
+gtp_realloc_reset	gtp.c	/^gtp_realloc_reset(struct gtp_realloc_s *grs)$/;"	f	file:
+gtp_realloc_s	gtp.c	/^struct gtp_realloc_s {$/;"	s	file:
+gtp_realloc_str	gtp.c	/^gtp_realloc_str(struct gtp_realloc_s *grs, char *str, int is_end)$/;"	f	file:
+gtp_realloc_sub_size	gtp.c	/^gtp_realloc_sub_size(struct gtp_realloc_s *grs, size_t size)$/;"	f	file:
+gtp_regs2ascii	gtp.c	/^gtp_regs2ascii(struct pt_regs *regs, char *buf)$/;"	f	file:
+gtp_regs2bin	gtp.c	/^gtp_regs2bin(struct pt_regs *regs, char *buf)$/;"	f	file:
+gtp_release	gtp.c	/^gtp_release(struct inode *inode, struct file *file)$/;"	f	file:
+gtp_report_action	gtp.c	/^gtp_report_action(struct gtp_entry *gtp, struct gtpsrc *action, char *buf,$/;"	f	file:
+gtp_report_action_max	gtp.c	/^gtp_report_action_max(struct gtp_entry *gtp, struct gtpsrc *action)$/;"	f	file:
+gtp_report_src	gtp.c	/^gtp_report_src(struct gtp_entry *gtp, struct gtpsrc *src, char *buf, int bufmax)$/;"	f	file:
+gtp_report_src_max	gtp.c	/^gtp_report_src_max(struct gtp_entry *gtp, struct gtpsrc *src)$/;"	f	file:
+gtp_report_tracepoint	gtp.c	/^gtp_report_tracepoint(struct gtp_entry *gtp, char *buf, int bufmax)$/;"	f	file:
+gtp_rw_buf	gtp.c	/^static char			*gtp_rw_buf;$/;"	v	file:
+gtp_rw_bufp	gtp.c	/^static char			*gtp_rw_bufp;$/;"	v	file:
+gtp_rw_count	gtp.c	/^static unsigned int	gtp_rw_count;$/;"	v	file:
+gtp_rw_size	gtp.c	/^static size_t			gtp_rw_size;$/;"	v	file:
+gtp_softirq_count_hooks	gtp.c	/^static struct gtp_var_hooks	gtp_softirq_count_hooks = {$/;"	v	typeref:struct:gtp_var_hooks	file:
+gtp_softirq_count_hooks_get_val	gtp.c	/^gtp_softirq_count_hooks_get_val(struct gtp_trace_s *unused1,$/;"	f	file:
+gtp_src_add	gtp.c	/^gtp_src_add(char *begin, char *end, struct gtpsrc **src_list)$/;"	f	file:
+gtp_src_release	gtp.c	/^gtp_src_release(struct gtpsrc *src)$/;"	f	file:
+gtp_start	gtp.c	/^static int			gtp_start;$/;"	v	file:
+gtp_start_ignore_error	gtp.c	/^static int			gtp_start_ignore_error;$/;"	v	file:
+gtp_start_last_errno	gtp.c	/^static uint64_t			gtp_start_last_errno;$/;"	v	file:
+gtp_stop_access_wrong_reg	gtp.c	/^	gtp_stop_access_wrong_reg,$/;"	e	enum:gtp_stop_type	file:
+gtp_stop_agent_expr_code_error	gtp.c	/^	gtp_stop_agent_expr_code_error,$/;"	e	enum:gtp_stop_type	file:
+gtp_stop_agent_expr_stack_overflow	gtp.c	/^	gtp_stop_agent_expr_stack_overflow,$/;"	e	enum:gtp_stop_type	file:
+gtp_stop_efault	gtp.c	/^	gtp_stop_efault,$/;"	e	enum:gtp_stop_type	file:
+gtp_stop_frame_full	gtp.c	/^	gtp_stop_frame_full,$/;"	e	enum:gtp_stop_type	file:
+gtp_stop_normal	gtp.c	/^	gtp_stop_normal = 0,$/;"	e	enum:gtp_stop_type	file:
+gtp_stop_type	gtp.c	/^enum gtp_stop_type {$/;"	g	file:
+gtp_strdup	gtp.c	/^gtp_strdup(char *begin, char *end)$/;"	f	file:
+gtp_task_handler_read	gtp.c	/^gtp_task_handler_read(void *dst, void *src, size_t size)$/;"	f	file:
+gtp_task_read	gtp.c	/^gtp_task_read(pid_t pid, struct task_struct *tsk, unsigned long addr,$/;"	f	file:
+gtp_trace_s	gtp.h	/^struct gtp_trace_s {$/;"	s
+gtp_traceframe_info	gtp.c	/^static char		*gtp_traceframe_info;$/;"	v	file:
+gtp_traceframe_info_get	gtp.c	/^gtp_traceframe_info_get(void)$/;"	f	file:
+gtp_traceframe_info_len	gtp.c	/^static unsigned int	gtp_traceframe_info_len;$/;"	v	file:
+gtp_tracepoint_disable	gtp.c	/^gtp_tracepoint_disable(struct work_struct *work)$/;"	f	file:
+gtp_tracepoint_stop	gtp.c	/^gtp_tracepoint_stop(struct work_struct *work)$/;"	f	file:
+gtp_var	gtp.c	/^struct gtp_var {$/;"	s	file:
+gtp_var_agent_get_val	gtp.c	/^gtp_var_agent_get_val(struct gtp_trace_s *gts, int num, int64_t *val)$/;"	f	file:
+gtp_var_agent_set_val	gtp.c	/^gtp_var_agent_set_val(struct gtp_trace_s *gts, int num, int64_t val)$/;"	f	file:
+gtp_var_alloc	gtp.c	/^gtp_var_alloc(int cpu_id, unsigned int num, int num_not_set,$/;"	f	file:
+gtp_var_array	gtp.c	/^static struct gtp_var	**gtp_var_array;$/;"	v	typeref:struct:gtp_var	file:
+gtp_var_array_find_num	gtp.c	/^gtp_var_array_find_num(struct gtp_var *var)$/;"	f	file:
+gtp_var_find_num	gtp.c	/^gtp_var_find_num(unsigned int num)$/;"	f	file:
+gtp_var_find_src	gtp.c	/^gtp_var_find_src(char *src)$/;"	f	file:
+gtp_var_get_pc	gtp.c	600;"	d	file:
+gtp_var_get_pc_pe	gtp.c	604;"	d	file:
+gtp_var_get_pe	gtp.c	605;"	d	file:
+gtp_var_hooks	gtp.h	/^struct gtp_var_hooks {$/;"	s
+gtp_var_normal	gtp.c	/^	gtp_var_normal = 0,$/;"	e	enum:__anon12	file:
+gtp_var_num	gtp.c	/^static unsigned int	gtp_var_num;$/;"	v	file:
+gtp_var_pc	gtp.c	/^struct gtp_var_pc {$/;"	s	file:
+gtp_var_pe	gtp.c	/^struct gtp_var_pe	{$/;"	s	file:
+gtp_var_per_cpu	gtp.c	/^	gtp_var_per_cpu,$/;"	e	enum:__anon12	file:
+gtp_var_per_cpu	gtp.c	/^struct gtp_var_per_cpu {$/;"	s	file:
+gtp_var_perf_event	gtp.c	/^	gtp_var_perf_event,$/;"	e	enum:__anon12	file:
+gtp_var_perf_event	gtp.c	/^struct gtp_var_perf_event	{$/;"	s	file:
+gtp_var_perf_event_per_cpu	gtp.c	/^	gtp_var_perf_event_per_cpu,$/;"	e	enum:__anon12	file:
+gtp_var_release	gtp.c	/^gtp_var_release(int include_special)$/;"	f	file:
+gtp_var_special	gtp.c	/^	gtp_var_special,$/;"	e	enum:__anon12	file:
+gtp_var_special_add	gtp.c	/^gtp_var_special_add(unsigned int num, int num_not_set,$/;"	f	file:
+gtp_var_special_add_all	gtp.c	/^gtp_var_special_add_all(void)$/;"	f	file:
+gtp_version_hooks	gtp.c	/^static struct gtp_var_hooks	gtp_version_hooks = {$/;"	v	typeref:struct:gtp_var_hooks	file:
+gtp_version_hooks_get_val	gtp.c	/^gtp_version_hooks_get_val(struct gtp_trace_s *unused1, struct gtp_var *unused2,$/;"	f	file:
+gtp_vm_normal_page	gtp.c	/^gtp_vm_normal_page(struct vm_area_struct *vma, unsigned long addr,$/;"	f
+gtp_wq	gtp.c	/^static struct workqueue_struct	*gtp_wq;$/;"	v	typeref:struct:workqueue_struct	file:
+gtp_wq_add_work	gtp.c	/^gtp_wq_add_work(unsigned long data)$/;"	f	file:
+gtp_write	gtp.c	/^gtp_write(struct file *file, const char __user *buf, size_t size,$/;"	f	file:
+gtp_x_if_goto	gtp.c	/^struct gtp_x_if_goto {$/;"	s	file:
+gtp_x_if_goto_add	gtp.c	/^gtp_x_if_goto_add(struct gtp_x_if_goto **list, unsigned int pc, unsigned int sp)$/;"	f	file:
+gtp_x_loop	gtp.c	/^struct gtp_x_loop {$/;"	s	file:
+gtp_x_loop_add	gtp.c	/^gtp_x_loop_add(struct gtp_x_loop **list, unsigned int pc, int non_goto_done)$/;"	f	file:
+gtp_x_loop_find	gtp.c	/^gtp_x_loop_find(struct gtp_x_loop *list, unsigned int pc)$/;"	f	file:
+gtp_x_var	gtp.c	/^struct gtp_x_var {$/;"	s	file:
+gtp_x_var_add	gtp.c	/^gtp_x_var_add(struct gtp_x_var **list, unsigned int num, unsigned int flag)$/;"	f	file:
+gtp_xtime_hooks	gtp.c	/^static struct gtp_var_hooks	gtp_xtime_hooks = {$/;"	v	typeref:struct:gtp_var_hooks	file:
+gtp_xtime_hooks_agent_get_val	gtp.c	/^gtp_xtime_hooks_agent_get_val(struct gtp_trace_s *gts,$/;"	f	file:
+gtp_xtime_hooks_gdb_get_val	gtp.c	/^gtp_xtime_hooks_gdb_get_val(struct gtp_trace_s *gts,$/;"	f	file:
+gtpframe_dir	gtp.c	/^struct dentry	*gtpframe_dir;$/;"	v	typeref:struct:dentry
+gtpframe_open	gtp.c	/^gtpframe_open(struct inode *inode, struct file *file)$/;"	f	file:
+gtpframe_operations	gtp.c	/^static const struct file_operations gtpframe_operations = {$/;"	v	typeref:struct:file_operations	file:
+gtpframe_pipe_dir	gtp.c	/^struct dentry	*gtpframe_pipe_dir;$/;"	v	typeref:struct:dentry
+gtpframe_pipe_get_entry	gtp.c	/^gtpframe_pipe_get_entry(struct gtp_realloc_s *grs)$/;"	f
+gtpframe_pipe_llseek	gtp.c	/^gtpframe_pipe_llseek(struct file *file, loff_t offset, int origin)$/;"	f	file:
+gtpframe_pipe_open	gtp.c	/^gtpframe_pipe_open(struct inode *inode, struct file *file)$/;"	f	file:
+gtpframe_pipe_operations	gtp.c	/^static const struct file_operations gtpframe_pipe_operations = {$/;"	v	typeref:struct:file_operations	file:
+gtpframe_pipe_peek	gtp.c	/^gtpframe_pipe_peek(struct gtpframe_pipe_s *gps)$/;"	f	file:
+gtpframe_pipe_peek	gtp.c	/^gtpframe_pipe_peek(void)$/;"	f	file:
+gtpframe_pipe_read	gtp.c	/^gtpframe_pipe_read(struct file *file, char __user *buf, size_t size,$/;"	f	file:
+gtpframe_pipe_release	gtp.c	/^gtpframe_pipe_release(struct inode *inode, struct file *file)$/;"	f	file:
+gtpframe_pipe_s	gtp.c	/^struct gtpframe_pipe_s {$/;"	s	file:
+gtpframe_pipe_wq_tasklet	gtp.c	/^static struct tasklet_struct	gtpframe_pipe_wq_tasklet;$/;"	v	typeref:struct:tasklet_struct	file:
+gtpframe_pipe_wq_v	gtp.c	/^static atomic_t			gtpframe_pipe_wq_v;$/;"	v	file:
+gtpframe_pipe_wq_wake_up	gtp.c	/^gtpframe_pipe_wq_wake_up(unsigned long data)$/;"	f	file:
+gtpframe_read	gtp.c	/^gtpframe_read(struct file *file, char __user *buf, size_t size,$/;"	f	file:
+gtpframe_release	gtp.c	/^gtpframe_release(struct inode *inode, struct file *file)$/;"	f	file:
+gtpline	add-ons/gtpwin.py	/^class gtpline:$/;"	c
+gtpro_entry	gtp.c	/^struct gtpro_entry {$/;"	s	file:
+gtpro_list	gtp.c	/^static struct gtpro_entry	*gtpro_list;$/;"	v	typeref:struct:gtpro_entry	file:
+gtpro_list_add	gtp.c	/^gtpro_list_add(CORE_ADDR start, CORE_ADDR end)$/;"	f	file:
+gtpro_list_clear	gtp.c	/^gtpro_list_clear(void)$/;"	f	file:
+gtpsrc	gtp.c	/^struct gtpsrc {$/;"	s	file:
+gtpwin	add-ons/gtpwin.py	/^class gtpwin(gtk.Window):$/;"	c
+gui_type	add-ons/pe.py	/^gui_type = 1$/;"	v
+have_printk	gtp.c	/^	int			have_printk;$/;"	m	struct:gtp_entry	file:
+head	perf_event.c	/^	local_t				head;		\/* write position    *\/$/;"	m	struct:ring_buffer	file:
+head	ring_buffer.c	/^	unsigned long			head;$/;"	m	struct:ring_buffer_iter	file:
+head_page	ring_buffer.c	/^	struct buffer_page		*head_page;	\/* read from head *\/$/;"	m	struct:ring_buffer_per_cpu	typeref:struct:ring_buffer_per_cpu::buffer_page	file:
+head_page	ring_buffer.c	/^	struct buffer_page		*head_page;$/;"	m	struct:ring_buffer_iter	typeref:struct:ring_buffer_iter::buffer_page	file:
+hex2int	gtp.c	/^hex2int(char hex, int *i)$/;"	f	file:
+hex2string	gtp.c	/^hex2string(char *pkg, char *out)$/;"	f	file:
+hex2ulongest	gtp.c	/^hex2ulongest(char *pkg, ULONGEST *u64)$/;"	f	file:
+hooks	gtp.c	/^		struct gtp_var_hooks	*hooks;$/;"	m	union:gtp_var::__anon14	typeref:struct:gtp_var::__anon14::gtp_var_hooks	file:
+hotcode_list	add-ons/hotcode.py	/^class hotcode_list:$/;"	c
+hotcode_list_to_output_html_fd	add-ons/hotcode.py	/^def hotcode_list_to_output_html_fd(hlist, fd):$/;"	f
+hotcode_list_to_output_html_fd_1	add-ons/hotcode.py	/^def hotcode_list_to_output_html_fd_1(llist, tlist, fd):$/;"	f
+hotcode_show	add-ons/hotcode.py	/^def hotcode_show():$/;"	f
+hotcode_show_code_list	add-ons/hotcode.py	/^def hotcode_show_code_list(string, code_list):$/;"	f
+hotcode_to_output_html_file	add-ons/hotcode.py	/^def hotcode_to_output_html_file():$/;"	f
+html_id	add-ons/hotcode.py	/^html_id = 0$/;"	v
+id	gtp.h	/^	u64				id;$/;"	m	struct:gtp_trace_s
+id	gtp_rb.c	/^	u64			id;$/;"	m	struct:gtp_rb_walk_s	file:
+ignore_gtp_ko	getmod.py	/^	ignore_gtp_ko = 1$/;"	v
+ignore_gtp_ko	getmod.py	/^	ignore_gtp_ko = int(ignore_gtp_ko)$/;"	v
+ignore_gtp_ko	getmod.py	/^ignore_gtp_ko = gdb.parse_and_eval("$ignore_gtp_ko")$/;"	v
+in_gdb	add-ons/pe.py	/^in_gdb = False$/;"	v
+info	perf_event.c	/^	void			*info;$/;"	m	struct:remote_function_call	file:
+info_files	add-ons/hotcode.py	/^				info_files = gdb.execute("info files", True, True)$/;"	v
+info_files_list	add-ons/hotcode.py	/^				info_files_list = info_files.split(os.linesep)$/;"	v
+init_kgtp	add-ons/pe.py	/^def init_kgtp():$/;"	f
+init_pe	add-ons/pe.py	/^def init_pe(i, e):$/;"	f
+initial_val	gtp.c	/^	int64_t			initial_val;$/;"	m	struct:gtp_var	file:
+ip	add-ons/hotcode.py	/^				ip = long(gdb.parse_and_eval("regs->ip - 1"))$/;"	v
+ip	gtp.c	/^	unsigned int		ip;$/;"	m	struct:gtp_x_if_goto	file:
+is_cgroup_event	perf_event.c	/^static inline int is_cgroup_event(struct perf_event *event)$/;"	f	file:
+is_cow_mapping	gtp.c	/^static inline int is_cow_mapping(vm_flags_t flags)$/;"	f	file:
+is_kretprobe	gtp.c	/^	int			is_kretprobe;$/;"	m	struct:gtp_entry	file:
+is_software_only_group	perf_event.c	/^static int is_software_only_group(struct perf_event *leader)$/;"	f	file:
+is_user	add-ons/hotcode.py	/^				is_user = True$/;"	v
+is_user	add-ons/hotcode.py	/^			is_user = False$/;"	v
+keep_running	getframe.c	/^int	keep_running = 1;$/;"	v
+kernel_hotcode_list	add-ons/hotcode.py	/^kernel_hotcode_list = hotcode_list()$/;"	v
+kgtp	add-ons/pe.py	/^class kgtp:$/;"	c
+kp	gtp.c	/^	struct kretprobe	kp;$/;"	m	struct:gtp_entry	typeref:struct:gtp_entry::kretprobe	file:
+kpreg	gtp.c	/^	int			kpreg;$/;"	m	struct:gtp_entry	file:
+l	add-ons/gtpwin_example.py	/^l = [example("a"), example("b")]$/;"	v
+last_overrun	ring_buffer.c	/^	unsigned long			last_overrun;$/;"	m	struct:ring_buffer_per_cpu	file:
+line	add-ons/hotcode.py	/^			line = get_line_from_sym(sym)$/;"	v
+line_list	add-ons/hotcode.py	/^					line_list = line.split(" is ")$/;"	v
+list	ring_buffer.c	/^	struct list_head list;		\/* list of buffer pages *\/$/;"	m	struct:buffer_page	typeref:struct:buffer_page::list_head	file:
+list_first_entry	gtp.c	165;"	d	file:
+llseek_move	gtp.c	/^	int			llseek_move;$/;"	m	struct:gtpframe_pipe_s	file:
+load_new_val	add-ons/gtpwin.py	/^	def load_new_val(self):$/;"	m	class:gtpline
+load_new_val	add-ons/gtpwin_example.py	/^	def load_new_val(self):$/;"	m	class:example
+lock	gtp_rb.c	/^	spinlock_t	lock;$/;"	m	struct:gtp_rb_s	file:
+lock	ring_buffer.c	/^	arch_spinlock_t			lock;$/;"	m	struct:ring_buffer_per_cpu	file:
+lock_key	ring_buffer.c	/^	struct lock_class_key		lock_key;$/;"	m	struct:ring_buffer_per_cpu	typeref:struct:ring_buffer_per_cpu::lock_class_key	file:
+log_write_name	add-ons/pe.py	/^		def log_write_name(self, i, e):$/;"	m	class:.PyApp
+lost	perf_event.c	/^	local_t				lost;		\/* nr records lost   *\/$/;"	m	struct:ring_buffer	file:
+lost_events	ring_buffer.c	/^	unsigned long			lost_events;$/;"	m	struct:ring_buffer_per_cpu	file:
+m	gtp.c	/^		struct action_m		m;$/;"	m	union:action::__anon10	typeref:struct:action::__anon10::action_m	file:
+main	getframe.c	/^main(int argc,char *argv[],char *envp[])$/;"	f
+main	getmod.c	/^main(int argc,char *argv[],char *envp[])$/;"	f
+mb_clean	add-ons/gtpwin.py	/^	def mb_clean(self, widget):$/;"	m	class:gtpwin
+mb_save	add-ons/gtpwin.py	/^	def mb_save(self, widget):$/;"	m	class:gtpwin
+mb_save	add-ons/pe.py	/^		def mb_save(self, widget):$/;"	m	class:.PyApp
+mod	getmod.py	/^	mod = mod_list_current - mod_list_offset$/;"	v
+mod	gtp.c	/^	struct module 		*mod;$/;"	m	struct:gtp_plugin_mod	typeref:struct:gtp_plugin_mod::module	file:
+mod_dir_name	getmod.py	/^				mod_dir_name = os.path.join(root,afile)$/;"	v
+mod_dir_name	getmod.py	/^	mod_dir_name = ""$/;"	v
+mod_list	getmod.py	/^mod_list = long(gdb.parse_and_eval("(&modules)"))$/;"	v
+mod_list_current	getmod.py	/^	mod_list_current = long(gdb.parse_and_eval("((struct list_head *) "+str(mod_list_current)+")->next"))$/;"	v
+mod_list_current	getmod.py	/^mod_list_current = mod_list$/;"	v
+mod_list_offset	getmod.py	/^mod_list_offset = long(gdb.parse_and_eval("((size_t) &(((struct module *)0)->list))"))$/;"	v
+mod_name	getmod.py	/^	mod_name = format_file(mod_name)$/;"	v
+mod_name	getmod.py	/^	mod_name = mod_name[0:mod_name.index("\\"")]$/;"	v
+mod_name	getmod.py	/^	mod_name = mod_name[mod_name.index("\\"")+1:len(mod_name)]$/;"	v
+mod_name	getmod.py	/^	mod_name = str(gdb.parse_and_eval("((struct module *)"+str(mod)+")->name"))$/;"	v
+mod_search_dir	getmod.py	/^	mod_search_dir = mod_search_dir_list[s]$/;"	v
+mod_search_dir	getmod.py	/^mod_search_dir = ""$/;"	v
+mod_search_dir_list	getmod.py	/^mod_search_dir_list = []$/;"	v
+modelName	add-ons/gtpwin.py	/^def modelName():$/;"	f
+mutex	ring_buffer.c	/^	struct mutex			mutex;$/;"	m	struct:ring_buffer	typeref:struct:ring_buffer::mutex	file:
+name	gtp.c	/^	char				*name;$/;"	m	struct:gtp_var_perf_event	file:
+need_var_lock	gtp.c	/^	int		need_var_lock;$/;"	m	struct:action_agent_exp	file:
+nest	perf_event.c	/^	local_t				nest;		\/* nested writers    *\/$/;"	m	struct:ring_buffer	file:
+next	gtp.c	/^	struct action	*next;$/;"	m	struct:action	typeref:struct:action::action	file:
+next	gtp.c	/^	struct gtp_entry	*next;$/;"	m	struct:gtp_entry	typeref:struct:gtp_entry::gtp_entry	file:
+next	gtp.c	/^	struct gtp_x_if_goto	*next;$/;"	m	struct:gtp_x_if_goto	typeref:struct:gtp_x_if_goto::gtp_x_if_goto	file:
+next	gtp.c	/^	struct gtp_x_loop	*next;$/;"	m	struct:gtp_x_loop	typeref:struct:gtp_x_loop::gtp_x_loop	file:
+next	gtp.c	/^	struct gtp_x_var	*next;$/;"	m	struct:gtp_x_var	typeref:struct:gtp_x_var::gtp_x_var	file:
+next	gtp.c	/^	struct gtpro_entry	*next;$/;"	m	struct:gtpro_entry	typeref:struct:gtpro_entry::gtpro_entry	file:
+next	gtp.c	/^	struct gtpsrc	*next;$/;"	m	struct:gtpsrc	typeref:struct:gtpsrc::gtpsrc	file:
+next	gtp.h	/^	char				**next;$/;"	m	struct:gtp_trace_s
+next	gtp.h	/^	char				*next;$/;"	m	struct:gtp_trace_s
+next	gtp.h	/^	struct gtp_rb_s			*next;$/;"	m	struct:gtp_trace_s	typeref:struct:gtp_trace_s::gtp_rb_s
+nnn	add-ons/gtpwin_example.py	/^nnn = 100$/;"	v
+no_search_mod	getmod.c	/^int	no_search_mod = 0;$/;"	v
+no_self_trace	gtp.c	/^	int			no_self_trace;$/;"	m	struct:gtp_entry	file:
+no_task	add-ons/hotcode.py	/^	no_task = True$/;"	v
+no_task	add-ons/hotcode.py	/^no_task = False$/;"	v
+node	gtp.c	/^	struct list_head	node;$/;"	m	struct:gtp_plugin_mod	typeref:struct:gtp_plugin_mod::list_head	file:
+node	gtp.c	/^	struct list_head	node;$/;"	m	struct:gtp_var	typeref:struct:gtp_var::list_head	file:
+non_goto_done	gtp.c	/^	int			non_goto_done;$/;"	m	struct:gtp_x_loop	file:
+nopass	gtp.c	/^	int			nopass;$/;"	m	struct:gtp_entry	file:
+nr_pages	perf_event.c	/^	int				nr_pages;	\/* nr of data pages  *\/$/;"	m	struct:ring_buffer	file:
+nsections	getmod.py	/^	nsections = int(gdb.parse_and_eval("((struct module *)"+str(mod)+")->sect_attrs->nsections"))$/;"	v
+num	gtp.c	/^	ULONGEST		num;$/;"	m	struct:gtp_entry	file:
+num	gtp.c	/^	unsigned int		num;$/;"	m	struct:gtp_var	file:
+num	gtp.c	/^	unsigned int		num;$/;"	m	struct:gtp_x_var	file:
+num	gtp.c	/^	unsigned int	num;$/;"	m	struct:gtp_frame_var	file:
+obj-m	Makefile	/^obj-m := gtp.o plugin_example.o$/;"	m
+obj-m	Makefile	/^obj-m := gtp.o$/;"	m
+offset	gtp.c	/^	CORE_ADDR	offset;$/;"	m	struct:action_m	file:
+op_check_add	gtp.c	/^	op_check_add = 0xe0,$/;"	e	enum:__anon9	file:
+op_check_bit_and	gtp.c	/^	op_check_bit_and,$/;"	e	enum:__anon9	file:
+op_check_bit_or	gtp.c	/^	op_check_bit_or,$/;"	e	enum:__anon9	file:
+op_check_bit_xor	gtp.c	/^	op_check_bit_xor,$/;"	e	enum:__anon9	file:
+op_check_div_signed	gtp.c	/^	op_check_div_signed,$/;"	e	enum:__anon9	file:
+op_check_div_unsigned	gtp.c	/^	op_check_div_unsigned,$/;"	e	enum:__anon9	file:
+op_check_equal	gtp.c	/^	op_check_equal,$/;"	e	enum:__anon9	file:
+op_check_if_goto	gtp.c	/^	op_check_if_goto,$/;"	e	enum:__anon9	file:
+op_check_less_signed	gtp.c	/^	op_check_less_signed,$/;"	e	enum:__anon9	file:
+op_check_less_unsigned	gtp.c	/^	op_check_less_unsigned,$/;"	e	enum:__anon9	file:
+op_check_lsh	gtp.c	/^	op_check_lsh,$/;"	e	enum:__anon9	file:
+op_check_mul	gtp.c	/^	op_check_mul,$/;"	e	enum:__anon9	file:
+op_check_pop	gtp.c	/^	op_check_pop,$/;"	e	enum:__anon9	file:
+op_check_printf	gtp.c	/^	op_check_printf,	\/* XXX: still not used.  *\/$/;"	e	enum:__anon9	file:
+op_check_rem_signed	gtp.c	/^	op_check_rem_signed,$/;"	e	enum:__anon9	file:
+op_check_rem_unsigned	gtp.c	/^	op_check_rem_unsigned,$/;"	e	enum:__anon9	file:
+op_check_rsh_signed	gtp.c	/^	op_check_rsh_signed,$/;"	e	enum:__anon9	file:
+op_check_rsh_unsigned	gtp.c	/^	op_check_rsh_unsigned,$/;"	e	enum:__anon9	file:
+op_check_sub	gtp.c	/^	op_check_sub,$/;"	e	enum:__anon9	file:
+op_check_swap	gtp.c	/^	op_check_swap,$/;"	e	enum:__anon9	file:
+op_check_trace	gtp.c	/^	op_check_trace,$/;"	e	enum:__anon9	file:
+op_trace_printk	gtp.c	/^	op_trace_printk = 0xfd,$/;"	e	enum:__anon9	file:
+op_trace_quick_printk	gtp.c	/^	op_trace_quick_printk,$/;"	e	enum:__anon9	file:
+op_tracev_printk	gtp.c	/^	op_tracev_printk,$/;"	e	enum:__anon9	file:
+output_html	add-ons/hotcode.py	/^	output_html = False$/;"	v
+output_html	add-ons/hotcode.py	/^	output_html = True$/;"	v
+output_html	add-ons/hotcode.py	/^output_html = True$/;"	v
+output_html_file	add-ons/hotcode.py	/^			output_html_file = s$/;"	v
+output_html_file	add-ons/hotcode.py	/^output_html_file = ".\/hotcode.html"$/;"	v
+output_pe	add-ons/pe.py	/^	def output_pe(i, e):$/;"	f
+overrun	ring_buffer.c	/^	local_t				overrun;$/;"	m	struct:ring_buffer_per_cpu	file:
+p	perf_event.c	/^	struct task_struct	*p;$/;"	m	struct:remote_function_call	typeref:struct:remote_function_call::task_struct	file:
+page	gtp.c	/^	void			**page;$/;"	m	struct:gtpframe_pipe_s	file:
+page	ring_buffer.c	/^	struct buffer_data_page *page;	\/* Actual data page *\/$/;"	m	struct:buffer_page	typeref:struct:buffer_page::buffer_data_page	file:
+page_id	gtp.c	/^	u64			*page_id;$/;"	m	struct:gtpframe_pipe_s	file:
+page_order	perf_event.c	/^	int				page_order;	\/* allocation order  *\/$/;"	m	struct:ring_buffer	file:
+page_order	perf_event.c	/^static inline int page_order(struct perf_buffer *buffer)$/;"	f	file:
+page_order	perf_event.c	/^static inline int page_order(struct perf_mmap_data *data)$/;"	f	file:
+page_order	perf_event.c	/^static inline int page_order(struct ring_buffer *rb)$/;"	f	file:
+pages	ring_buffer.c	/^	struct list_head		*pages;$/;"	m	struct:ring_buffer_per_cpu	typeref:struct:ring_buffer_per_cpu::list_head	file:
+pages	ring_buffer.c	/^	unsigned			pages;$/;"	m	struct:ring_buffer	file:
+pagination	getmod.py	/^pagination = get_pagination()$/;"	v
+pass	gtp.c	/^	ULONGEST		pass;$/;"	m	struct:gtp_entry	file:
+pc	gtp.c	/^		struct gtp_var_pc	pc;$/;"	m	union:gtp_var::__anon14	typeref:struct:gtp_var::__anon14::gtp_var_pc	file:
+pc	gtp.c	/^	struct gtp_var_per_cpu __percpu	*pc;$/;"	m	struct:gtp_var_pc	typeref:struct:gtp_var_pc::__percpu	file:
+pc_next	gtp.c	/^	struct gtp_var_perf_event	*pc_next;$/;"	m	struct:gtp_var_perf_event	typeref:struct:gtp_var_perf_event::gtp_var_perf_event	file:
+pc_pe_list_disable	gtp.c	/^pc_pe_list_disable(void)$/;"	f	file:
+pc_pe_list_enable	gtp.c	/^pc_pe_list_enable(void)$/;"	f	file:
+pe	gtp.c	/^		struct gtp_var_pe	pe;$/;"	m	union:gtp_var::__anon14	typeref:struct:gtp_var::__anon14::gtp_var_pe	file:
+pe	gtp.c	/^		struct gtp_var_pe	pe;$/;"	m	union:gtp_var_per_cpu::__anon13	typeref:struct:gtp_var_per_cpu::__anon13::gtp_var_pe	file:
+pe	gtp.c	/^	struct gtp_var_perf_event	*pe;$/;"	m	struct:gtp_var_pe	typeref:struct:gtp_var_pe::gtp_var_perf_event	file:
+pe_color	add-ons/pe.py	/^	pe_color = (0xffb0ff, 0x006000)$/;"	v
+pe_gtk_add	add-ons/pe.py	/^		def pe_gtk_add(self, i, e):$/;"	m	class:.PyApp
+pe_gtk_creat_button	add-ons/pe.py	/^		def pe_gtk_creat_button(self, i, e):$/;"	m	class:.PyApp
+pe_gtk_creat_button_hboxes_first	add-ons/pe.py	/^		def pe_gtk_creat_button_hboxes_first(self):$/;"	m	class:.PyApp
+pe_gtk_creat_button_hboxes_second	add-ons/pe.py	/^		def pe_gtk_creat_button_hboxes_second(self, size):$/;"	m	class:.PyApp
+pe_gtk_get_size	add-ons/pe.py	/^		def pe_gtk_get_size(self):$/;"	m	class:.PyApp
+pe_gtk_line	add-ons/pe.py	/^		def pe_gtk_line(self, i, e):$/;"	m	class:.PyApp
+pe_gtk_remove_creat_button_hboxes	add-ons/pe.py	/^		def pe_gtk_remove_creat_button_hboxes(self, i, e):$/;"	m	class:.PyApp
+pe_init_callback	add-ons/pe.py	/^		def pe_init_callback(self, i, e):$/;"	m	class:.PyApp
+pe_list	add-ons/pe.py	/^pe_list = []$/;"	v
+pe_list_bcolor	add-ons/pe.py	/^	pe_list_bcolor = 8$/;"	v
+pe_list_button	add-ons/pe.py	/^	pe_list_button = 7$/;"	v
+pe_list_config	add-ons/pe.py	/^pe_list_config = 1$/;"	v
+pe_list_lcolor	add-ons/pe.py	/^	pe_list_lcolor = 9$/;"	v
+pe_list_name	add-ons/pe.py	/^pe_list_name = 2$/;"	v
+pe_list_prev	add-ons/pe.py	/^pe_list_prev = 3$/;"	v
+pe_list_qtv	add-ons/pe.py	/^pe_list_qtv = 4$/;"	v
+pe_list_type	add-ons/pe.py	/^pe_list_type = 0$/;"	v
+pe_list_value	add-ons/pe.py	/^	pe_list_value = 5$/;"	v
+pe_list_x	add-ons/pe.py	/^	pe_list_x = 6$/;"	v
+pe_remove_entry	add-ons/pe.py	/^		def pe_remove_entry(self, i, e):$/;"	m	class:.PyApp
+pe_tv_config	gtp.c	/^	pe_tv_config,$/;"	e	enum:pe_tv_id	file:
+pe_tv_cpu	gtp.c	/^	pe_tv_cpu,$/;"	e	enum:pe_tv_id	file:
+pe_tv_en	gtp.c	/^	pe_tv_en,$/;"	e	enum:pe_tv_id	file:
+pe_tv_enabled	gtp.c	/^	pe_tv_enabled,$/;"	e	enum:pe_tv_id	file:
+pe_tv_id	gtp.c	/^enum pe_tv_id {$/;"	g	file:
+pe_tv_running	gtp.c	/^	pe_tv_running,$/;"	e	enum:pe_tv_id	file:
+pe_tv_type	gtp.c	/^	pe_tv_type,$/;"	e	enum:pe_tv_id	file:
+pe_tv_unknown	gtp.c	/^	pe_tv_unknown = 0,$/;"	e	enum:pe_tv_id	file:
+pe_tv_val	gtp.c	/^	pe_tv_val,$/;"	e	enum:pe_tv_id	file:
+perf_cgroup_match	perf_event.c	/^perf_cgroup_match(struct perf_event *event)$/;"	f	file:
+perf_clock	perf_event.c	/^static inline u64 perf_clock(void)$/;"	f	file:
+perf_data_size	perf_event.c	/^static unsigned long perf_data_size(struct ring_buffer *buffer)$/;"	f	file:
+perf_event__output_id_sample	perf_event.c	/^static void perf_event__output_id_sample(struct perf_event *event,$/;"	f	file:
+perf_event_header__init_id	perf_event.c	/^static void perf_event_header__init_id(struct perf_event_header *header,$/;"	f	file:
+perf_event_pid	perf_event.c	/^static u32 perf_event_pid(struct perf_event *event, struct task_struct *p)$/;"	f	file:
+perf_event_tid	perf_event.c	/^static u32 perf_event_tid(struct perf_event *event, struct task_struct *p)$/;"	f	file:
+perf_event_time	perf_event.c	/^static u64 perf_event_time(struct perf_event *event)$/;"	f	file:
+perf_log_throttle	perf_event.c	/^static void perf_log_throttle(struct perf_event *event, int enable)$/;"	f	file:
+perf_output_copy	perf_event.c	/^__always_inline void perf_output_copy(struct perf_output_handle *handle,$/;"	f
+perf_output_copy	perf_event.c	/^void perf_output_copy(struct perf_output_handle *handle,$/;"	f
+perf_output_get_handle	perf_event.c	/^static void perf_output_get_handle(struct perf_output_handle *handle)$/;"	f	file:
+perf_output_put_handle	perf_event.c	/^static void perf_output_put_handle(struct perf_output_handle *handle)$/;"	f	file:
+perf_output_space	perf_event.c	/^static bool perf_output_space(struct ring_buffer *buffer, unsigned long tail,$/;"	f	file:
+perf_output_wakeup	perf_event.c	/^static void perf_output_wakeup(struct perf_output_handle *handle)$/;"	f	file:
+perf_set_shadow_time	perf_event.c	/^static void perf_set_shadow_time(struct perf_event *event,$/;"	f	file:
+pfile	add-ons/hotcode.py	/^		pfile = open("\/proc\/"+str(pid)+"\/maps", "r")$/;"	v
+pid	add-ons/hotcode.py	/^			pid = long(gdb.parse_and_eval("$current_task_pid"))$/;"	v
+pid	add-ons/hotcode.py	/^		pid = input('task pid (use empty to stop pid input):')$/;"	v
+pid	add-ons/hotcode.py	/^	pid = -1$/;"	v
+pid_str	add-ons/hotcode.py	/^	pid_str = ""$/;"	v
+plugin_example_exit	plugin_example.c	/^plugin_example_exit(void)$/;"	f	file:
+plugin_example_init	plugin_example.c	/^plugin_example_init(void)$/;"	f	file:
+poll	perf_event.c	/^	atomic_t			poll;		\/* POLL_ for wakeups *\/$/;"	m	struct:ring_buffer	file:
+prev_w	gtp_rb.c	/^	void		*prev_w;$/;"	m	struct:gtp_rb_s	file:
+primary_event_id	perf_event.c	/^static u64 primary_event_id(struct perf_event *event)$/;"	f	file:
+print_mod	getmod.c	/^print_mod(char *name, char *addr)$/;"	f
+print_usage	getframe.c	/^print_usage(char *arg)$/;"	f
+print_usage	getmod.c	/^print_usage(char *arg)$/;"	f
+printk_format	gtp.h	/^	unsigned int			printk_format;$/;"	m	struct:gtp_trace_s
+printk_level	gtp.h	/^	unsigned int			printk_level;$/;"	m	struct:gtp_trace_s
+printk_str	gtp.c	/^	struct gtpsrc		*printk_str;$/;"	m	struct:gtp_entry	typeref:struct:gtp_entry::gtpsrc	file:
+printk_str	gtp.h	/^	struct gtpsrc			*printk_str;$/;"	m	struct:gtp_trace_s	typeref:struct:gtp_trace_s::gtpsrc
+printk_tmp	gtp.h	/^	int64_t				printk_tmp;$/;"	m	struct:gtp_trace_s
+probe_kernel_read	gtp.c	/^probe_kernel_read(void *dst, void *src, size_t size)$/;"	f	file:
+ptid	gtp.c	/^	enum pe_tv_id			ptid;$/;"	m	struct:gtp_var_pe	typeref:enum:gtp_var_pe::pe_tv_id	file:
+qtinit	add-ons/pe.py	/^	def qtinit(self):$/;"	m	class:kgtp
+r	gtp_rb.c	/^	void		*r;$/;"	m	struct:gtp_rb_s	file:
+rb_add_time_stamp	ring_buffer.c	/^rb_add_time_stamp(struct ring_buffer_event *event, u64 delta)$/;"	f	file:
+rb_advance_iter	ring_buffer.c	/^static void rb_advance_iter(struct ring_buffer_iter *iter)$/;"	f	file:
+rb_advance_reader	ring_buffer.c	/^static void rb_advance_reader(struct ring_buffer_per_cpu *cpu_buffer)$/;"	f	file:
+rb_allocate_cpu_buffer	ring_buffer.c	/^rb_allocate_cpu_buffer(struct ring_buffer *buffer, int cpu)$/;"	f	file:
+rb_allocate_pages	ring_buffer.c	/^static int rb_allocate_pages(struct ring_buffer_per_cpu *cpu_buffer,$/;"	f	file:
+rb_buffer_peek	ring_buffer.c	/^rb_buffer_peek(struct ring_buffer_per_cpu *cpu_buffer, u64 *ts,$/;"	f	file:
+rb_calculate_event_length	ring_buffer.c	/^static unsigned rb_calculate_event_length(unsigned length)$/;"	f	file:
+rb_check_bpage	ring_buffer.c	/^static int rb_check_bpage(struct ring_buffer_per_cpu *cpu_buffer,$/;"	f	file:
+rb_check_list	ring_buffer.c	/^static int rb_check_list(struct ring_buffer_per_cpu *cpu_buffer,$/;"	f	file:
+rb_check_pages	ring_buffer.c	/^static int rb_check_pages(struct ring_buffer_per_cpu *cpu_buffer)$/;"	f	file:
+rb_commit	ring_buffer.c	/^static void rb_commit(struct ring_buffer_per_cpu *cpu_buffer,$/;"	f	file:
+rb_commit_index	ring_buffer.c	/^rb_commit_index(struct ring_buffer_per_cpu *cpu_buffer)$/;"	f	file:
+rb_cpu_notify	ring_buffer.c	/^static int rb_cpu_notify(struct notifier_block *self,$/;"	f	file:
+rb_decrement_entry	ring_buffer.c	/^rb_decrement_entry(struct ring_buffer_per_cpu *cpu_buffer,$/;"	f	file:
+rb_end_commit	ring_buffer.c	/^static inline void rb_end_commit(struct ring_buffer_per_cpu *cpu_buffer)$/;"	f	file:
+rb_event_data	ring_buffer.c	/^rb_event_data(struct ring_buffer_event *event)$/;"	f	file:
+rb_event_data_length	ring_buffer.c	/^rb_event_data_length(struct ring_buffer_event *event)$/;"	f	file:
+rb_event_discard	ring_buffer.c	/^static inline void rb_event_discard(struct ring_buffer_event *event)$/;"	f	file:
+rb_event_index	ring_buffer.c	/^rb_event_index(struct ring_buffer_event *event)$/;"	f	file:
+rb_event_is_commit	ring_buffer.c	/^rb_event_is_commit(struct ring_buffer_per_cpu *cpu_buffer,$/;"	f	file:
+rb_event_length	ring_buffer.c	/^rb_event_length(struct ring_buffer_event *event)$/;"	f	file:
+rb_event_set_padding	ring_buffer.c	/^static void rb_event_set_padding(struct ring_buffer_event *event)$/;"	f	file:
+rb_event_ts_length	ring_buffer.c	/^rb_event_ts_length(struct ring_buffer_event *event)$/;"	f	file:
+rb_free_cpu_buffer	ring_buffer.c	/^static void rb_free_cpu_buffer(struct ring_buffer_per_cpu *cpu_buffer)$/;"	f	file:
+rb_get_reader_page	ring_buffer.c	/^rb_get_reader_page(struct ring_buffer_per_cpu *cpu_buffer)$/;"	f	file:
+rb_handle_head_page	ring_buffer.c	/^rb_handle_head_page(struct ring_buffer_per_cpu *cpu_buffer,$/;"	f	file:
+rb_head_page_activate	ring_buffer.c	/^static void rb_head_page_activate(struct ring_buffer_per_cpu *cpu_buffer)$/;"	f	file:
+rb_head_page_deactivate	ring_buffer.c	/^rb_head_page_deactivate(struct ring_buffer_per_cpu *cpu_buffer)$/;"	f	file:
+rb_head_page_replace	ring_buffer.c	/^static int rb_head_page_replace(struct buffer_page *old,$/;"	f	file:
+rb_head_page_set	ring_buffer.c	/^static int rb_head_page_set(struct ring_buffer_per_cpu *cpu_buffer,$/;"	f	file:
+rb_head_page_set_head	ring_buffer.c	/^static int rb_head_page_set_head(struct ring_buffer_per_cpu *cpu_buffer,$/;"	f	file:
+rb_head_page_set_normal	ring_buffer.c	/^static int rb_head_page_set_normal(struct ring_buffer_per_cpu *cpu_buffer,$/;"	f	file:
+rb_head_page_set_update	ring_buffer.c	/^static int rb_head_page_set_update(struct ring_buffer_per_cpu *cpu_buffer,$/;"	f	file:
+rb_inc_iter	ring_buffer.c	/^static void rb_inc_iter(struct ring_buffer_iter *iter)$/;"	f	file:
+rb_inc_page	ring_buffer.c	/^static inline void rb_inc_page(struct ring_buffer_per_cpu *cpu_buffer,$/;"	f	file:
+rb_init_page	ring_buffer.c	/^static void rb_init_page(struct buffer_data_page *bpage)$/;"	f	file:
+rb_insert_pages	ring_buffer.c	/^rb_insert_pages(struct ring_buffer_per_cpu *cpu_buffer,$/;"	f	file:
+rb_is_head_page	ring_buffer.c	/^rb_is_head_page(struct ring_buffer_per_cpu *cpu_buffer,$/;"	f	file:
+rb_is_reader_page	ring_buffer.c	/^static int rb_is_reader_page(struct buffer_page *page)$/;"	f	file:
+rb_iter_head_event	ring_buffer.c	/^rb_iter_head_event(struct ring_buffer_iter *iter)$/;"	f	file:
+rb_iter_peek	ring_buffer.c	/^rb_iter_peek(struct ring_buffer_iter *iter, u64 *ts)$/;"	f	file:
+rb_iter_reset	ring_buffer.c	/^static void rb_iter_reset(struct ring_buffer_iter *iter)$/;"	f	file:
+rb_list_head	ring_buffer.c	/^static struct list_head *rb_list_head(struct list_head *list)$/;"	f	file:
+rb_list_head_clear	ring_buffer.c	/^static void rb_list_head_clear(struct list_head *list)$/;"	f	file:
+rb_lost_events	ring_buffer.c	/^static int rb_lost_events(struct ring_buffer_per_cpu *cpu_buffer)$/;"	f	file:
+rb_move_tail	ring_buffer.c	/^rb_move_tail(struct ring_buffer_per_cpu *cpu_buffer,$/;"	f	file:
+rb_null_event	ring_buffer.c	/^static inline int rb_null_event(struct ring_buffer_event *event)$/;"	f	file:
+rb_num_of_entries	ring_buffer.c	/^rb_num_of_entries(struct ring_buffer_per_cpu *cpu_buffer)$/;"	f	file:
+rb_ok_to_lock	ring_buffer.c	/^static inline int rb_ok_to_lock(void)$/;"	f	file:
+rb_page_commit	ring_buffer.c	/^static inline unsigned rb_page_commit(struct buffer_page *bpage)$/;"	f	file:
+rb_page_entries	ring_buffer.c	/^static inline unsigned long rb_page_entries(struct buffer_page *bpage)$/;"	f	file:
+rb_page_size	ring_buffer.c	/^static inline unsigned rb_page_size(struct buffer_page *bpage)$/;"	f	file:
+rb_page_write	ring_buffer.c	/^static inline unsigned long rb_page_write(struct buffer_page *bpage)$/;"	f	file:
+rb_per_cpu_empty	ring_buffer.c	/^static int rb_per_cpu_empty(struct ring_buffer_per_cpu *cpu_buffer)$/;"	f	file:
+rb_reader_event	ring_buffer.c	/^rb_reader_event(struct ring_buffer_per_cpu *cpu_buffer)$/;"	f	file:
+rb_remove_pages	ring_buffer.c	/^rb_remove_pages(struct ring_buffer_per_cpu *cpu_buffer, unsigned nr_pages)$/;"	f	file:
+rb_reserve_next_event	ring_buffer.c	/^rb_reserve_next_event(struct ring_buffer *buffer,$/;"	f	file:
+rb_reset_cpu	ring_buffer.c	/^rb_reset_cpu(struct ring_buffer_per_cpu *cpu_buffer)$/;"	f	file:
+rb_reset_reader_page	ring_buffer.c	/^static void rb_reset_reader_page(struct ring_buffer_per_cpu *cpu_buffer)$/;"	f	file:
+rb_reset_tail	ring_buffer.c	/^rb_reset_tail(struct ring_buffer_per_cpu *cpu_buffer,$/;"	f	file:
+rb_set_commit_to_write	ring_buffer.c	/^rb_set_commit_to_write(struct ring_buffer_per_cpu *cpu_buffer)$/;"	f	file:
+rb_set_head_page	ring_buffer.c	/^rb_set_head_page(struct ring_buffer_per_cpu *cpu_buffer)$/;"	f	file:
+rb_set_list_to_head	ring_buffer.c	/^static void rb_set_list_to_head(struct ring_buffer_per_cpu *cpu_buffer,$/;"	f	file:
+rb_start_commit	ring_buffer.c	/^static void rb_start_commit(struct ring_buffer_per_cpu *cpu_buffer)$/;"	f	file:
+rb_tail_page_update	ring_buffer.c	/^static int rb_tail_page_update(struct ring_buffer_per_cpu *cpu_buffer,$/;"	f	file:
+rb_time_stamp	ring_buffer.c	/^static inline u64 rb_time_stamp(struct ring_buffer *buffer)$/;"	f	file:
+rb_try_to_discard	ring_buffer.c	/^rb_try_to_discard(struct ring_buffer_per_cpu *cpu_buffer,$/;"	f	file:
+rb_update_event	ring_buffer.c	/^rb_update_event(struct ring_buffer_per_cpu *cpu_buffer,$/;"	f	file:
+rb_update_iter_read_stamp	ring_buffer.c	/^rb_update_iter_read_stamp(struct ring_buffer_iter *iter,$/;"	f	file:
+rb_update_read_stamp	ring_buffer.c	/^rb_update_read_stamp(struct ring_buffer_per_cpu *cpu_buffer,$/;"	f	file:
+rb_update_write_stamp	ring_buffer.c	/^rb_update_write_stamp(struct ring_buffer_per_cpu *cpu_buffer,$/;"	f	file:
+rcu_head	perf_event.c	/^	struct rcu_head			rcu_head;$/;"	m	struct:ring_buffer	typeref:struct:ring_buffer::rcu_head	file:
+rdir	getmod.c	/^char	*rdir[SDIR_MAX];$/;"	v
+rdir_current	getmod.c	/^int	rdir_current = 0;$/;"	v
+rdir_number	getmod.c	/^int	rdir_number = 0;$/;"	v
+read	add-ons/pe.py	/^	def read(self):$/;"	m	class:kgtp
+read	ring_buffer.c	/^	unsigned	 read;		\/* index for next read *\/$/;"	m	struct:buffer_page	file:
+read	ring_buffer.c	/^	unsigned long			read;$/;"	m	struct:ring_buffer_per_cpu	file:
+read_fd	add-ons/pe.py	/^	def read_fd(self):$/;"	m	class:kgtp
+read_memory	gtp.h	/^	long				(*read_memory)(void *dst,$/;"	m	struct:gtp_trace_s
+read_stamp	ring_buffer.c	/^	u64				read_stamp;$/;"	m	struct:ring_buffer_iter	file:
+read_stamp	ring_buffer.c	/^	u64				read_stamp;$/;"	m	struct:ring_buffer_per_cpu	file:
+reader_lock	ring_buffer.c	/^	spinlock_t			reader_lock;	\/* serialize readers *\/$/;"	m	struct:ring_buffer_per_cpu	file:
+reader_lock_key	ring_buffer.c	/^	struct lock_class_key		*reader_lock_key;$/;"	m	struct:ring_buffer	typeref:struct:ring_buffer::lock_class_key	file:
+reader_page	ring_buffer.c	/^	struct buffer_page		*reader_page;$/;"	m	struct:ring_buffer_per_cpu	typeref:struct:ring_buffer_per_cpu::buffer_page	file:
+real_end	ring_buffer.c	/^	unsigned long	 real_end;	\/* real end of data *\/$/;"	m	struct:buffer_page	file:
+real_size	gtp.c	/^	size_t	real_size;$/;"	m	struct:gtp_realloc_s	file:
+reason	gtp.c	/^	enum gtp_stop_type	reason;$/;"	m	struct:gtp_entry	typeref:enum:gtp_entry::gtp_stop_type	file:
+reason	gtp_rb.c	/^	enum gtp_rb_walk_reason	reason;$/;"	m	struct:gtp_rb_walk_s	typeref:enum:gtp_rb_walk_s::gtp_rb_walk_reason	file:
+record_disabled	ring_buffer.c	/^	atomic_t			record_disabled;$/;"	m	struct:ring_buffer	file:
+record_disabled	ring_buffer.c	/^	atomic_t			record_disabled;$/;"	m	struct:ring_buffer_per_cpu	file:
+refcount	perf_event.c	/^	atomic_t			refcount;$/;"	m	struct:ring_buffer	file:
+refind_max_value	add-ons/pe.py	/^		def refind_max_value(self, i, e):$/;"	m	class:.PyApp
+reg_mask	gtp.c	/^		ULONGEST		reg_mask;$/;"	m	union:action::__anon10	file:
+regnum	gtp.c	/^	int		regnum;$/;"	m	struct:action_m	file:
+regs	gtp.h	/^	struct pt_regs			*regs;$/;"	m	struct:gtp_trace_s	typeref:struct:gtp_trace_s::pt_regs
+remote_function	perf_event.c	/^static void remote_function(void *data)$/;"	f	file:
+remote_function_call	perf_event.c	/^struct remote_function_call {$/;"	s	file:
+remove_head	add-ons/gtpwin.py	/^	def remove_head(self, num):$/;"	m	class:gtpline
+ret	perf_event.c	/^	int			ret;$/;"	m	struct:remote_function_call	file:
+retry_count	add-ons/pe.py	/^	retry_count = 3$/;"	v	class:kgtp
+ri	gtp.h	/^	struct kretprobe_instance	*ri;$/;"	m	struct:gtp_trace_s	typeref:struct:gtp_trace_s::kretprobe_instance
+ring_buffer	perf_event.c	/^struct ring_buffer {$/;"	s	file:
+ring_buffer	ring_buffer.c	/^struct ring_buffer {$/;"	s	file:
+ring_buffer_alloc	ring_buffer.h	104;"	d
+ring_buffer_alloc_read_page	ring_buffer.c	/^EXPORT_SYMBOL_GPL(ring_buffer_alloc_read_page);$/;"	v
+ring_buffer_alloc_read_page	ring_buffer.c	/^void *ring_buffer_alloc_read_page(struct ring_buffer *buffer)$/;"	f
+ring_buffer_change_overwrite	ring_buffer.c	/^EXPORT_SYMBOL_GPL(ring_buffer_change_overwrite);$/;"	v
+ring_buffer_change_overwrite	ring_buffer.c	/^void ring_buffer_change_overwrite(struct ring_buffer *buffer, int val)$/;"	f
+ring_buffer_commit_overrun_cpu	ring_buffer.c	/^EXPORT_SYMBOL_GPL(ring_buffer_commit_overrun_cpu);$/;"	v
+ring_buffer_commit_overrun_cpu	ring_buffer.c	/^ring_buffer_commit_overrun_cpu(struct ring_buffer *buffer, int cpu)$/;"	f
+ring_buffer_consume	ring_buffer.c	/^EXPORT_SYMBOL_GPL(ring_buffer_consume);$/;"	v
+ring_buffer_consume	ring_buffer.c	/^ring_buffer_consume(struct ring_buffer *buffer, int cpu, u64 *ts,$/;"	f
+ring_buffer_discard_commit	ring_buffer.c	/^EXPORT_SYMBOL_GPL(ring_buffer_discard_commit);$/;"	v
+ring_buffer_discard_commit	ring_buffer.c	/^void ring_buffer_discard_commit(struct ring_buffer *buffer,$/;"	f
+ring_buffer_empty	ring_buffer.c	/^EXPORT_SYMBOL_GPL(ring_buffer_empty);$/;"	v
+ring_buffer_empty	ring_buffer.c	/^int ring_buffer_empty(struct ring_buffer *buffer)$/;"	f
+ring_buffer_empty_cpu	ring_buffer.c	/^EXPORT_SYMBOL_GPL(ring_buffer_empty_cpu);$/;"	v
+ring_buffer_empty_cpu	ring_buffer.c	/^int ring_buffer_empty_cpu(struct ring_buffer *buffer, int cpu)$/;"	f
+ring_buffer_entries	ring_buffer.c	/^EXPORT_SYMBOL_GPL(ring_buffer_entries);$/;"	v
+ring_buffer_entries	ring_buffer.c	/^unsigned long ring_buffer_entries(struct ring_buffer *buffer)$/;"	f
+ring_buffer_entries_cpu	ring_buffer.c	/^EXPORT_SYMBOL_GPL(ring_buffer_entries_cpu);$/;"	v
+ring_buffer_entries_cpu	ring_buffer.c	/^unsigned long ring_buffer_entries_cpu(struct ring_buffer *buffer, int cpu)$/;"	f
+ring_buffer_event	ring_buffer.h	/^struct ring_buffer_event {$/;"	s
+ring_buffer_event_data	ring_buffer.c	/^EXPORT_SYMBOL_GPL(ring_buffer_event_data);$/;"	v
+ring_buffer_event_data	ring_buffer.c	/^void *ring_buffer_event_data(struct ring_buffer_event *event)$/;"	f
+ring_buffer_event_length	ring_buffer.c	/^EXPORT_SYMBOL_GPL(ring_buffer_event_length);$/;"	v
+ring_buffer_event_length	ring_buffer.c	/^unsigned ring_buffer_event_length(struct ring_buffer_event *event)$/;"	f
+ring_buffer_flags	ring_buffer.h	/^enum ring_buffer_flags {$/;"	g
+ring_buffer_free	ring_buffer.c	/^EXPORT_SYMBOL_GPL(ring_buffer_free);$/;"	v
+ring_buffer_free	ring_buffer.c	/^ring_buffer_free(struct ring_buffer *buffer)$/;"	f
+ring_buffer_free_read_page	ring_buffer.c	/^EXPORT_SYMBOL_GPL(ring_buffer_free_read_page);$/;"	v
+ring_buffer_free_read_page	ring_buffer.c	/^void ring_buffer_free_read_page(struct ring_buffer *buffer, void *data)$/;"	f
+ring_buffer_iter	ring_buffer.c	/^struct ring_buffer_iter {$/;"	s	file:
+ring_buffer_iter_empty	ring_buffer.c	/^EXPORT_SYMBOL_GPL(ring_buffer_iter_empty);$/;"	v
+ring_buffer_iter_empty	ring_buffer.c	/^int ring_buffer_iter_empty(struct ring_buffer_iter *iter)$/;"	f
+ring_buffer_iter_peek	ring_buffer.c	/^EXPORT_SYMBOL_GPL(ring_buffer_iter_peek);$/;"	v
+ring_buffer_iter_peek	ring_buffer.c	/^ring_buffer_iter_peek(struct ring_buffer_iter *iter, u64 *ts)$/;"	f
+ring_buffer_iter_reset	ring_buffer.c	/^EXPORT_SYMBOL_GPL(ring_buffer_iter_reset);$/;"	v
+ring_buffer_iter_reset	ring_buffer.c	/^void ring_buffer_iter_reset(struct ring_buffer_iter *iter)$/;"	f
+ring_buffer_lock_reserve	ring_buffer.c	/^EXPORT_SYMBOL_GPL(ring_buffer_lock_reserve);$/;"	v
+ring_buffer_lock_reserve	ring_buffer.c	/^ring_buffer_lock_reserve(struct ring_buffer *buffer, unsigned long length)$/;"	f
+ring_buffer_normalize_time_stamp	ring_buffer.c	/^EXPORT_SYMBOL_GPL(ring_buffer_normalize_time_stamp);$/;"	v
+ring_buffer_normalize_time_stamp	ring_buffer.c	/^void ring_buffer_normalize_time_stamp(struct ring_buffer *buffer,$/;"	f
+ring_buffer_overrun_cpu	ring_buffer.c	/^EXPORT_SYMBOL_GPL(ring_buffer_overrun_cpu);$/;"	v
+ring_buffer_overrun_cpu	ring_buffer.c	/^unsigned long ring_buffer_overrun_cpu(struct ring_buffer *buffer, int cpu)$/;"	f
+ring_buffer_overruns	ring_buffer.c	/^EXPORT_SYMBOL_GPL(ring_buffer_overruns);$/;"	v
+ring_buffer_overruns	ring_buffer.c	/^unsigned long ring_buffer_overruns(struct ring_buffer *buffer)$/;"	f
+ring_buffer_page_len	ring_buffer.c	/^size_t ring_buffer_page_len(void *page)$/;"	f
+ring_buffer_peek	ring_buffer.c	/^EXPORT_SYMBOL_GPL(ring_buffer_peek);$/;"	v
+ring_buffer_peek	ring_buffer.c	/^ring_buffer_peek(struct ring_buffer *buffer, int cpu, u64 *ts,$/;"	f
+ring_buffer_per_cpu	ring_buffer.c	/^struct ring_buffer_per_cpu {$/;"	s	file:
+ring_buffer_print_entry_header	ring_buffer.c	/^int ring_buffer_print_entry_header(struct trace_seq *s)$/;"	f
+ring_buffer_print_page_header	ring_buffer.c	/^int ring_buffer_print_page_header(struct trace_seq *s)$/;"	f
+ring_buffer_read	ring_buffer.c	/^EXPORT_SYMBOL_GPL(ring_buffer_read);$/;"	v
+ring_buffer_read	ring_buffer.c	/^ring_buffer_read(struct ring_buffer_iter *iter, u64 *ts)$/;"	f
+ring_buffer_read_finish	ring_buffer.c	/^EXPORT_SYMBOL_GPL(ring_buffer_read_finish);$/;"	v
+ring_buffer_read_finish	ring_buffer.c	/^ring_buffer_read_finish(struct ring_buffer_iter *iter)$/;"	f
+ring_buffer_read_page	ring_buffer.c	/^EXPORT_SYMBOL_GPL(ring_buffer_read_page);$/;"	v
+ring_buffer_read_page	ring_buffer.c	/^int ring_buffer_read_page(struct ring_buffer *buffer,$/;"	f
+ring_buffer_read_prepare	ring_buffer.c	/^EXPORT_SYMBOL_GPL(ring_buffer_read_prepare);$/;"	v
+ring_buffer_read_prepare	ring_buffer.c	/^ring_buffer_read_prepare(struct ring_buffer *buffer, int cpu)$/;"	f
+ring_buffer_read_prepare_sync	ring_buffer.c	/^EXPORT_SYMBOL_GPL(ring_buffer_read_prepare_sync);$/;"	v
+ring_buffer_read_prepare_sync	ring_buffer.c	/^ring_buffer_read_prepare_sync(void)$/;"	f
+ring_buffer_read_start	ring_buffer.c	/^EXPORT_SYMBOL_GPL(ring_buffer_read_start);$/;"	v
+ring_buffer_read_start	ring_buffer.c	/^ring_buffer_read_start(struct ring_buffer_iter *iter)$/;"	f
+ring_buffer_record_disable	ring_buffer.c	/^EXPORT_SYMBOL_GPL(ring_buffer_record_disable);$/;"	v
+ring_buffer_record_disable	ring_buffer.c	/^void ring_buffer_record_disable(struct ring_buffer *buffer)$/;"	f
+ring_buffer_record_disable_cpu	ring_buffer.c	/^EXPORT_SYMBOL_GPL(ring_buffer_record_disable_cpu);$/;"	v
+ring_buffer_record_disable_cpu	ring_buffer.c	/^void ring_buffer_record_disable_cpu(struct ring_buffer *buffer, int cpu)$/;"	f
+ring_buffer_record_enable	ring_buffer.c	/^EXPORT_SYMBOL_GPL(ring_buffer_record_enable);$/;"	v
+ring_buffer_record_enable	ring_buffer.c	/^void ring_buffer_record_enable(struct ring_buffer *buffer)$/;"	f
+ring_buffer_record_enable_cpu	ring_buffer.c	/^EXPORT_SYMBOL_GPL(ring_buffer_record_enable_cpu);$/;"	v
+ring_buffer_record_enable_cpu	ring_buffer.c	/^void ring_buffer_record_enable_cpu(struct ring_buffer *buffer, int cpu)$/;"	f
+ring_buffer_reset	ring_buffer.c	/^EXPORT_SYMBOL_GPL(ring_buffer_reset);$/;"	v
+ring_buffer_reset	ring_buffer.c	/^void ring_buffer_reset(struct ring_buffer *buffer)$/;"	f
+ring_buffer_reset_cpu	ring_buffer.c	/^EXPORT_SYMBOL_GPL(ring_buffer_reset_cpu);$/;"	v
+ring_buffer_reset_cpu	ring_buffer.c	/^void ring_buffer_reset_cpu(struct ring_buffer *buffer, int cpu)$/;"	f
+ring_buffer_resize	ring_buffer.c	/^EXPORT_SYMBOL_GPL(ring_buffer_resize);$/;"	v
+ring_buffer_resize	ring_buffer.c	/^int ring_buffer_resize(struct ring_buffer *buffer, unsigned long size)$/;"	f
+ring_buffer_set_clock	ring_buffer.c	/^void ring_buffer_set_clock(struct ring_buffer *buffer,$/;"	f
+ring_buffer_size	ring_buffer.c	/^EXPORT_SYMBOL_GPL(ring_buffer_size);$/;"	v
+ring_buffer_size	ring_buffer.c	/^unsigned long ring_buffer_size(struct ring_buffer *buffer)$/;"	f
+ring_buffer_swap_cpu	ring_buffer.c	/^EXPORT_SYMBOL_GPL(ring_buffer_swap_cpu);$/;"	v
+ring_buffer_swap_cpu	ring_buffer.c	/^int ring_buffer_swap_cpu(struct ring_buffer *buffer_a,$/;"	f
+ring_buffer_swap_cpu	ring_buffer.h	/^ring_buffer_swap_cpu(struct ring_buffer *buffer_a,$/;"	f
+ring_buffer_time_stamp	ring_buffer.c	/^EXPORT_SYMBOL_GPL(ring_buffer_time_stamp);$/;"	v
+ring_buffer_time_stamp	ring_buffer.c	/^u64 ring_buffer_time_stamp(struct ring_buffer *buffer, int cpu)$/;"	f
+ring_buffer_type	ring_buffer.h	/^enum ring_buffer_type {$/;"	g
+ring_buffer_unlock_commit	ring_buffer.c	/^EXPORT_SYMBOL_GPL(ring_buffer_unlock_commit);$/;"	v
+ring_buffer_unlock_commit	ring_buffer.c	/^int ring_buffer_unlock_commit(struct ring_buffer *buffer,$/;"	f
+ring_buffer_write	ring_buffer.c	/^EXPORT_SYMBOL_GPL(ring_buffer_write);$/;"	v
+ring_buffer_write	ring_buffer.c	/^int ring_buffer_write(struct ring_buffer *buffer,$/;"	f
+rp	gtp_rb.c	/^	void		*rp;$/;"	m	struct:gtp_rb_s	file:
+rp_id	gtp_rb.c	/^	u64		rp_id;$/;"	m	struct:gtp_rb_s	file:
+run	add-ons/gtpwin.py	/^def run():$/;"	f
+run	gtp.h	/^	int				*run;$/;"	m	struct:gtp_trace_s
+running	gtp.c	/^	u64				running;	\/* The perf inside timer *\/$/;"	m	struct:gtp_var_perf_event	file:
+s	add-ons/hotcode.py	/^					s = raw_input('File ' + s +' exist, do you want to over write it? (y)es, [(n)o]:')$/;"	v
+s	add-ons/hotcode.py	/^			s = raw_input('Which file you want to save the html output? [' + output_html_file + ']:')$/;"	v
+s	add-ons/hotcode.py	/^	s = 'h'$/;"	v
+s	add-ons/hotcode.py	/^	s = raw_input('Which way you want to output hotcode info when ctrl-c? [(h)tml], (t)ty:')$/;"	v
+s	getmod.py	/^		s = 0$/;"	v
+s	getmod.py	/^		s = input('Select a directory for search the modules [0]:')$/;"	v
+sdir	getmod.c	/^char	*sdir[SDIR_MAX];$/;"	v
+sdir_number	getmod.c	/^int	sdir_number = 0;$/;"	v
+search_mod	getmod.c	/^search_mod(char *dir, char *file)$/;"	f
+search_mod_1	getmod.c	/^search_mod_1(char *dir, char *file)$/;"	f
+sect_attrs	getmod.py	/^	sect_attrs = long(gdb.parse_and_eval("(u64)((struct module *)"+str(mod)+")->sect_attrs"))$/;"	v
+set_button_color	add-ons/gtpwin.py	/^	def set_button_color(self, button, color):$/;"	m	class:gtpwin
+set_button_color	add-ons/pe.py	/^		def set_button_color(self, button, color):$/;"	m	class:.PyApp
+show_buttons	add-ons/gtpwin.py	/^	def show_buttons(self, widget):$/;"	m	class:gtpwin
+show_buttons	add-ons/pe.py	/^		def show_buttons(self, widget):$/;"	m	class:.PyApp
+show_line_number	add-ons/hotcode.py	/^	show_line_number = input('Show line number (0 meas all)? ['+str(show_line_number)+']:')$/;"	v
+show_line_number	add-ons/hotcode.py	/^	show_line_number = show_line_number_default$/;"	v
+show_line_number	add-ons/hotcode.py	/^show_line_number = show_line_number_default$/;"	v
+show_line_number_default	add-ons/hotcode.py	/^show_line_number_default = 20$/;"	v
+sig_int	getframe.c	/^sig_int(int signo)$/;"	f	file:
+sig_term	getframe.c	/^sig_term(int signo)$/;"	f	file:
+sigint_handler	add-ons/hotcode.py	/^def sigint_handler(num, e):$/;"	f
+sigint_handler	add-ons/pe.py	/^def sigint_handler(num, e):$/;"	f
+simple_cmd	add-ons/pe.py	/^	def simple_cmd(self, cmd):$/;"	m	class:kgtp
+size	gtp.c	/^	size_t		size;$/;"	m	struct:action_m	file:
+size	gtp.c	/^	size_t		size;$/;"	m	struct:gtp_frame_mem	file:
+size	gtp.c	/^	size_t	size;$/;"	m	struct:gtp_realloc_s	file:
+size	gtp.c	/^	unsigned int	size;$/;"	m	struct:action_agent_exp	file:
+skip_time_extend	ring_buffer.c	244;"	d	file:
+sleep_sec	add-ons/pe.py	/^sleep_sec = 1$/;"	v
+sp	gtp.c	/^	unsigned int		sp;$/;"	m	struct:gtp_x_if_goto	file:
+src	gtp.c	/^	char			*src;$/;"	m	struct:gtp_var	file:
+src	gtp.c	/^	char		*src;$/;"	m	struct:gtpsrc	file:
+src	gtp.c	/^	struct gtpsrc		*src;$/;"	m	struct:gtp_entry	typeref:struct:gtp_entry::gtpsrc	file:
+start	gtp.c	/^	CORE_ADDR		start;$/;"	m	struct:gtpro_entry	file:
+step	gtp.c	/^	int			step;$/;"	m	struct:gtp_entry	file:
+step	gtp.h	/^	int				step;$/;"	m	struct:gtp_trace_s
+step	gtp_rb.c	/^	int			step;$/;"	m	struct:gtp_rb_walk_s	file:
+step_action_list	gtp.c	/^	struct action		*step_action_list;$/;"	m	struct:gtp_entry	typeref:struct:gtp_entry::action	file:
+stop_tasklet	gtp.c	/^	struct tasklet_struct	stop_tasklet;$/;"	m	struct:gtp_entry	typeref:struct:gtp_entry::tasklet_struct	file:
+stop_work	gtp.c	/^	struct work_struct	stop_work;$/;"	m	struct:gtp_entry	typeref:struct:gtp_entry::work_struct	file:
+strcasecmp	gtp.c	/^int strcasecmp(const char *s1, const char *s2)$/;"	f
+string2hex	gtp.c	/^string2hex(char *pkg, char *out)$/;"	f	file:
+strncasecmp	gtp.c	/^int strncasecmp(const char *s1, const char *s2, size_t n)$/;"	f
+sym	add-ons/hotcode.py	/^				sym = gdb.execute("info line *"+str(ip), True, True)$/;"	v
+sym	add-ons/hotcode.py	/^				sym = gdb.execute("info line *(regs->ip - 1)", True, True)$/;"	v
+sym	add-ons/hotcode.py	/^			sym = gdb.execute("info line *($p_ip - 1)", True, True)$/;"	v
+tail_page	ring_buffer.c	/^	struct buffer_page		*tail_page;	\/* write to tail *\/$/;"	m	struct:ring_buffer_per_cpu	typeref:struct:ring_buffer_per_cpu::buffer_page	file:
+task	add-ons/hotcode.py	/^class task:$/;"	c
+task_list	add-ons/hotcode.py	/^task_list = {}$/;"	v
+task_list_add_line	add-ons/hotcode.py	/^def task_list_add_line(is_user, pid, info):$/;"	f
+tempfile	add-ons/hotcode.py	/^tempfile = open(tempfilename, "r")$/;"	v
+tempfile	add-ons/hotcode.py	/^tempfile = open(tempfilename, "w")$/;"	v
+tempfilename	add-ons/hotcode.py	/^tempfilename = tempfile.mktemp()$/;"	v
+test1	plugin_example.c	/^struct gtp_var	*test1 = NULL, *test2 = NULL, *test3 = NULL, *test4 = NULL;$/;"	v	typeref:struct:gtp_var
+test2	plugin_example.c	/^struct gtp_var	*test1 = NULL, *test2 = NULL, *test3 = NULL, *test4 = NULL;$/;"	v	typeref:struct:
+test2_hooks	plugin_example.c	/^static struct gtp_var_hooks	test2_hooks = {$/;"	v	typeref:struct:gtp_var_hooks	file:
+test2_hooks_get_val	plugin_example.c	/^test2_hooks_get_val(struct gtp_trace_s *unused1, struct gtp_var *unused2,$/;"	f	file:
+test2_hooks_set_val	plugin_example.c	/^test2_hooks_set_val(struct gtp_trace_s *unused1,$/;"	f	file:
+test2_val	plugin_example.c	/^static int64_t	test2_val = 20;$/;"	v	file:
+test3	plugin_example.c	/^struct gtp_var	*test1 = NULL, *test2 = NULL, *test3 = NULL, *test4 = NULL;$/;"	v	typeref:struct:
+test3_hooks	plugin_example.c	/^static struct gtp_var_hooks	test3_hooks = {$/;"	v	typeref:struct:gtp_var_hooks	file:
+test3_hooks_set_val	plugin_example.c	/^test3_hooks_set_val(struct gtp_trace_s *unused1,$/;"	f	file:
+test4	plugin_example.c	/^struct gtp_var	*test1 = NULL, *test2 = NULL, *test3 = NULL, *test4 = NULL;$/;"	v	typeref:struct:
+test4_hooks	plugin_example.c	/^static struct gtp_var_hooks	test4_hooks = {$/;"	v	typeref:struct:gtp_var_hooks	file:
+test4_hooks_set_val	plugin_example.c	/^test4_hooks_set_val(struct gtp_trace_s *gts,$/;"	f	file:
+test_time_stamp	ring_buffer.c	/^static inline int test_time_stamp(u64 delta)$/;"	f	file:
+text_offset	add-ons/hotcode.py	/^						text_offset = line_list[0][0:line_list[0].find(' - ')]$/;"	v
+text_offset	add-ons/hotcode.py	/^				text_offset = "0x0"$/;"	v
+this_cpu_ptr	gtp.c	125;"	d	file:
+time_delta	ring_buffer.h	/^	u32		type_len:5, time_delta:27;$/;"	m	struct:ring_buffer_event
+time_stamp	ring_buffer.c	/^	u64		 time_stamp;	\/* page time stamp *\/$/;"	m	struct:buffer_data_page	file:
+timer_cb	add-ons/gtpwin.py	/^	def timer_cb(self):$/;"	m	class:gtpwin
+timer_cb	add-ons/pe.py	/^		def timer_cb(self):$/;"	m	class:.PyApp
+timer_remove_first_record	add-ons/gtpwin.py	/^	def timer_remove_first_record(self):$/;"	m	class:gtpwin
+timer_remove_first_record	add-ons/pe.py	/^		def timer_remove_first_record(self):$/;"	m	class:.PyApp
+tmp	add-ons/hotcode.py	/^				tmp = raw_input('Please input the debug binary of task if you want to change it ['+user_dir+']:')$/;"	v
+tmp	add-ons/hotcode.py	/^			tmp = ""$/;"	v
+tmp	add-ons/hotcode.py	/^		tmp = raw_input('Which part of code you want trace? [(b)oth], (u)ser, (k)ernel:')$/;"	v
+tmp	add-ons/hotcode.py	/^	tmp = "both"$/;"	v
+tmp	getmod.py	/^		tmp = str(gdb.parse_and_eval("((struct module_sect_attrs *)"+str(sect_attrs)+")->attrs["+str(i)+"].address"))$/;"	v
+tmp	getmod.py	/^		tmp = str(gdb.parse_and_eval("((struct module_sect_attrs *)"+str(sect_attrs)+")->attrs["+str(i)+"].name"))$/;"	v
+tmp	getmod.py	/^		tmp = tmp[0:tmp.index("\\"")]$/;"	v
+tmp	getmod.py	/^		tmp = tmp[:tmp.index('<')]$/;"	v
+tmp	getmod.py	/^		tmp = tmp[tmp.index("\\"")+1:len(tmp)]$/;"	v
+tmp	getmod.py	/^	tmp = str(gdb.parse_and_eval("((struct module *)"+str(mod)+")->module_core"))$/;"	v
+tmp_dir	getmod.py	/^	tmp_dir = str(tmp_dir)$/;"	v
+tmp_dir	getmod.py	/^	tmp_dir = tmp_dir[0:tmp_dir.index("\\"")]$/;"	v
+tmp_dir	getmod.py	/^	tmp_dir = tmp_dir[1:len(tmp_dir)]$/;"	v
+tmp_dir	getmod.py	/^tmp_dir = "\/lib\/modules\/" + str(os.uname()[2])$/;"	v
+tmp_dir	getmod.py	/^tmp_dir = gdb.parse_and_eval("$mod_search_dir")$/;"	v
+tmp_dir	getmod.py	/^tmp_dir = str(gdb.execute("info files", False, True))$/;"	v
+tmp_dir	getmod.py	/^tmp_dir = tmp_dir[0:tmp_dir.index("\\"")]$/;"	v
+tmp_dir	getmod.py	/^tmp_dir = tmp_dir[0:tmp_dir.rindex("\/")]$/;"	v
+tmp_dir	getmod.py	/^tmp_dir = tmp_dir[tmp_dir.index("Symbols from \\"")+len("Symbols from \\""):len(tmp_dir)]$/;"	v
+tmp_file	getmod.py	/^			tmp_file = format_file(afile)$/;"	v
+tmplist	add-ons/hotcode.py	/^		tmplist = pfile.read().split(os.linesep)$/;"	v
+tpe	gtp.h	/^	struct gtp_entry		*tpe;$/;"	m	struct:gtp_trace_s	typeref:struct:gtp_trace_s::gtp_entry
+trace_clock_local	ring_buffer.c	/^u64 notrace trace_clock_local(void)$/;"	f
+trace_kernel	add-ons/hotcode.py	/^		trace_kernel = False$/;"	v
+trace_kernel	add-ons/hotcode.py	/^	trace_kernel = True$/;"	v
+trace_kernel	add-ons/hotcode.py	/^trace_kernel = True$/;"	v
+trace_recursive_lock	ring_buffer.c	2301;"	d	file:
+trace_recursive_unlock	ring_buffer.c	2302;"	d	file:
+trace_user	add-ons/hotcode.py	/^		trace_user = False$/;"	v
+trace_user	add-ons/hotcode.py	/^	trace_user = False$/;"	v
+trace_user	add-ons/hotcode.py	/^trace_user = True$/;"	v
+tracing_is_on	ring_buffer.c	/^EXPORT_SYMBOL_GPL(tracing_is_on);$/;"	v
+tracing_is_on	ring_buffer.c	/^int tracing_is_on(void)$/;"	f
+tracing_off	ring_buffer.c	/^EXPORT_SYMBOL_GPL(tracing_off);$/;"	v
+tracing_off	ring_buffer.c	/^void tracing_off(void)$/;"	f
+tracing_off_permanent	ring_buffer.c	/^void tracing_off_permanent(void)$/;"	f
+tracing_on	ring_buffer.c	/^EXPORT_SYMBOL_GPL(tracing_on);$/;"	v
+tracing_on	ring_buffer.c	/^void tracing_on(void)$/;"	f
+tstart	add-ons/pe.py	/^	def tstart(self):$/;"	m	class:kgtp
+tstop	add-ons/pe.py	/^	def tstop(self):$/;"	m	class:kgtp
+tvariable	add-ons/pe.py	/^	tvariable = {}$/;"	v	class:kgtp
+tvariable_add	add-ons/pe.py	/^	def tvariable_add(self, name, val):$/;"	m	class:kgtp
+tvariable_init	add-ons/pe.py	/^	def tvariable_init(self):$/;"	m	class:kgtp
+tvariable_next_number	add-ons/pe.py	/^	tvariable_next_number = 0$/;"	v	class:kgtp
+tvariable_val	add-ons/pe.py	/^	def tvariable_val(self, number):$/;"	m	class:kgtp
+tvariable_val_raw	add-ons/pe.py	/^	def tvariable_val_raw(self, buf):$/;"	m	class:kgtp
+type	gtp.c	/^	unsigned char	type;$/;"	m	struct:action	file:
+type	gtp.c	/^	unsigned int		type;$/;"	m	struct:gtp_var	file:
+type	gtp_rb.c	/^	FID_TYPE		type;$/;"	m	struct:gtp_rb_walk_s	file:
+type_len	ring_buffer.h	/^	u32		type_len:5, time_delta:27;$/;"	m	struct:ring_buffer_event
+u	gtp.c	/^	} u;$/;"	m	struct:action	typeref:union:action::__anon10	file:
+u	gtp.c	/^	} u;$/;"	m	struct:gtp_var	typeref:union:gtp_var::__anon14	file:
+u	gtp.c	/^	} u;$/;"	m	struct:gtp_var_per_cpu	typeref:union:gtp_var_per_cpu::__anon13	file:
+update_context_time	perf_event.c	/^static void update_context_time(struct perf_event_context *ctx)$/;"	f	file:
+update_event_times	perf_event.c	/^static void update_event_times(struct perf_event *event)$/;"	f	file:
+user_dir	add-ons/hotcode.py	/^				user_dir = os.path.realpath(tmp)$/;"	v
+user_dir	add-ons/hotcode.py	/^			user_dir = debug_dir+user_dir$/;"	v
+user_dir	add-ons/hotcode.py	/^	user_dir = ""$/;"	v
+user_page	perf_event.c	/^	struct perf_event_mmap_page	*user_page;$/;"	m	struct:ring_buffer	typeref:struct:ring_buffer::perf_event_mmap_page	file:
+val	gtp.c	/^		int64_t			val;$/;"	m	union:gtp_var::__anon14	file:
+val	gtp.c	/^		int64_t			val;$/;"	m	union:gtp_var_per_cpu::__anon13	file:
+val	gtp.c	/^	int64_t		val;$/;"	m	struct:gtp_frame_var	file:
+val	gtp.c	/^	u64				val;$/;"	m	struct:gtp_var_perf_event	file:
+val_number	add-ons/gtpwin.py	/^	def val_number(self):$/;"	m	class:gtpline
+version	add-ons/gtpwin.py	/^version = '20120605+'$/;"	v
+w	gtp_rb.c	/^	void		*w;$/;"	m	struct:gtp_rb_s	file:
+wakeup	perf_event.c	/^	local_t				wakeup;		\/* wakeup stamp      *\/$/;"	m	struct:ring_buffer	file:
+watermark	perf_event.c	/^	long				watermark;	\/* wakeup watermark  *\/$/;"	m	struct:ring_buffer	file:
+win	add-ons/gtpwin_example.py	/^win = gtpwin.gtpwin(l, "test")$/;"	v
+work	perf_event.c	/^	struct work_struct		work;$/;"	m	struct:ring_buffer	typeref:struct:ring_buffer::work_struct	file:
+writable	perf_event.c	/^	int				writable;	\/* are we writable   *\/$/;"	m	struct:ring_buffer	file:
+write	add-ons/pe.py	/^	def write(self, msg):$/;"	m	class:kgtp
+write	ring_buffer.c	/^	local_t		 write;		\/* index for next write *\/$/;"	m	struct:buffer_page	file:
+write_csv	add-ons/gtpwin.py	/^	def write_csv(self, msg):$/;"	m	class:gtpwin
+write_csv	add-ons/pe.py	/^		def write_csv(self, msg):$/;"	m	class:.PyApp
+write_fd	add-ons/pe.py	/^	def write_fd(self, msg):$/;"	m	class:kgtp
+write_stamp	ring_buffer.c	/^	u64				write_stamp;$/;"	m	struct:ring_buffer_per_cpu	file:
+xtime	gtp.h	/^	struct timespec			xtime;$/;"	m	struct:gtp_trace_s	typeref:struct:gtp_trace_s::timespec

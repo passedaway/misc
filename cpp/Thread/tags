@@ -1,0 +1,25 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+MULTI_Thread_H	multithread.h	2;"	d
+MultiThread	multithread.cpp	/^MultiThread::MultiThread():Thread()$/;"	f	class:MultiThread
+MultiThread	multithread.h	/^class MultiThread : public Thread{$/;"	c
+Runable	thread.h	/^class Runable{$/;"	c
+THREAD_H	thread.h	11;"	d
+Thread	thread.cpp	/^Thread::Thread()$/;"	f	class:Thread
+Thread	thread.h	/^class Thread : public Runable{$/;"	c
+getPthread	thread.cpp	/^inline pthread_t Thread::getPthread()$/;"	f	class:Thread
+join	thread.cpp	/^void Thread::join()$/;"	f	class:Thread
+main	main.cpp	/^int main(void)$/;"	f
+object	Makefile	/^object=main.o thread.o multithread.o$/;"	m
+pid	thread.h	/^	pthread_t pid;$/;"	m	class:Thread
+run	thread.cpp	/^void *Thread::run(void *arg)$/;"	f	class:Thread
+runFun	multithread.cpp	/^void MultiThread::runFun(void)$/;"	f	class:MultiThread
+runFun	thread.cpp	/^inline void Thread::runFun()$/;"	f	class:Thread
+startThread	multithread.cpp	/^int MultiThread::startThread()$/;"	f	class:MultiThread
+startThread	thread.cpp	/^int Thread::startThread()$/;"	f	class:Thread
+~MultiThread	multithread.cpp	/^MultiThread::~MultiThread()$/;"	f	class:MultiThread
+~Thread	thread.cpp	/^Thread::~Thread()$/;"	f	class:Thread

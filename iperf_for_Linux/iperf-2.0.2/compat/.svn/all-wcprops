@@ -1,0 +1,143 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/src/!svn/ver/3/iperf_for_Linux/iperf-2.0.2/compat
+END
+delay.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/src/!svn/ver/3/iperf_for_Linux/iperf-2.0.2/compat/delay.cpp
+END
+inet_ntop.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/src/!svn/ver/3/iperf_for_Linux/iperf-2.0.2/compat/inet_ntop.c
+END
+inet_pton.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/src/!svn/ver/3/iperf_for_Linux/iperf-2.0.2/compat/inet_pton.c
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/src/!svn/ver/3/iperf_for_Linux/iperf-2.0.2/compat/Makefile.in
+END
+snprintf.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/src/!svn/ver/3/iperf_for_Linux/iperf-2.0.2/compat/snprintf.c
+END
+headers_slim.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/src/!svn/ver/3/iperf_for_Linux/iperf-2.0.2/compat/headers_slim.h
+END
+error.o
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/src/!svn/ver/3/iperf_for_Linux/iperf-2.0.2/compat/error.o
+END
+string.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/src/!svn/ver/3/iperf_for_Linux/iperf-2.0.2/compat/string.c
+END
+Thread.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/src/!svn/ver/3/iperf_for_Linux/iperf-2.0.2/compat/Thread.c
+END
+libcompat.a
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/src/!svn/ver/3/iperf_for_Linux/iperf-2.0.2/compat/libcompat.a
+END
+delay.o
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/src/!svn/ver/3/iperf_for_Linux/iperf-2.0.2/compat/delay.o
+END
+inet_pton.o
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/src/!svn/ver/3/iperf_for_Linux/iperf-2.0.2/compat/inet_pton.o
+END
+inet_ntop.o
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/src/!svn/ver/3/iperf_for_Linux/iperf-2.0.2/compat/inet_ntop.o
+END
+signal.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/src/!svn/ver/3/iperf_for_Linux/iperf-2.0.2/compat/signal.c
+END
+snprintf.o
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/src/!svn/ver/3/iperf_for_Linux/iperf-2.0.2/compat/snprintf.o
+END
+gettimeofday.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/src/!svn/ver/3/iperf_for_Linux/iperf-2.0.2/compat/gettimeofday.c
+END
+string.o
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/src/!svn/ver/3/iperf_for_Linux/iperf-2.0.2/compat/string.o
+END
+Thread.o
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/src/!svn/ver/3/iperf_for_Linux/iperf-2.0.2/compat/Thread.o
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/src/!svn/ver/3/iperf_for_Linux/iperf-2.0.2/compat/Makefile.am
+END
+signal.o
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/src/!svn/ver/3/iperf_for_Linux/iperf-2.0.2/compat/signal.o
+END
+error.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/src/!svn/ver/3/iperf_for_Linux/iperf-2.0.2/compat/error.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/src/!svn/ver/3/iperf_for_Linux/iperf-2.0.2/compat/Makefile
+END
+gettimeofday.o
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/src/!svn/ver/3/iperf_for_Linux/iperf-2.0.2/compat/gettimeofday.o
+END

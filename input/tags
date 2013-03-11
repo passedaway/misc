@@ -1,0 +1,30 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+THIS_printf	keymgnr.c	25;"	d	file:
+_IPANEL_KEY_MGNR_H_	keymgnr.h	19;"	d
+_MAX_KEY_NUM_	keymgnr.c	23;"	d	file:
+construct_key_mgnr	keymgnr.c	/^int construct_key_mgnr(key_mgnr_t *pkeymgnr)$/;"	f
+ipanel_key	keymgnr.c	/^	unsigned short ipanel_key;$/;"	m	struct:ipanel_key_s	file:
+ipanel_key_s	keymgnr.c	/^typedef struct ipanel_key_s{$/;"	s	file:
+ipanel_key_t	keymgnr.c	/^}ipanel_key_t;$/;"	t	typeref:struct:ipanel_key_s	file:
+ir_cfg_name	keymgnr.c	/^	const char *ir_cfg_name;$/;"	m	struct:key_mgnr_s	file:
+key	keymgnr.c	/^	ipanel_key_t *key;$/;"	m	struct:key_mgnr_s	file:
+key_mgnr_exit	keymgnr.c	/^void key_mgnr_exit(void)$/;"	f
+key_mgnr_get_input_key	keymgnr.c	/^int key_mgnr_get_input_key(unsigned int ipanel_key)$/;"	f
+key_mgnr_get_ipanel_key	keymgnr.c	/^int key_mgnr_get_ipanel_key(unsigned int keycode)$/;"	f
+key_mgnr_get_keynums	keymgnr.c	/^int key_mgnr_get_keynums()$/;"	f
+key_mgnr_get_usercode	keymgnr.c	/^int key_mgnr_get_usercode(void)$/;"	f
+key_mgnr_init	keymgnr.c	/^int key_mgnr_init(const char *ir_cfg_name, int pflag)$/;"	f
+key_mgnr_s	keymgnr.c	/^typedef struct key_mgnr_s{$/;"	s	file:
+key_mgnr_t	keymgnr.c	/^}key_mgnr_t;$/;"	t	typeref:struct:key_mgnr_s	file:
+keycode	keymgnr.c	/^	unsigned int keycode;$/;"	m	struct:ipanel_key_s	file:
+m_key_mgnr	keymgnr.c	/^static key_mgnr_t m_key_mgnr;$/;"	v	file:
+main	test.c	/^int main(void)$/;"	f
+mystrtol	keymgnr.c	/^long long mystrtol(char *str)$/;"	f
+nums	keymgnr.c	/^	unsigned int nums;$/;"	m	struct:key_mgnr_s	file:
+print_flag	keymgnr.c	/^static int print_flag = 0;$/;"	v	file:
+usercode	keymgnr.c	/^	unsigned int usercode;$/;"	m	struct:key_mgnr_s	file:
