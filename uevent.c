@@ -6,8 +6,6 @@
 #include <sys/socket.h>
 #include <stddef.h> /* offsetof */
 
-//#include <linux/types.h>
-//#include <linux/netlink.h>
 #include <sys/un.h>
 
 #include <asm/types.h>
