@@ -1,4 +1,0 @@
-print_stack_info
-/work/src/misc/backtrace.c:42
-_start
-??:0
