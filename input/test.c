@@ -16,31 +16,28 @@
  * =====================================================================================
  */
 
-#include "keymgnr.h"
+#include "keymgr.h"
 
 #include <stdio.h>
 
-int main(void)
+int main(int argc, char **argv)
 {
-	union {
-		short a;
-		char c;
-		int b;	
-	} u;
+	keymgr_init(argv[1]?argv[1]:"abc.cfg", 0);
 
-u.b = 0x123456;
-printf("u.a = %x u.b = %x u.c = %x\n", u.a, u.b, u.c);
+	printf("config file: %s\n", keymgr_get_config_name());
+	printf("keynum = %d\n", keymgr_get_keynums());
+	printf("Usercode = %x \n", keymgr_get_usercode());
 
-	key_mgnr_init("abc.cfg", 0);
+	{
+		printf("Poerkey256 = %x \n", keymgr_get_input_key(256));
+		printf("Poerkey257 = %x \n", keymgr_get_input_key(257));
+		printf("Poerkey258 = %x \n", keymgr_get_input_key(258));
+	}
 
-	printf("keynum = %d\n", key_mgnr_get_keynums());
-	printf("Usercode = %x \n", key_mgnr_get_usercode());
-	printf("Poerkey256 = %x \n", key_mgnr_get_input_key(256));
-	printf("Poerkey257 = %x \n", key_mgnr_get_input_key(257));
-	printf("Poerkey258 = %x \n", key_mgnr_get_input_key(258));
-
-	printf("get ipanel_key 0xff48b7 = %d\n", key_mgnr_get_ipanel_key(0xff48b7));
-	key_mgnr_exit();
+	printf("get ipanel_key 0xff48b7 = %d\n", keymgr_get_ipanel_key(0xff48b7));
+	printf("get ipanel_key 0x48b7 = %d\n", keymgr_get_ipanel_key(0x48b7));
+	printf("get ipanel_key 0x48 = %d\n", keymgr_get_ipanel_key(0x48));
+	keymgr_exit();
 	return 0;
 }
 
