@@ -1,2 +1,0 @@
-make others_uninstall
-
