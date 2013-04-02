@@ -1,0 +1,74 @@
+#!/bin/sh
+
+#function define
+usage() {
+	echo "$0  <filename>  <filesize>"
+	echo -e "args : \n\tfilename : input filename\n\tfilesize : dest file size(MB)\n"
+
+	return 0
+}
+
+
+#start
+
+#check args
+if [ $# != 2 ] ; then
+	usage
+	exit
+fi
+
+if [ ! -f $1 ] ; then
+	echo -e "Error : File $1 not found!"
+	usage
+	exit 0
+fi
+
+echo "Processing ..."
+INFILE=$1
+DEST_SIZE=$2
+
+#16B file
+echo -e "\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\c">_a_16
+echo -n "."
+
+# 1K file
+i=1
+for i in $( seq 1 64 )
+do
+	cat _a_16 >> _a_1024
+done
+
+echo -n ".."
+
+# 1M file
+set i=1
+for i in $( seq 1 1024 )
+do
+	cat _a_1024 >> _a_1M
+done
+
+echo "..."
+
+# $2 size file
+set i=1
+for i in $( seq 1 $DEST_SIZE )
+do
+	cat _a_1M >> _a_dest
+done
+
+echo "..."
+
+#combine two files
+#cp `echo -ne "$INFILE"` _dest_bak
+cp $INFILE _dest_bak
+cat _a_dest >> _dest_bak
+
+echo -n "DEST_SIZE"
+echo -e "$DEST_SIZE"
+#dd if=_dest_bak of=file.out bs=1M count=`echo -ne "$DEST_SIZE"`
+dd if=_dest_bak of=file.out bs=1M count=$DEST_SIZE
+
+rm -rf _a_16 _a_1024 _a_1M _a_dest _dest_bak
+
+echo -e "execute over!\noutput filename is : file.out"
+
