@@ -26,7 +26,7 @@
 
 static inline void _dump_stack(void)
 {
-	void *array[32];
+	void *array[64];
 	size_t size;
 	char **strings;
 	size_t i;
@@ -53,18 +53,29 @@ static inline void _dump_stack(void)
 		}
 	}
 
-	fprintf(stderr, "stack trace %d :\n", size);
+	fprintf(stderr, "stack trace (All layer %d, and %d layer in your code):\n", size, size-5);
 	if( flag == 0 )
 	{
 		/* has addr2line, use this methord, will get better result  */
 		char *pos = cmd + strlen(cmd);
 		FILE *fp = NULL;
 
-		sprintf(pos, " -f -e /proc/%d/exe | awk 'BEGIN{i=0; tmp=0} {i++; if(i%%2){tmp=$0;} else {printf(\"%%d: %%s ---> %%s\\n\",i/2, tmp, $0);}}'", getpid());
+		sprintf(pos, " -f -e /proc/%d/exe | awk 'BEGIN{i=0; tmp=0} {i++; if(i%%2){tmp=$0;} else {printf(\"%%d: %%30s ---> %%s\\n\",i/2, tmp, $0);}}'", getpid());
 //		fprintf(stderr, "cmd = %s\n", cmd);
 		fp = popen(cmd, "w");
 		
+		/* front-three line of array is this module-func, 
+		 * 		so it not visable to user 
+		 * and last two info, is system-func, 
+		 * 		so it not visable to user , too
+		 * so int i from 3. modify to 0, can see all info
+		 * and size modify to size-2
+		 * */
+#if 0
 		for( i = 0; i < size; i++)
+#else
+		for( i = 3; i < size-2; i++)
+#endif
 			fprintf(fp, "%p\n", array[i]);
 		fclose(fp);
 	}else{
@@ -87,7 +98,7 @@ static inline void sigsegv_handler(int signo)
 {
 	if( signo == SIGSEGV )
 	{
-		fprintf(stderr, "segment fault\n");
+		fprintf(stderr, "********************* SEGMENT FAULT *******************\n");
 		_dump_stack();
 		exit(-1);
 	}
