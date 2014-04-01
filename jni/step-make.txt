@@ -1,0 +1,67 @@
+JNI(Java Native Interface)
+Java Call Native
+1. write Hello.java
+	use "public native" to descripte the function declearing;
+	then use "static {
+		System.loadLibrary("so name");//such as libhello.so, write hello
+	}"
+
+2. javac Hello.java
+	this will generate Hello.class
+
+3. javah Hello
+	this will generate Hello.h
+	in the Hello.h, it declear the JNI C function 
+
+4. implement native function, using C or C++
+	file name such as hello_jni.c or hello_jni.cpp 
+	the function name will same with the defination in the Hello.h;
+	and in this file, the function's arguemnt, return value is the "JNI's" spection,
+	not pure natvie(C or C++),
+	but in this file, can call other module's or file's function,
+	that's the pure native.
+
+5. compare .c or .cpp file
+	cc -c *.c -I/usr/lib/jvm/java-7-openjdk-i386/include
+	cc -o libxxx.so -shared *.o
+
+6. copy so to /usr/lib or /lib
+	cp libxxx.so /lib
+
+7. run java application
+	java Hello
+
+0. problem
+0.1. the path or jni.h
+		/usr/lib/jvm/java-7-openjdk-i386/include
+			this is openjdk 7
+		/usr/lib/jvm/java-6-openjdk-i386/include
+			this is openjdk 6
+0.2. the version of java
+	we used 3 commads, javac, javah, java
+	javac: java compiler, from java source file to java class file
+	javah: java header generator, from java source file to generat the java.h file
+	java: jvm runtime, use "java" to run "xxx.class", just "java xxx"
+	
+	must use the same version tools of these commads.
+		
+
+Native Call Java
+1. create JVM
+	set option(we need set the java class path)
+	JNI_createJvm
+
+2. find class
+
+3. find method
+
+4. run method
+	/usr/lib/libjvm.so.0 must link with /usr/lib/jvm/java-7-openjdk-i386/jre/lib/i386/server/libjvm.so
+	if link with no server, it will crush the problem:
+	Error: JVM path malformed.   Aborting VM.
+
+0. proble
+	link: /usr/lib/jvm/java-7-openjdk-i386/jre/lib/i386/server/libjvm.so
+	when run: ln -s /usr/lib/jvm/java-7-openjdk-i386/jre/lib/i386/server/libjvm.so /lib/libjvm.so.0
+
+
