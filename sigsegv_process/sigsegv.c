@@ -24,6 +24,10 @@
 #include <signal.h>
 #include <string.h>
 
+#include "sigsegv.h"
+
+static signal_callback_t user_callbak;
+
 static inline void _dump_stack(void)
 {
 	void *array[64];
@@ -100,13 +104,16 @@ static inline void sigsegv_handler(int signo)
 	{
 		fprintf(stderr, "********************* SEGMENT FAULT *******************\n");
 		_dump_stack();
+		if( user_callbak )
+			user_callbak();
 		exit(-1);
 	}
 }
 
-void setup_sigsegv(void)
+void setup_sigsegv(signal_callback_t cb)
 {
 	signal(SIGSEGV, sigsegv_handler);
+	user_callbak = cb;
 }
 
 void default_sigsegv(void)

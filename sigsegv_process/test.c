@@ -35,7 +35,7 @@ void func1(void)
 {
 	/* do some other things */
 	int i = 0;
-	
+
 	i += 10;
 	i /= 10;
 	i -= 10;
@@ -86,7 +86,7 @@ void func4(void)
 
 int main(int argc , char **argv )
 {
-	setup_sigsegv();
+	setup_sigsegv(NULL);
 
 	printf("\ntest_func5\n");
 	test_func(5);
