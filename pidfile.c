@@ -74,15 +74,42 @@ err_out:
 	return (pfd == NULL) ? -1 : 0;
 }
 
+static void deamonize(void)
+{
+	//fork
+	if( 0 != fork() )
+	{
+		//parrent exit
+		exit(0);
+	}
+
+	//child goto run
+	//1. setsid
+	setsid();
+	//2. chdir,cwd to root
+	chdir("/");
+	//3. close  stdin/out/err, reopen to /dev/null
+	close(0);
+	close(1);
+	close(2);
+	open("/dev/null", O_RDWR);
+	dup2(0, 1);
+	dup2(0, 2);
+}
+
 int main(int argc, char **argv)
 {
 	int ret = 0;
 
+	deamonize();
 	ret = pidfile_create("/var/run/test.pid", 0);
 	printf("ret = %d\n", ret);
 
 	printf("press Enter to exit.pid = %d\n", getpid());
-	getchar();
+	while(1)
+	{
+		sleep(10);
+	}
 
 	return 0;
 }
