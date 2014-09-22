@@ -1,110 +1,89 @@
+/*
+ * ===========================================================================
+ *
+ *       Filename:  pidfile.c
+ *
+ *    Description:  pidfile 
+ *
+ *        Version:  1.0
+ *        Created:  09/22/2014 04:19:37 PM
+ *       Revision:  none
+ *       Compiler:  gcc
+ *
+ *         Author:  Changqing Zhao (tain), echo "Y2hhbmdxaW5nLjEyMzBAMTYzLmNvbQo=" | base64 -d
+ *        Company:  FreedomIsNotFree.com
+ *
+ * ===========================================================================
+ */
 #include <stdio.h>
-
 #include <stdlib.h>
-
 #include <unistd.h>
-
-#include <string.h>
-
 #include <fcntl.h>
 
+#include <errno.h>
 
-
-static char *saved_pidfile;
-
-
-
-static void pidfile_delete(void)
-
+static const char *_pidfile_name = NULL;
+static void _pidfile_delete(void )
 {
-
-        if (saved_pidfile) unlink(saved_pidfile);
-
+	printf("%s in. _pidfile_name = %s \n", 
+			__FUNCTION__,
+			_pidfile_name == NULL ? "NULL" : _pidfile_name);
+	if( _pidfile_name )
+		unlink(_pidfile_name);
 }
 
-
-
-int pidfile_acquire(const char *pidfile)
-
+static int pidfile_create(const char *name, pid_t pid)
 {
+	int fd = -1;
+	FILE *pfd = NULL;
 
-        int pid_fd;
+	//do not check file if exists
+	//open file
+	fd = open(name, O_RDWR | O_CREAT | O_TRUNC, 0666);
+	if( fd < 0 )
+	{
+		printf("error: cannot open file %s\n", strerror(errno));
+		goto err_out;
+	}
 
-        if (!pidfile) return -1;
+	//get a FILE * handle
+	pfd = fdopen(fd, "w+");
+	if( pfd == NULL )
+		goto err_out;
 
+	//mark the filename
+	_pidfile_name = name;
 
+	//check pid
+	if( !pid )
+		pid = getpid();
 
-       pid_fd = open(pidfile, O_CREAT | O_WRONLY, 0644);
+	//write to file
+	fprintf(pfd, "%d\n", pid);
+	fflush(pfd);
 
-        if (pid_fd < 0) {
+	//register at_exit
+	atexit(_pidfile_delete);
 
-                printf("Unable to open pidfile %s: %m\n", pidfile);
-
-        } else {
-
-                lockf(pid_fd, F_LOCK, 0);
-
-                if (!saved_pidfile)
-
-                       atexit(pidfile_delete);
-
-                saved_pidfile = (char *) pidfile;
-
-        }
-
-        return pid_fd;
-
+err_out:
+	if( pfd )
+		fclose(pfd);
+	if( fd != -1 )
+		close(fd);
+		
+	return (pfd == NULL) ? -1 : 0;
 }
 
-
-
-void pidfile_write_release(int pid_fd)
-
+int main(int argc, char **argv)
 {
+	int ret = 0;
 
-       FILE *out;
+	ret = pidfile_create("/var/run/test.pid", 0);
+	printf("ret = %d\n", ret);
 
+	printf("press Enter to exit.pid = %d\n", getpid());
+	getchar();
 
-       if (pid_fd < 0) return;
-
-
-
-       if ((out = fdopen(pid_fd, "w")) != NULL) {
-
-                fprintf(out, "%d\n", getpid());
-
-                fclose(out);
-
-        }
-
-        lockf(pid_fd, F_UNLCK, 0);
-
-        close(pid_fd);
-
+	return 0;
 }
 
-
-
-void create_pidfile(const char *filename)
-
-{
-
-        int fd;
-
-        fd = pidfile_acquire(filename);
-
-        pidfile_write_release(fd);
-
-}
-
-
-
-int main(int argc, char *argv[])
-
-{
-
-        create_pidfile(argv[1]?argv[1]:"/var/run/test.pid");
-
-        return 0;
-
-}
