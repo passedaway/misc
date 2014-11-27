@@ -19,19 +19,15 @@
 
 int main(int argc,char **argv)
 {
+	const char *res = "Big Endian(BE)";
 	union{
 		char c[4];
 		int i;
-	}test;
-	const char *res = "Big Endian(BE)";
+	}test.i = 0x00000001;
 
-	test.i = 0x00000001;
-
-	
-	if( test.c[0] == 0x01 )
+	if( test.c[0] )
 		res = "Little Endian(LE)";
 
 	printf("System is %s.\n", res);
-
 	return 0;
 }
