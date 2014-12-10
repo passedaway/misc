@@ -19,15 +19,29 @@
 
 int main(int argc,char **argv)
 {
-	const char *res = "Big Endian(BE)";
+	const char *res_endian[] = {"BE(Big Endian)", "LE(Little Endian)"};
+	const char *res_bits[] = {"MSB(Most Significant Bit)", "LSB(Least Significant Bit)"};
 	union{
-		char c[4];
+		unsigned char c[4];
 		int i;
-	}test.i = 0x00000001;
+	}test;
+	union{
+		union{
+		unsigned int bit1:1;
+		unsigned int res:7;
+		}bit;
+		unsigned char c;
+	}test2;
+	test.i = 0x00000001;
+	test2.c = 0x01;
 
-	if( test.c[0] )
-		res = "Little Endian(LE)";
+	printf("Endian : %s.\n Bits  : %s.\n", 
+			res_endian[test.c[0]], 
+			res_bits[test2.bit.bit1]);
 
-	printf("System is %s.\n", res);
+	unsigned char a = 0x01;
+	printf("0x01 bit0~7: %d%d%d%d%d%d%d%d\n",
+			a&0x01, a&0x02, a&0x04, a&0x08,
+			a&0x10, a&0x20, a&0x40, a&0x80);
 	return 0;
 }

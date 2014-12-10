@@ -9,7 +9,7 @@ int main(void)
 				unsigned char bit2:2;
 				unsigned char bit3:3;
 				unsigned char bit4;
-			}s
+			}s;
 		} a;
 
 		a.c = 0x55;
