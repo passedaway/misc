@@ -35,6 +35,6 @@ int main(int argc, char **argv)
 			reset_color();
 		}
 	}
-	printf("\033[32;1m a006 $ \033[0m\n");
+	printf("\033[32;1m A006 $ \033[0m\n");
 	return 0;
 }

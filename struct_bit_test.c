@@ -1,5 +1,15 @@
 #include <stdio.h>
 
+struct test_s{
+	short s; /* 2 */
+	char c; /* 1 */
+	int flip:1;
+	int nybble:4;
+	int septet:7;
+	int pad1:4; /* total 16 bits */
+	char pad2; /* 1 */
+};
+
 int main(void)
 {
 		union{
@@ -21,6 +31,8 @@ int main(void)
 				a.s.bit2, a.s.bit2, a.s.bit3, a.s.bit3,
 				a.s.bit4, a.s.bit4);
 
+		printf("sizeof struct test_s : %d\n", sizeof(struct test_s));
+		printf("sizeof (long double) : %d\n", sizeof(long double));
 
 		return 0;
 }

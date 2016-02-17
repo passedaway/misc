@@ -65,7 +65,6 @@ static inline void _dump_stack(void)
 		FILE *fp = NULL;
 
 		sprintf(pos, " -f -e /proc/%d/exe | awk 'BEGIN{i=0; tmp=0} {i++; if(i%%2){tmp=$0;} else {printf(\"%%d: %%30s ---> %%s\\n\",i/2, tmp, $0);}}'", getpid());
-//		fprintf(stderr, "cmd = %s\n", cmd);
 		fp = popen(cmd, "w");
 		
 		/* front-three line of array is this module-func, 
@@ -75,25 +74,16 @@ static inline void _dump_stack(void)
 		 * so int i from 3. modify to 0, can see all info
 		 * and size modify to size-2
 		 * */
-#if 0
-		for( i = 0; i < size; i++)
-#else
 		for( i = 3; i < size-2; i++)
-#endif
 			fprintf(fp, "%p\n", array[i]);
 		fclose(fp);
 	}else{
-#if 1
 		strings = backtrace_symbols(array, size);
 
 		for( i = 0; i < size; i++)
 			fprintf(stderr, "%3d: %s\n", i+1, strings[i]);
 
 		free(strings);
-#else
-		/* use this func, it just print the info to the stdout, will not malloc */
-		backtrace_symbols_fd(array, size, STDERR_FILENO);
-#endif
 	}
 	fprintf(stderr, "end of stack trace\n");
 }

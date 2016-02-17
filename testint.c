@@ -33,5 +33,12 @@ main ( int argc, char *argv[] )
 
 	printf("a++ ;\n a = 0x%x\tdec : %d\n", a, a);
 
+	unsigned int i0 = 1, i1 = 1000;
+
+	printf("u 1 = 0x%08x\n u 1000 = 0x%08x\n u 1 -1000 = 0x%08x %u\n",
+			i0, i1, (unsigned int )(i0 - i1), (unsigned int )(i0 - i1));
+
+	printf (" i-1 < u1: %d \n", (int)-1 < (unsigned int)1);
+
 	return 0;
 }				/* ----------  end of function main  ---------- */
