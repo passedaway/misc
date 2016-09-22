@@ -41,10 +41,10 @@ static void printchar(char * *str, int c)
 // ****************************************************************************
 unsigned int strlen(char *str)
 {
+    unsigned int slen = 0;
     if (str == 0) {
         return 0;
     }
-    unsigned int slen = 0;
     while (*str != 0) {
         slen++;
         str++;
@@ -72,7 +72,12 @@ static unsigned char use_leading_plus = 0;
 
 static unsigned dbl2stri(char *outbfr, double dbl, unsigned dec_digits)
 {
+    unsigned int mult = 1;
+    unsigned int idx;
+    unsigned int wholeNum;
+    unsigned int decimalNum;
     static char local_bfr[128];
+    char tbfr[40];
     char *output = (outbfr == 0) ? local_bfr : outbfr;
 
     // *******************************************
@@ -95,20 +100,17 @@ static unsigned dbl2stri(char *outbfr, double dbl, unsigned dec_digits)
     // **************************************************************************
     // construct fractional multiplier for specified number of digits.
     // **************************************************************************
-    unsigned int mult = 1;
-    unsigned int idx;
     for (idx = 0; idx < dec_digits; idx++) {
         mult *= 10;
     }
 
     // printf("mult=%u\n", mult) ;
-    unsigned int wholeNum   = (unsigned int)dbl;
-    unsigned int decimalNum = (unsigned int)((dbl - wholeNum) * mult);
+	wholeNum = (unsigned int)dbl;
+	decimalNum = (unsigned int)((dbl - wholeNum) * mult);
 
     // *******************************************
     // convert integer portion
     // *******************************************
-    char tbfr[40];
     idx = 0;
     while (wholeNum != 0) {
         tbfr[idx++] = '0' + (wholeNum % 10);
@@ -343,19 +345,22 @@ static int print(char * *out, int *varg)
                 //
                 // The ARM EABI requires 8-byte stack alignment at public function entry points,
                 // compared to the previous 4-byte alignment.
+                char bfr[81];
+                double dbl;
+#define USE_NEWLIB 1 /* ARM stm32 need use 1 2016-09-22 20:10:37 zhaocq */
 #ifdef USE_NEWLIB
                 char *cptr = (char *)varg; // lint !e740 !e826  convert to double pointer
                 unsigned int caddr = (unsigned int)cptr;
+                double *dblptr;
                 if ((caddr & 0xF) != 0) {
                     cptr += 4;
                 }
-                double *dblptr = (double *)cptr; // lint !e740 !e826  convert to double pointer
+				dblptr = (double *)cptr; // lint !e740 !e826  convert to double pointer
 #else
                 double *dblptr = (double *)varg; // lint !e740 !e826  convert to double pointer
 #endif
-                double dbl     = *dblptr++;   // increment double pointer
+				dbl = *dblptr++;   // increment double pointer
                 varg = (int *)dblptr; // lint !e740  copy updated pointer back to base pointer
-                char bfr[81];
                 // unsigned slen =
                 dbl2stri(bfr, dbl, dec_width);
                 // stuff_talkf("[%s], width=%u, dec_width=%u\n", bfr, width, dec_width) ;
